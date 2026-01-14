@@ -129,7 +129,7 @@ plugins:
         video_muted: True
         video_controls: True
         css_style:
-          width: "50%"
+          width: "100%"
   
 extra:
   social:
