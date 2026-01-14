@@ -1,0 +1,139 @@
+site_name: Course Notes GEP 280
+site_url: https://sitename.example
+
+docs_dir: docs_student
+#site_dir: site_student
+
+theme:
+  name: material
+  font:
+    text: Roboto
+    code: Red Hat Mono
+  logo: assets/280LOGO.png
+  favicon: assets/favicon.ico
+  features:
+    - navigation.footer
+  palette:
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+      primary: green
+      accent: deep purple
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+      primary: blue
+      accent: deep orange
+
+nav:
+  - Home: index.md
+  #- Test Math: test-math.md
+  - Introduction to GEP 280:
+      - The Motivation for Learning Quantitative Analysis: overview-motivation.md
+      - Mindsets for Success in GEP 280: mindsets.md
+  - Chapter 1 - Problem Solving:
+      - What is a Problem?: problem.md
+      - Problem Solving Techniques: solving.md
+      - Exercises: problem-exercises.md
+  - Chapter 2 - General Concepts in Quantitative Analysis:
+      - Estimations: estimations.md      
+      - Relationships: relationships.md
+      - Causality: causality-studies.md
+      - Models: models.md
+      - Equations: equations.md
+      - Exercises: estimations-exercises.md
+  - Chapter 3 - Number Systems, Units, and Measurement:
+      - Place Value: place-value.md
+      - Scientific Notation: scientific-notation.md
+      - Units and Measurement: quantities-concepts.md
+      - Unit Conversion: quantities-unit_conversion.md
+      - Measurements: quantities-measurements.md
+      - Exercises: quantities-exercises.md
+  - Chapter 4 - Linear Relationships:
+      - Linear Concepts: linear-concepts.md
+      - Linear Scales: linear-scales.md
+      - Linear Graphs: linear-graphs.md
+      #- Linear Functions: linear-functions.md
+      - Extrapolations and Fits: linear-extrapolation.md
+      - Exercises: linear-exercises.md
+  - Chapter 5 - Areas and Volumes:
+      - Area and Volume Concepts: areas-concepts.md
+      - Area and Volume Conversions: areas-conversions.md
+      - Area and Volume Estimations: areas-estimations.md
+      - Using Equalities: areas-equality.md
+      - Rain Water Tank: areas-tanks.md
+      - Creek Flow: areas-creek.md
+      - Exercises: areas-exercises.md
+  - Chapter 6 - Exponential Relationships:
+      - Exponential Concepts: exponential-1-basics.md
+      - Logarithmic Scales: exponential-log-scales.md
+      - Exercises: exponential-exercises.md
+  - Chapter 7 - Distributions and Histograms:
+      - Concepts: distributions-1-concepts.md
+      - Metrics: distributions-2-metrics.md
+      - Histogram Case Studies: distributions-case-studies.md
+      - Histograms on the Computer: distributions-computer.md
+      - Histograms to Distributions: distributions-examples.md
+    # - Computer Plots: distributions-3-digital.md
+      - Exercises: distributions-exercises.md
+  - Chapter 8 - Populations and Samples:
+        - Concepts: populations.md
+        - Shifting Distributions: populations-1-interventions.md
+        - Central Limit Theorem: populations-2-CLT-concepts.md
+        - Examples: populations-examples.md
+        - Spreadsheet Computation: populations-3-CLT-spreadsheet.md
+        - Associations: populations-associations.md
+        - Exercises: populations-exercises.md
+  - Chapter 9 - Linear Regression:
+        - Linear Regression: regression.md
+        - Exercises: regression-exercises.md
+  - Chapter 10 - Metacognition:
+        - Exercises: metacognition-exercises.md
+  - Case Studies:
+        - CalEnviroScreen: calenviroscreen.md
+        - CES Case Study: statistics-ces.md
+        - Confounding Variables: confounding-variables.md
+  - Resources:
+        - Data Sources: data-sources.md
+  #- Assessments: 280-assessments.md
+extra_css:
+   - katex/katex.min.css
+
+extra_javascript:
+ - katex/katex.min.js
+ - katex/contrib/auto-render.min.js
+ - js/extra.js
+
+markdown_extensions:
+  - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+plugins:
+    - search
+    - mkdocs-video:
+        is_video: True
+        video_muted: True
+        video_controls: True
+        css_style:
+          width: "50%"
+  
+extra:
+  social:
+    - icon: simple/youtube
+      link: https://youtube.com/@profDubG
+
+use_directory_urls: false

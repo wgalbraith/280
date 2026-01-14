@@ -1,0 +1,31 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="635" height="111">
+<path fill="none" stroke="#000" stroke-width="2" d="M0 57H635M17 40v35M217 40v35M417 40v35M617 40v35M78 50v15M113 50v15M138 50v15M157 50v15M173 50v15M187 50v15M198 50v15M208 50v15M277 50v15M312 50v15M337 50v15M356 50v15M372 50v15M386 50v15M397 50v15M407 50v15M477 50v15M512 50v15M537 50v15M556 50v15M572 50v15M586 50v15M597 50v15M607 50v15" /><g style="text-anchor:middle; font-family: DejaVu Sans; font-size: 16px">
+<text x="17" y="97">0.1</text>
+<text x="78" y="82">0.2</text>
+<text x="113" y="82">0.3</text>
+<text transform="matrix(0 -1 1 0 143 32)">0.4</text>
+<text x="157" y="82">0.5</text>
+<text transform="matrix(0 -1 1 0 178 32)">0.6</text>
+<text transform="matrix(0 -1 1 0 192 32)">0.7</text>
+<text x="198" y="82">0.8</text>
+<text transform="matrix(0 -1 1 0 213 32)">0.9</text>
+<text x="217" y="97">1</text>
+<text x="277" y="82">2</text>
+<text x="312" y="82">3</text>
+<text x="337" y="82">4</text>
+<text x="356" y="45">5</text>
+<text x="372" y="82">6</text>
+<text x="386" y="45">7</text>
+<text x="397" y="82">8</text>
+<text x="407" y="45">9</text>
+<text x="417" y="97">10</text>
+<text x="477" y="82">20</text>
+<text x="512" y="82">30</text>
+<text transform="matrix(0 -1 1 0 542 32)">40</text>
+<text x="556" y="82">50</text>
+<text transform="matrix(0 -1 1 0 577 32)">60</text>
+<text transform="matrix(0 -1 1 0 591 32)">70</text>
+<text x="597" y="82">80</text>
+<text transform="matrix(0 -1 1 0 612 32)">90</text>
+<text x="617" y="97">100</text>
+</g></svg>

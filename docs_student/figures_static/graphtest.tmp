@@ -1,0 +1,5 @@
+digraph {
+	node [shape=box]
+	"Energy In" -> "Thermal Energy Converted to Internal Box Energy"
+	"Thermal Energy Converted to Internal Box Energy" -> "Energy Conducted"
+}
