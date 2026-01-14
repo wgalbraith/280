@@ -6,7 +6,7 @@ The ratio of distance to data does not change and this is called a linear scale.
 With a logarithmic scale, moving a distance corresponds to a multiplication.
 Also, moving that distance corresponds to multiplying by the same number anywhere on the scale.
 
-Here is an example of a logarithmic scale: BLAH
+Here is an example of a logarithmic scale:
 
 ![](./figures_static/exponential/log-scale.png)
 
