@@ -30,7 +30,7 @@
   </p>
 
   <ul>
-    <li>What is the volume of a cow?</li>
+    <li>What is the surface area of a cow?</li>
     <li>What is length of the California coastline?</li>
     <li>What is the current average temperature on the surface of the Earth?</li>
   </ul>
