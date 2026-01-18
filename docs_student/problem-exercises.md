@@ -27,7 +27,7 @@
 
   <ol class="exercise-list">
     <li>
-      <h2>What is the volume of a cow?</h2>
+      <h2>What is the surface area of a cow?</h2>
     </li>
 
      <li>
