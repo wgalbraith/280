@@ -3,14 +3,12 @@
 <p>Write a short essay (50-150 words) on the following questions</p>
 <ul>
 <li>What is an issue you think is important?</li>
-<li>What do you or other think about that issue (vibe check)?</li>
+<li>What opinions do you or others have about that issue (vibe check)?</li>
 <li>What sorts of evidence do you think would create a more informed
 opinion?</li>
 </ul>
 <h1 id="quantitative-argument-notes">2 Quantitative Argument Notes</h1>
-<p>Read the section on <a
-href="http://danielrsoto.com/qm-notes/quantitative-argument.html">quantitative
-argument</a> and answer the following questions. There are no wrong
+<p>Use the information in Chapter 2 to answer the following questions. There are no wrong
 answers here, this is to get you thinking broadly about how math can be
 used.</p>
 <ul>
@@ -54,8 +52,8 @@ d) 20 miles -->
 Describe how you would attempt the estimation and draw a tree diagram
 showing the quantities needed in the estimation.</p>
 <h1 id="twenty-questions">6 Twenty Questions</h1>
-<p>Draft a list of twenty questions that could be answered by one of
-these types of estimates.</p>
+<p>Draft a list of twenty questions that involve quantities that could be estimated by a tree diagram.
+</p>
 <h1 id="art-of-insight-reading">7 Art of Insight Reading</h1>
 <p>Please read the following:</p>
 <ul>
