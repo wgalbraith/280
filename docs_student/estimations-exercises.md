@@ -2,22 +2,18 @@
 <h1 id="vibes-and-evidence">1 Vibes and Evidence</h1>
 <p>Write a short essay (50-150 words) on the following questions</p>
 <ul>
-<li>What is an issue you think is important?</li>
-<li>What opinions do you or others have about that issue (vibe check)?</li>
-<li>What sorts of evidence do you think would create a more informed
-opinion?</li>
+<li>Identify one real-world issue that you believe is important?</li>
+<li>Describe the opinions, attitudes, or general “vibes” that you or others have about this issue.</li>
+<li>Explain what kinds of evidence (data, studies, statistics, observations, etc.) could help people, including yourself, form a more informed opinion about the issue?</li>
 </ul>
 <h1 id="quantitative-argument-notes">2 Quantitative Argument Notes</h1>
-<p>Use the information in Chapter 2 to answer the following questions. There are no wrong
-answers here, this is to get you thinking broadly about how math can be
-used.</p>
+<p>Using ideas from Chapter 2, respond to the questions below. This activity is meant to encourage broad thinking, so there are no single correct answers.</p>
 <ul>
-<li>Provide an example of a decision you think should be made on the
-basis of a quantitative argument.
+<li>Describe a decision (personal, social, or policy-related) that you think should be based on quantitative evidence.
 <ul>
-<li>Did the decision use evidence?</li>
-<li>What could have been done better?</li>
-<li>Do we have the information we need?</li>
+<li>Explain whether this decision currently uses data or evidence, and if so, what kind?</li>
+<li>Discuss what could be improved about how evidence is used in this decision.</li>
+<li>Identify any important information or data that may be missing.</li>
 </ul></li>
 </ul>
 <h1 id="how-many-tacos">3 How many tacos</h1>
@@ -25,7 +21,7 @@ basis of a quantitative argument.
 campus-wide event for lunch today.</p>
 <ul>
 <li>Estimate the number of tacos the caterer should bring.</li>
-<li>List out the assumptions you are making.</li>
+<li>Clearly list all the assumptions you are making to arrive at your estimate.</li>
 </ul>
 <!-- The caterer only provides the following options.
 Which one of these options would you choose and why?
