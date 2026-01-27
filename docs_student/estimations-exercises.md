@@ -23,12 +23,6 @@ campus-wide event for lunch today.</p>
 <li>Estimate the number of tacos the caterer should bring.</li>
 <li>Clearly list all the assumptions you are making to arrive at your estimate.</li>
 </ul>
-<!-- The caterer only provides the following options.
-Which one of these options would you choose and why?
-a) 2,000 tacos
-b) 5,000 tacos
-c) 10,000 tacos
-d) 200,000 tacos -->
 <h1 id="ssu-holding-hands">4 SSU Holding Hands</h1>
 <p>You are creating a viral video event where every student at Sonoma
 State holds hands in a long chain. You need to ask the RoPo police to
@@ -39,7 +33,6 @@ reserve.</p>
 <p>How heavy is a moving box full of books?</p>
 <h1 id="books">6 Mass of Air</h1>
 <p>What is the mass of air in your bedroom?</p>
-<p>How heavy is a moving box full of books?</p>
 <h1 id="books">7 Have you Got the Money?</h1>
 <p>In the movies, and perhaps in reality, cocaine and elections are bought with suitcases containing $100 bills.</p>
 <li>What is the dollar value in such a suitcase.</li>
