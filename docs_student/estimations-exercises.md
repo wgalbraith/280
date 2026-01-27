@@ -25,7 +25,6 @@ campus-wide event for lunch today.</p>
 </ul>
 <!-- The caterer only provides the following options.
 Which one of these options would you choose and why?
-
 a) 2,000 tacos
 b) 5,000 tacos
 c) 10,000 tacos
@@ -50,22 +49,7 @@ showing the quantities needed in the estimation.</p>
 <h1 id="twenty-questions">6 Twenty Questions</h1>
 <p>Draft a list of twenty questions that involve quantities that could be estimated by a tree diagram.
 </p>
-<h1 id="art-of-insight-reading">7 Art of Insight Reading</h1>
-<p>Please read the following:</p>
-<ul>
-  <li>
-    Art of Insight reading parts 1.1–1.3.
-    <a href="https://www.dropbox.com/s/e5n71s1euqz4m04/Mahajan-01.pdf?dl=0">
-      Here is a link to the reading
-    </a>
-  </li>
-</ul>
-<p>Please answer the following questions in complete sentences.</p>
-<ul>
-<li>Do you find the tree method useful? Why or why not?</li>
-<li>What do you think the tree method is attempting to do or
-clarify?</li>
-</ul>
+
 <h1 id="associations">8 Associations</h1>
 <p>Recall that an association between a cause and an effect is one of
 the conditions for causality. For this exercise, find an example in a
