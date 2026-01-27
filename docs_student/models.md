@@ -21,14 +21,13 @@ Models are artificially constructed using estimations and relationships to gain 
 
 # Estimations and Models
 
-The estimations we created in the previous section were based on simple models.
+Consider the following provocative statement attributed to statistician George Box:
 
-To predict the catering order precisely, we’d need to know the schedules, appetite, and dietary preferences of every Sonoma State community member—an impractical problem.
+"All models are wrong, but some are useful"
 
-Our models contained vast simplifications, but are still likely to provide decent predictions.
+What does he mean by this? Recall the estimations we created in the previous section.  To make our estimates about hair surface area, tacos, and the amount of money in a suitcase, we allowed ourselves to make assumptions and simplifications to come up with an estimate. Strictly speaking, our models are **wrong**. However, this does not mean that our models are not without value.
 
-There is a statistical saying, “All models are wrong, some are useful,” that captures this idea.
-
+--
 # Models
 
 Here are a few ideas about models:
@@ -43,42 +42,7 @@ Here are a few ideas about models:
   - a bathtub with a faucet and a drain for atmospheric carbon
   - equations from physics classes
   - a set of equations to predict motor behavior
-
-# Types of Models
-
-![Top-down model](./figures_static/concepts/models/top-down-model.png)
-![Bottom-up model](./figures_static/concepts/models/bottom-up-model.png)
-
-# Soap Dispenser
-
-There is a relationship between the distance of a hand from the faucet and the infrared light reflected.
-
-![Hand reflection](./figures_static/concepts/models/hand-reflection.png)
-
-*Reflected infrared light from a hand.*
-
-This reflected light is used to create a mathematical model of whether the hand is present.
-
-![Soap dispenser model](./figures_static/concepts/models/soap-dispense-model.png)
-
-*Model for soap dispensing based on reflected light.*
-
-# Pulse Oximeter and COVID Treatment
-
-The amount of light reflected back decreases with the amount of oxygen in the blood.
-
-![Hemoglobin reflection](./figures_static/concepts/models/hemoglobin-reflection.png)
-
-*Light absorption and reflection in hemoglobin.*
-
-This reflected light is used to create a model for when COVID treatment should be administered.
-
-![COVID treatment model](./figures_static/concepts/models/covid-treatment-model.png)
-
-*Decision model for COVID treatment.*
-
-Studies have been published (see references) that show this model leads to undertreatment of people with darker skin.
-
+---
 # Equation Models
 
 These are mathematical functions where each value on the x-axis has one corresponding value on the y-axis.
@@ -95,21 +59,30 @@ $y = a \cdot e^{bx}$
 
 Many observable things in the world take on different values as if at random. We can model these with a mathematical object called a random variable.
 
-The random variable for a Gaussian distribution is written as $\mathcal{N}$.
+# Discrete versus Continuous Variables
+Sometimes our random variable can only take on a value that represents countable, often finite, distinct values.
+
+The normal, or Gaussian distribution, is often used to model a continuous random variable for and is written as $\mathcal{N}$.
 
 The binomial distribution (useful for discrete values) is written as $B$.
 
+
 # Linear Regression Model
+
 
 ![Continuous–continuous model](./figures_static/concepts/cont-cont-model.png)
 
 This relationship has a continuous independent variable with a continuous dependent variable.
 
-The model for this relationship is a combination of a line and a random variable:
+When the data appears to have a linear relationship, we can use an equation of a line for model the relationship between the variables.
 
 $$
-y = m\cdot x + b + \mathcal{N}
+y =mx + b +\epsilon
 $$
+
+where $\epsilon$ is the the error term and the error is normally disributed, i.e. $\epsilon\sim\mathcal{N}$. Note: the 'error' term indicates how far we expect the actual data to vary from the line $mx+b$.
+
+When a random variable can only take on two distinct values, we say the random variable is binary.
 
 # Binary – Continuous
 
@@ -120,10 +93,10 @@ This relationship has a binary independent variable and a continuous dependent v
 We could write a model as:
 
 $$
-y = \mathcal{N}(\text{mean} + \text{shift} \cdot x)
+y =\mathcal{N}(\text{mean} + \text{shift}\cdot x)
 $$
 
-Meaning that if $x = 0$ the mean of the random variable is at one value, and if $x = 1$, the mean changes.
+To treat `yes' and 'no' as a binary random variable, we can assign if yes$ = 1$ and no$=0$. We can see that the second term, $\text{shift} \cdot x$ will be the baseline normal distribution for 'no', while the distribution for 'yes' will reflect the predicted shift in means between 'yes' and 'no'. 
 
 # Binary – Binary
 
@@ -157,14 +130,55 @@ These models give us a way to conduct thought experiments and understand how a s
   - Use collected data to infer a relationship between two quantities
 - **Bottom-up (mechanistic) models**
   - Use a detailed model of underlying behavior to deduce a relationship between two quantities
+---
+## Downsides of Models
 
-# Downsides of Models
+Models are simplified representations of reality used to understand, predict, or make decisions. While models can be powerful and useful, they also have important downsides. Models are **not** neutral. They involve assumptions, simplifications, and value judgments. In some cases, models can harm people or communities. These harms are often **unintentional**, meaning the model was not designed to cause harm, but the consequences can still be serious.
 
-Some models can be used to harm people or communities. These harms are often unintentional, but still significant.
+Three major sources of harm are **opacity**, **scale**, and **damage**.
 
-- Opacity
-- Scale
-- Damage
+---
+
+## Opacity
+
+**Opacity** refers to how difficult it is to understand how a model works or how it produces its results.
+
+* Many models—especially complex statistical or machine-learning models—are “black boxes.”
+* People affected by the model may not know:
+
+  * What data were used
+  * What assumptions were made
+  * Why a particular prediction or decision was produced
+
+When a model is opaque, it becomes hard to question, challenge, or correct it. This can hide bias, errors, or unfair assumptions, and it can make accountability difficult when the model causes harm.
+
+---
+
+## Scale
+
+**Scale** refers to how widely a model is applied and how many people it affects.
+
+* A model used once or in a small setting may cause limited harm if it is wrong.
+* When the same model is used repeatedly, across institutions, or for millions of people, small errors or biases can be multiplied.
+
+For example, a biased model used in hiring, policing, lending, or environmental regulation can affect entire populations rather than individuals. Scale turns minor modeling problems into large social consequences.
+
+---
+
+## Damage
+
+**Damage** refers to the real-world consequences that result from decisions based on a model.
+
+* Models can influence who gets access to resources, opportunities, or protection.
+* Harm may include economic loss, environmental exposure, reduced access to services, or reinforcement of inequality.
+
+Even if the model is statistically sound, the **way it is used** can still cause damage—especially if decision-makers treat model outputs as objective truth rather than as uncertain estimates.
+
+---
+
+
+
+
 
 # Examples of Models
 
