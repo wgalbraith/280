@@ -35,31 +35,20 @@ State holds hands in a long chain. You need to ask the RoPo police to
 block a lane of traffic on the roads.</p>
 <p>What length of road in feet or miles should you ask them to
 reserve.</p>
-<!-- They give you the following options.
-Which one of these would you choose and why?
-
-a) 1 mile
-b) 2 miles
-c) 5 miles
-d) 20 miles -->
-<h1 id="tree-diagram">5 Tree Diagram</h1>
-<p>Describe an estimate that you think would be interesting or useful.
-Describe how you would attempt the estimation and draw a tree diagram
-showing the quantities needed in the estimation.</p>
-<h1 id="twenty-questions">6 Twenty Questions</h1>
-<p>Draft a list of twenty questions that involve quantities that could be estimated by a tree diagram.
-</p>
-
+<h1 id="books">5 Weight of Books</h1>
+<p>How heavy is a moving box full of books?</p>
+<h1 id="books">6 Weight of Books</h1>
+<p>How heavy is a moving box full of books?</p>
+<h1 id="books">7 Have you Got the Money?</h1>
+<p>In the movies, and perhaps in reality, cocaine and elections are bought with suitcases containing $100 bills.</p>
+<li>What is the dollar value in such a suitcase.</li>
+<li>What is the weight of such a suitcase?</li>
 <h1 id="associations">8 Associations</h1>
 <p>Recall that an association between a cause and an effect is one of
 the conditions for causality. For this exercise, find an example in a
 popular or journal article of a statistical association in an area of
 interest to you.</p>
 <p>Write a short 100-word report that adresses the points below:</p>
-<ul>
-<li>Include a link to the source</li>
-<li>Show a graph or table from the article showing evidence of the
-association</li>
 <li>Comment on whether the cause is binary or continuous</li>
 <li>Comment on whether the outcome is binary or continuous</li>
 <li>Comment on what the data points represent</li>
