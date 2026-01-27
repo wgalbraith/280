@@ -37,7 +37,8 @@ block a lane of traffic on the roads.</p>
 reserve.</p>
 <h1 id="books">5 Weight of Books</h1>
 <p>How heavy is a moving box full of books?</p>
-<h1 id="books">6 Weight of Books</h1>
+<h1 id="books">6 Mass of Air</h1>
+<p>What is the mass of air in your bedroom?</p>
 <p>How heavy is a moving box full of books?</p>
 <h1 id="books">7 Have you Got the Money?</h1>
 <p>In the movies, and perhaps in reality, cocaine and elections are bought with suitcases containing $100 bills.</p>
