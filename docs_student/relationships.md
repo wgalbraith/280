@@ -68,7 +68,7 @@ the x-axis affects the value(s) on the y-axis?)</li>
 </figure>
 <p>Graph 9: Discrete Cause</p>
 <figure>
-<img src="./figures_static/concepts/bin_bin.png" alt="9" />
+<img src="./figures_static/discrete.png" alt="9" />
 <figcaption aria-hidden="true">9</figcaption>
 </figure>
 <h1 id="types-of-data">Types of Data</h1>
