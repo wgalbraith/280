@@ -43,7 +43,7 @@ the conditions for causality. For this exercise, find an example in a
 popular or journal article of a statistical association in an area of
 interest to you.</p>
 <p>Write a short 100-word report that adresses the points below:</p>
-<li>Comment on whether the cause is dicrete or continuous</li>
+<li>Comment on whether the cause is discrete or continuous</li>
 <li>Comment on whether the outcome is discrete or continuous</li>
 <li>Comment on what the data points represent</li>
 <li>Explain how this association helps establish causality</li>
