@@ -48,4 +48,5 @@ interest to you.</p>
 <li>Clearly explain on what the data points represent.</li>
 <li>Does it appear that the study you chose suggests a cause-and-effect relationship or simply an association?</li>
 <li>If there is simply an association, i.e. there is no evidence of causal relationship, identify a confounding variable that may be related to the explanatory and response variables.</li>
+<li>Provide a citation for the study. If you found it online, just provide the URL.</li>
 </ul>
