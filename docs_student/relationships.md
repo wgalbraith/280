@@ -68,10 +68,10 @@ the x-axis affects the value(s) on the y-axis?)</li>
 </figure>
 <h1 id="types-of-data">Types of Data</h1>
 <ul>
-<li>Continuous</li>
-<li>Binary</li>
+<li>Continuous Quantitative</li>
+<li>Discrete Quantitiative</li>
+<li>Binary Quantitative</li>
 <li>Categorical</li>
-<li>Interval Data</li>
 </ul>
 <h1 id="dependent-and-independent-variables">Dependent and Independent
 Variables</h1>
