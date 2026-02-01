@@ -66,6 +66,11 @@ the x-axis affects the value(s) on the y-axis?)</li>
 <img src="./figures_static/concepts/bin_bin.png" alt="8" />
 <figcaption aria-hidden="true">8</figcaption>
 </figure>
+<p>Graph 9: Discrete Cause</p>
+<figure>
+<img src="./figures_static/concepts/bin_bin.png" alt="9" />
+<figcaption aria-hidden="true">9</figcaption>
+</figure>
 <h1 id="types-of-data">Types of Data</h1>
 <ul>
 <li>Continuous Quantitative</li>
