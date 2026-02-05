@@ -16,6 +16,8 @@
 <li>Identify any important information or data that may be missing.</li>
 </ul></li>
 </ul>
+<h1> For the estimation problems (#3-#7), provide a clearly stated list of assumptions, and a final quantitative estimate with a reasonable margin of error.  You may use internet resources to find any intermediate quantities you need (SSU enrollment, the weight of paper, atomic weights, etc).
+</h1>  
 <h1 id="how-many-tacos">3 How many tacos</h1>
 <p>You are purchasing enough tacos to feed Sonoma State students at a
 campus-wide event for lunch today.</p>
