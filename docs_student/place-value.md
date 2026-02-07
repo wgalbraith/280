@@ -1,21 +1,25 @@
 <h1 id="place-value">Place Value</h1>
 <p>This section explores our number system and how it works. We rarely think about our number system explicity. It can seem that our numbers just simply exist as part of the world. This is far from the case. Historically, the type of number system that we use, a so-called <it>positional number system</it> is unusual, and was developed relatively recently when compared to many other number systems. </p>
+<h1 id="Tally-type">Tally-type (Unary) Number Systems</h1>
 <p>Many early number systems are slightly upgraded tallying systems, where the value of the number is a result of adding up the values of the symbols. </p>
 <ul>
 <li>Roman numerals</li>
-<li>Egyptian numerals (not shown)</li>
+<li>Egyptian numerals</li>
 
 <h2 id="roman-numerals">Roman Numerals</h2>
 <p><img src="./figures_static/roman-numerals.jpg" /></p>
 <h2 id="egyptian-numerals">Egyptian Numerals</h2>
-<p><img src="./figures_static/egyptian-numerals.png" /></p>
-<li>Babylonian base 60</li>
+<p><img src="./figures_static/egyptian_numerals.png" /></p>
 </ul>
+<h1 id="Hybrid Tally and Positional Systems">Hybrid Tally and Positional Number Systems</h1>
 <h2 id="babylonian-numerals">Babylonian Numerals</h2>
+Babylonian Numerals used a tally-type system up to 60, and then used a base positional system to indicate powers of 60. However, they did not use the symbol 0.
 <p><img src="./figures_static/babylonian.png" /></p>
-
-<h2 id="the-invention-of-the-zero">The invention of the zero</h2>
-<p>The invention of the zero was a significant advance in our number systems.</p>
+<h2 id="mayan">Mayan Numerals</h2>
+Mayan Numerals used a tally-type system up to 20, and then used a base positional system to indicate powers of 20. The Mayans did have a symbol for zero (a shell) as a place holder. 
+<p><img src="./figures_static/mayan_numerals.png" /></p>
+<h2 id="the-invention-of-the-zero">The Invention of Zero</h2>
+<p>The invention of the zero was a significant advance in our number systems. Among other things, zero acts as a crucial placeholder, allowing for the easy representation of large numbers and efficient, systematic computation (e.g., 11 vs. 101).</p>
 <h1 id="modern-numbers">Modern Numbers</h1>
 <h2 id="base-10-place-value-systems">Base 10 Place Value Systems</h2>
 <p>The value of a digit depends on its position relative to our decimal point. Notice that although we don’t always write the decimal point, its position is always important.</p>
