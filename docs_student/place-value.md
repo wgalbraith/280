@@ -126,6 +126,12 @@
 </tr>
 </tbody>
 </table>
+<h2 id="Base Notation">Base Notation</h2>
+<p>Since we do dot often work outside our base-10 system, we don't need to indicate the base we are working in. If we need to indicate our number is in an alternative base, we indicate the base as a subscript.  For example,</p>
+<li><span> $13_{5}=8_{10}$ </span></li>
+<li><span> $102_{3}=23_{4}$ </span></li>
+<li><span> $8_{9}=10_{8}$ </span></li>
+Concept check: Confirm each of the examples above are true!.
 <h2 id="our-base-10-system">Our Base 10 System</h2>
 <p><img src="./figures_static/place-value.png" /></p>
 <h2 id="what-if-you-only-have-eight-fingers">What if you only have eight fingers?</h2>
@@ -142,3 +148,7 @@
 <h2 id="hexadecimal-representation">Hexadecimal representation</h2>
 <p>This is a base sixteen representation. It includes the letters A, B, C, D, E, and F to represent 10, 11, 12, 13, 14, and 15.</p>
 <p>You may see this if you have worked with computer colors for websites or graphic design.</p>
+<h2 id="Conversion Table for Decimal, Binary, and Hexidecimal">Conversion Table for Decimal, Binary, and Hexidecimal</h2>
+<figure>
+<img src="./figures_static/hexbin.png" alt="Conversion Table for Decimal, Binary, and Hexidecimal" />
+</figure>
