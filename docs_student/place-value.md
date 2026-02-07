@@ -1,27 +1,32 @@
 <h1 id="place-value">Place Value</h1>
-<p>This section explores our number system and how it works. Why can we represent any number between positive and negative infinity with only ten distinct symbols? The answer is that the position of each symbol relative to the other numbers changes its value.</p>
-<p>Another question for you to think about is, <em>why do you “carry the one” when you add and multiply</em>?</p>
-<figure>
-<img src="./figures_static/morpheus-10.jpg" alt="Morpheus knows why you carry the one." /><figcaption aria-hidden="true">Morpheus knows why you carry the one.</figcaption>
-</figure>
-<h1 id="early-number-systems">Early number systems</h1>
-<p>Early number systems seem reminiscent of a tally system.</p>
+<p>This section explores our number system and how it works. We rarely think about our number system explicity. It can seem that our numbers just simply exist as part of the world. This is far from the case. Historically, the type of number system that we use, a so-called <it>positional number system</it> is unusual, and was developed relatively recently when compared to many other number systems. </p>
+<p>Many early number systems are slightly upgraded tallying systems, where the value of the number is a result of adding up the values of the symbols. </p>
 <ul>
 <li>Roman numerals</li>
+<li>Egyptian numerals (not shown)</li>
+
+<h2 id="roman-numerals">Roman Numerals</h2>
+<p><img src="./figures_static/roman-numerals.jpg" /></p>
+<h2 id="egyptian-numerals">Egyptian Numerals</h2>
+<p><img src="./figures_static/egyptian-numerals.png" /></p>
 <li>Babylonian base 60</li>
 </ul>
 <h2 id="babylonian-numerals">Babylonian Numerals</h2>
 <p><img src="./figures_static/babylonian.png" /></p>
-<h2 id="roman-numerals">Roman Numerals</h2>
-<p><img src="./figures_static/roman-numerals.jpg" /></p>
+
 <h2 id="the-invention-of-the-zero">The invention of the zero</h2>
 <p>The invention of the zero was a significant advance in our number systems.</p>
 <h1 id="modern-numbers">Modern Numbers</h1>
 <h2 id="base-10-place-value-systems">Base 10 Place Value Systems</h2>
 <p>The value of a digit depends on its position relative to our decimal point. Notice that although we don’t always write the decimal point, its position is always important.</p>
+<p>Another question for you to think about is, <em>why do you “carry the one” when you add and multiply</em>?</p>
+<figure>
+<img src="./figures_static/morpheus-10.jpg" alt="Morpheus knows why you carry the one." /><figcaption aria-hidden="true">Morpheus knows why you carry the one.</figcaption>
+</figure>
+<h1 id="early-number-systems">Early number systems</h1>
 <h2 id="different-bases">Different bases</h2>
 <ul>
-<li>We can use any number as the basis of a place-value system</li>
+<li>We can use any non zero number as the basis of a place-value system</li>
 <li>Computers use base 2 and 16</li>
 <li>These bases provide different representations of the same number</li>
 </ul>
@@ -30,24 +35,24 @@
 <li>Here are five dots …..</li>
 <li>We can call this “five”</li>
 <li>Others call it “cinco”</li>
-<li>In decimal we call it “5”</li>
-<li>In binary we call it “101”</li>
+<li>In decimal we would write “5”</li>
+<li>In binary we would write “101”</li>
 </ul>
 <h2 id="base-10-rules">Base 10 Rules</h2>
 <ol type="1">
-<li>Place to the left of the decimal is worth 1</li>
-<li>Every place is worth 10 times the place on its right</li>
-<li>There are only ten symbols (0 through 9)
+<li>The place to the left of the decimal is worth 1 (the ones place)</li>
+<li>Every place value represents 10 times the place on its right</li>
+<li>There are ten distinct symbols (0 through 9) that can be used to represent any base-10 representable numbers.
 <ul>
 <li>(Remember, 10 is not a symbol, it is a combination of 1 and 0.)</li>
 </ul></li>
-<li>If we exceed the available values, we go to the left</li>
+<li>When counting in base 10, if we exceed the available values (0-9) for a paricular place value, we add a 1 to the place value immediately to th left.</li>
 </ol>
 <h2 id="base-x-rules">Base X Rules</h2>
 <ol type="1">
-<li>Place to the left of the decimal is worth 1</li>
-<li>Every place is worth X times the place on its right</li>
-<li>There are only X symbols (0 through X-1)
+<li>Place to the left of the decimal is worth 1 (true for any base) </li>
+<li>Every place value represents X times the place on its right</li>
+<li>There are only X distinct symbols (0 through X-1) that can be used to represent any base-X representable numbers.
 <ul>
 <li>(Remember, X is not a symbol, it is a combination of 1 and 0. First rule of base X, don’t talk about X.)</li>
 </ul></li>
