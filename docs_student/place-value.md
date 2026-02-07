@@ -5,7 +5,6 @@
 <ul>
 <li>Roman numerals</li>
 <li>Egyptian numerals</li>
-
 <h2 id="roman-numerals">Roman Numerals</h2>
 <p><img src="./figures_static/roman-numerals.jpg" /></p>
 <h2 id="egyptian-numerals">Egyptian Numerals</h2>
