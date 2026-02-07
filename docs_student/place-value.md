@@ -131,7 +131,7 @@
 <li><span> $13_{5}=8_{10}$ </span></li>
 <li><span> $102_{3}=23_{4}$ </span></li>
 <li><span> $8_{9}=10_{8}$ </span></li>
-Concept check: Confirm each of the examples above are true!.
+Concept check: Confirm each of the examples above are true.
 <h2 id="our-base-10-system">Our Base 10 System</h2>
 <p><img src="./figures_static/place-value.png" /></p>
 <h2 id="what-if-you-only-have-eight-fingers">What if you only have eight fingers?</h2>
