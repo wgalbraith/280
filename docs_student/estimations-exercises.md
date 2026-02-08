@@ -45,10 +45,9 @@ the conditions for causality. For this exercise, find an example in a
 popular or journal article of a statistical association in an area of
 interest to you.</p>
 <p>Write a short 100-word report that adresses the points below:</p>
-<li>Comment on whether the cause is categorical or quantitiative. If it is quanitative is it discrete or continuous</li>
-<li>Comment on whether the cause is categorical or quantitiative. If it is quanitative is it discrete or continuous</li>
-<li>Clearly explain on what the data points represent.</li>
-<li>Does it appear that the study you chose suggests a cause-and-effect relationship or simply an association?</li>
+<li>Briefy paraphrase the motivation for the study. In other words, what question is the paper attempting to answer?</li>
+<li>Clearly explain on what individualas in the study represent. Be specific.</li>
+<li>Does it appear that the study you chose suggests a cause-and-effect relationship between two variables, or simply an association between variables?</li>
 <li>If there is simply an association, i.e. there is no evidence of causal relationship, identify a confounding variable that may be related to the explanatory and response variables.</li>
 <li>Provide a citation for the study. If you found it online, just provide the URL.</li>
 </ul>
