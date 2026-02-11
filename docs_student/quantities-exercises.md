@@ -1,23 +1,19 @@
 <ol>
-
 <li>
 <h1>Counting</h1>
 <p>On a piece of paper, “count” in base 8 over the following ranges and show the corresponding base 10 numbers to the side. You may find a number line useful for this activity.</p>
 <p><b>a.</b> the base 10 numbers 0 to 24 (“0” to “30” in base 8)</p>
 <p><b>b.</b> the base 10 numbers 56 to 72 (“70” to “110” in base 8)</p>
 </li>
-
 <li>
 <h1>Base 5 to Base 10</h1>
 <p><b>a.</b> The number 1324 is a number in base 5, i.e $1324_5$. Write this number in base 10?</p>
 <p><b>b.</b> Challenge: the number 12.34 is a number in base 5, what is it in base 10? (Hint: Numbers to the right of the decimal point in base 5 follow the same pattern as our base 10)</p>
 </li>
-
 <li>
 <h1>Base 10 to Base 5</h1>
 <p>The number 216 is a number in base 10. What is this number when written in base 5?</p>
 </li>
-
 <li>
 <h1>Scientific Notation Representation</h1>
 <p>Perform the indicated operations. Write your answer in scientific notation.</p>
