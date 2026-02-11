@@ -38,6 +38,7 @@ nav:
       - Problem Solving Techniques: solving.md
       - Exercises: problem-exercises.md
   - Chapter 2 - General Concepts in Quantitative Analysis:
+      - Measurements: quantities-measurements.md
       - Estimations: estimations.md      
       - Relationships: relationships.md
       - Causality: causality-studies.md
@@ -49,7 +50,6 @@ nav:
       - Scientific Notation: scientific-notation.md
       - Units and Measurement: quantities-concepts.md
       - Unit Conversion: quantities-unit_conversion.md
-      - Measurements: quantities-measurements.md
       - Exercises: quantities-exercises.md
   - Chapter 4 - Linear Relationships:
       - Linear Concepts: linear-concepts.md
