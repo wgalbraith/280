@@ -9,7 +9,7 @@
 
 <li>
 <h1>Base 5 to Base 10</h1>
-<p><b>a.</b> The number 1324 is a number in base 5, i.e <span>$1324_5$</span>. Write this number in base 10?</p>
+<p><b>a.</b> The number 1324 is a number in base 5, i.e $1324_5$. Write this number in base 10?</p>
 <p><b>b.</b> Challenge: the number 12.34 is a number in base 5, what is it in base 10? (Hint: Numbers to the right of the decimal point in base 5 follow the same pattern as our base 10)</p>
 </li>
 
@@ -21,11 +21,11 @@
 <li>
 <h1>Scientific Notation Representation</h1>
 <p>Perform the indicated operations. Write your answer in scientific notation.</p>
-<p><b>a.</b> <span>$2\cdot 10^3 + 3 \cdot 10^3$</span></p>
-<p><b>b.</b> <span>$2 \cdot 10^3 \times 3$</span></p>
-<p><b>c.</b> <span>$2 \cdot 10^3 \times 3 \cdot 10^3$</span></p>
-<p><b>d.</b> <span>$4 \cdot 10^{35} \times 2 \cdot10^{23}$</span></p>
-<p><b>e.</b> <span>$4 \cdot 10^{35} \div 2 \cdot 10^{23}$</span></p>
+<p><b>a.</b> $2\cdot 10^3 + 3 \cdot 10^3$</p>
+<p><b>b.</b> $2 \cdot 10^3 \times 3$</p>
+<p><b>c.</b> $2 \cdot 10^3 \times 3 \cdot 10^3$</p>
+<p><b>d.</b> $4 \cdot 10^{35} \times 2 \cdot10^{23}$</p>
+<p><b>e.</b> $4 \cdot 10^{35} \div 2 \cdot 10^{23}$</p>
 </li>
 
 <li>
