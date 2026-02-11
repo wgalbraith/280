@@ -15,7 +15,7 @@
 <p>The number 216 is a number in base 10. What is this number when written in base 5?</p>
 </li>
 <li>
-<h1>Scientific Notation Representation</h1>
+<h3>Scientific Notation Representation</h3>
 <p>Perform the indicated operations. Write your answer in scientific notation.</p>
 <p><b>a.</b> $2\cdot 10^3 + 3 \cdot 10^3$</p>
 <p><b>b.</b> $2 \cdot 10^3 \times 3$</p>
@@ -25,7 +25,7 @@
 </li>
 
 <li>
-<h1>Rope Length</h1>
+<h3>Rope Length</h3>
 <p>You have 75 feet of string.</p>
 <p><b>a.</b> How many meters of string do you have?</p>
 <p><b>b.</b> What conversion factors did you look up?</p>
@@ -33,7 +33,7 @@
 </li>
 
 <li>
-<h1>Car Speed</h1>
+<h3>Car Speed</h3>
 <p>A car is traveling at 30 meters per second.</p>
 <p><b>a.</b> What is the speed in miles per hour?</p>
 <p><b>b.</b> What conversion factors did you look up?</p>
@@ -41,18 +41,18 @@
 </li>
 
 <li>
-<h1>SSU Tuition per Unit</h1>
+<h3>SSU Tuition per Unit</h3>
 <p>Tuition is $8190 per semester, and there is 120 units required to graduate. Show the unit conversions and convert this to cost per unit.</p>
 <p>Please show your work using a factor-label method for full credit. (The factor-label method is a formal name for writing the units and cancelling them.)</p>
 </li>
 
 <li>
-<h1>Marathons</h1>
+<h3>Marathons</h3>
 <p>About how many marathons would it take to run around the equator?</p>
 </li>
 
 <li>
-<h1>Million vs Billion vs Trillion</h1>
+<h3>Million vs Billion vs Trillion</h3>
 <p>One of the issues that has a profound affect on many aspects of life in America is extreme wealth inequality. The severity of this issue is poorly understood partly because of our failure to understand the difference between the units "million","billion" and "trillion" to describe dollar amounts.</p>
 <p><b>a.</b> What year was it one million minutes ago?</p>
 <p><b>b.</b> What year was it one billion minutes ago? Provide some context by describing two events in human history from this approximate period.</p>
@@ -60,7 +60,7 @@
 </li>
 
 <li>
-<h1>Highway Speed</h1>
+<h3>Highway Speed</h3>
 <p>Which is closest to the velocity in meters per second that the cars on 101 are traveling?</p>
 <p><b>a.</b> 3000 meters/sec</p>
 <p><b>b.</b> 300 meters/sec</p>
@@ -69,12 +69,12 @@
 </li>
 
 <li>
-<h1>One Hundred Meter Dash</h1>
+<h3>One Hundred Meter Dash</h3>
 <p>Elite track runners can complete the 100-meter dash in 10 seconds. What is this velocity in miles per hour?</p>
 </li>
 
 <li>
-<h1>Paper Measurement</h1>
+<h3>Paper Measurement</h3>
 <p>Measure a piece of notebook paper using a measurement from your hand.</p>
 <p><b>a.</b> Measure your hand or finger and create a unit based on it</p>
 <p><b>b.</b> Report the length and width of the paper in your hand/finger unit.</p>
@@ -85,7 +85,7 @@
 </li>
 
 <li>
-<h1>Room Measurement With Conversions</h1>
+<h3>Room Measurement With Conversions</h3>
 <p>Measure a room in units of strides or wingspans. Use whichever is more convenient.</p>
 <p><b>a.</b> Document your stride or wingspan in meters</p>
 <p><b>b.</b> Report the length and width of the room in your body unit.</p>
@@ -96,7 +96,7 @@
 </li>
 
 <li>
-<h1>Quantities in the News</h1>
+<h3>Quantities in the News</h3>
 <p>Find an article about a topic of importance or interest that refers to a quantity. In a short essay of 4-8 complete sentences answer the following questions.</p>
 <p><b>a.</b> Why is the quantity important?</p>
 <p><b>b.</b> What are the dimensions and units of the quantity?</p>
@@ -105,26 +105,26 @@
 </li>
 
 <li>
-<h1>Hours Per Day Studying</h1>
+<h3>Hours Per Day Studying</h3>
 <p>The Student Credit Unit (SCU) is defined as 2 hours of outside class work per week per unit.</p>
 <p>If you are taking a 4-unit class, how many minutes per day should you be spending on class work?</p>
 <p>Show your dimensions and units clearly.</p>
 </li>
 
 <li>
-<h1>Computations</h1>
+<h3>Computations</h3>
 <p><b>a.</b> If you have traveled 100 miles in 2 hours, how fast are you going in miles per hour?</p>
 <p><b>b.</b> If you record X births in a six month period with a population of 1 million, what is the birth rate in units of births per person per year?</p>
 <p><b>c.</b> If you observe a 10 Celsius temperature rise when 10,000 joules are added to 238 grams of water, what is the specific heat capacity in joules per gram per kelvin?</p>
 </li>
 
 <li>
-<h1>Chicken and Egg Problem</h1>
+<h3>Chicken and Egg Problem</h3>
 <p>You have a flock of 50 hens that produce 1 egg per chicken per day. Convert this to cartons (1 dozen) per flock per week.</p>
 </li>
 
 <li>
-<h1>Energy Conversion</h1>
+<h3>Energy Conversion</h3>
 <p>It takes 4.2 joules of energy to raise the temperature of one gram of water one degree Celsius. (4.2 J/g/C)</p>
 <p>Convert this quantity to BTU/lb/F, using that 1 BTU equals 1055 joules, 1 pound (lb) equals 454 grams, and 5 Celsius equals 9 Fahrenheit.</p>
 </li>
