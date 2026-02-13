@@ -24,6 +24,8 @@
 <p><b>e.</b> $4 \cdot 10^{35} \div 2 \cdot 10^{23}$</p>
 </li>
 
+<h1>All Unit Conversion Problems Must Use the Unit Conversion Strategy Outlined in the Reading</h1>
+
 <li>
 <h3>Rope Length</h3>
 <p>You have 75 feet of string.</p>
@@ -41,31 +43,11 @@
 </li>
 
 <li>
-<h3>SSU Tuition per Unit</h3>
-<p>Tuition is $8190 per semester, and there is 120 units required to graduate. Show the unit conversions and convert this to cost per unit.</p>
-<p>Please show your work using a factor-label method for full credit. (The factor-label method is a formal name for writing the units and cancelling them.)</p>
-</li>
-
-<li>
-<h3>Marathons</h3>
-<p>About how many marathons would it take to run around the equator?</p>
-</li>
-
-<li>
 <h3>Million vs Billion vs Trillion</h3>
 <p>One of the issues that has a profound affect on many aspects of life in America is extreme wealth inequality. The severity of this issue is poorly understood partly because of our failure to understand the difference between the units "million","billion" and "trillion" to describe dollar amounts.</p>
 <p><b>a.</b> What year was it one million minutes ago?</p>
 <p><b>b.</b> What year was it one billion minutes ago? Provide some context by describing two events in human history from this approximate period.</p>
 <p><b>c.</b> What year was it one trillion minutes ago? Provide some context by describing this time in Earth's history from this approximate period.</p>
-</li>
-
-<li>
-<h3>Highway Speed</h3>
-<p>Which is closest to the velocity in meters per second that the cars on 101 are traveling?</p>
-<p><b>a.</b> 3000 meters/sec</p>
-<p><b>b.</b> 300 meters/sec</p>
-<p><b>c.</b> 30 meters/sec</p>
-<p><b>d.</b> 3 meters/sec</p>
 </li>
 
 <li>
@@ -96,17 +78,8 @@
 </li>
 
 <li>
-<h3>Quantities in the News</h3>
-<p>Find an article about a topic of importance or interest that refers to a quantity. In a short essay of 4-8 complete sentences answer the following questions.</p>
-<p><b>a.</b> Why is the quantity important?</p>
-<p><b>b.</b> What are the dimensions and units of the quantity?</p>
-<p><b>c.</b> How is the quantity estimated or measured?</p>
-<p><b>d.</b> Please include a link to the article</p>
-</li>
-
-<li>
 <h3>Hours Per Day Studying</h3>
-<p>The Student Credit Unit (SCU) is defined as 2 hours of outside class work per week per unit.</p>
+<p>The Student Credit Unit (SCU) is defined as 2 hours of outside class work per unit per week.</p>
 <p>If you are taking a 4-unit class, how many minutes per day should you be spending on class work?</p>
 <p>Show your dimensions and units clearly.</p>
 </li>
