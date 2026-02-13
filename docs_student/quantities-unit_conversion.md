@@ -79,7 +79,7 @@ When we divide a length by a length we use quotition, subtracting the length rep
 
 [Cal State densities](https://twitter.com/calpolypomona/status/431937140457349120/photo/1)
 
-![](./figures_static/cal-state-density.jpg){width=400px}
+![](./figures_static/cal-state-density.jpg)
 
 
 The main objective we are practicing in this section, is to write out our unit conversions using a mathematical notation. 
@@ -154,10 +154,7 @@ dimensions since it is a length divided by a length.  If you multiply a
 quantity of feet by this, you won't change the quantity but you will
 change the units. -->
 
-# Alternate Technique
-
-Some folks find the unit conversion fractions to be hard to read.
-An alternate unit conversion method is starting with the equation and then multiplying both sides.
+# Alternative Method
 
 To convert 10 meters to feet:
 
@@ -182,11 +179,9 @@ $$ 30\; \textrm{miles per hour} = 13.4\; \textrm{meters per second} $$
 
 ![Rate Equation Animation](./figures_static/quantities/rate-equation.gif)
 
-# Unit Conversion Strategy
+# Using Conversion Factors
 
-A useful strategy is to write the quantity you are starting with on the left side of your paper and the units you want to get to on the right side of your page.
-
-Then you can fill in the unit conversions necessary to get to your desired units.
+The strategy we will use is to write the quantity with the units you are starting with on the left side of our paper and the units we want to get to on the right side of your page. Then we can fill in the unit conversions necessary to get to your desired units.
 
 Some folks prefer to do this in steps with each conversion on a single line.
 Other prefer to do it straight across the page as in the examples below.
