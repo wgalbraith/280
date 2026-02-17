@@ -58,19 +58,19 @@ nav:
       #- Linear Functions: linear-functions.md
       - Extrapolations and Fits: linear-extrapolation.md
       - Exercises: linear-exercises.md
-  - Chapter 5 - Areas and Volumes:
-      - Area and Volume Concepts: areas-concepts.md
-      - Area and Volume Conversions: areas-conversions.md
-      - Area and Volume Estimations: areas-estimations.md
-      - Using Equalities: areas-equality.md
-      - Rain Water Tank: areas-tanks.md
-      - Creek Flow: areas-creek.md
-      - Exercises: areas-exercises.md
-  - Chapter 6 - Exponential Relationships:
+  #- Chapter 5 - Areas and Volumes:
+      #- Area and Volume Concepts: areas-concepts.md
+      #- Area and Volume Conversions: areas-conversions.md
+      #- Area and Volume Estimations: areas-estimations.md
+      #- Using Equalities: areas-equality.md
+      #- Rain Water Tank: areas-tanks.md
+      #- Creek Flow: areas-creek.md
+      #- Exercises: areas-exercises.md
+  - Chapter 5 - Exponential Relationships:
       - Exponential Concepts: exponential-1-basics.md
       - Logarithmic Scales: exponential-log-scales.md
       - Exercises: exponential-exercises.md
-  - Chapter 7 - Distributions and Histograms:
+  - Chapter 6 - Distributions and Histograms:
       - Concepts: distributions-1-concepts.md
       - Metrics: distributions-2-metrics.md
       - Histogram Case Studies: distributions-case-studies.md
@@ -78,7 +78,7 @@ nav:
       - Histograms to Distributions: distributions-examples.md
     # - Computer Plots: distributions-3-digital.md
       - Exercises: distributions-exercises.md
-  - Chapter 8 - Populations and Samples:
+  - Chapter 7 - Populations and Samples:
         - Concepts: populations.md
         - Shifting Distributions: populations-1-interventions.md
         - Central Limit Theorem: populations-2-CLT-concepts.md
@@ -86,10 +86,10 @@ nav:
         - Spreadsheet Computation: populations-3-CLT-spreadsheet.md
         - Associations: populations-associations.md
         - Exercises: populations-exercises.md
-  - Chapter 9 - Linear Regression:
+  - Chapter 8 - Linear Regression:
         - Linear Regression: regression.md
         - Exercises: regression-exercises.md
-  - Chapter 10 - Metacognition:
+  #- Chapter 9 - Metacognition:
         - Exercises: metacognition-exercises.md
   - Case Studies:
         - CalEnviroScreen: calenviroscreen.md
