@@ -90,7 +90,7 @@ nav:
         - Linear Regression: regression.md
         - Exercises: regression-exercises.md
   #- Chapter 9 - Metacognition:
-        - Exercises: metacognition-exercises.md
+        #- Exercises: metacognition-exercises.md
   - Case Studies:
         - CalEnviroScreen: calenviroscreen.md
         - CES Case Study: statistics-ces.md
