@@ -80,7 +80,7 @@
 <li>
 <h3>Hours Per Day Studying</h3>
 <p>The Student Credit Unit (SCU) is defined as 2 hours of outside class work per unit per week.</p>
-<p>If you are taking a 4-unit class, how many minutes per day should you be spending on class work?</p>
+<p>How many minutes per day should you be spending on work outside of class for a 4-unit class?</p>
 <p>Show your dimensions and units clearly.</p>
 </li>
 
