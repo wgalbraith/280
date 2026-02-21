@@ -88,7 +88,7 @@
 <h3>Computations</h3>
 <p><b>a.</b> If you have traveled 100 miles in 2 hours, how fast are you going in miles per hour?</p>
 <p><b>b.</b> If you record X births in a six month period with a population of 1 million, what is the birth rate in units of births per person per year?</p>
-<p><b>c.</b> If you observe a 10 Celsius temperature rise when 10,000 joules are added to 238 grams of water, what is the specific heat capacity in joules per gram per kelvin?</p>
+<p><b>c.</b> The specific heat capacity of a substance measures how well in maintains heat. The units for specific heat capacity are joules per gram per degree kelvin. If you observe a 10 Celsius temperature rise when 10,000 joules are added to 238 grams of water, what is the specific heat capacity in joules per gram per kelvin? You may need to up the conversion factor between degrees Kelvin and degrees Celsius.</p>
 </li>
 
 <li>
