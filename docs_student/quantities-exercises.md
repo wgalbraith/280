@@ -57,13 +57,11 @@
 
 <li>
 <h3>Paper Measurement</h3>
-<p>Measure a piece of notebook paper using a measurement from your hand.</p>
-<p><b>a.</b> Measure your hand or finger and create a unit based on it</p>
-<p><b>b.</b> Report the length and width of the paper in your hand/finger unit.</p>
-<p><b>c.</b> Convert from your hand unit to centimeters</p>
-<p><b>d.</b> Convert from centimeters to inches</p>
-<p><b>e.</b> Please include a simple diagram with the dimensions.</p>
-<p><b>f.</b> Clearly show the conversion you are using.</p>
+<p> Measure a piece of notebook paper in centimeters or inches using a measurement from your hand.</p>
+<p><b>a.</b> Measure your hand and create a unit based on it relating it to inches or centimeters.</p>
+<p><b>b.</b> Report the length and width of the paper in your hand finger unit.</p>
+<p><b>c.</b> Please include a simple diagram with the dimensions.</p>
+<p><b>d.</b> Calculate the area of your paper in square hands.</p>
 </li>
 
 <li>
