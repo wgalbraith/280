@@ -1,0 +1,2880 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://sitename.example/quantities-unit_conversion.html">
+      
+      
+        <link rel="prev" href="quantities-concepts.html">
+      
+      
+        <link rel="next" href="quantities-exercises.html">
+      
+      
+        
+      
+      
+      <link rel="icon" href="assets/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.2">
+    
+    
+      
+        <title>Unit Conversion - Course Notes GEP 280</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRed+Hat+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Red Hat Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="katex/katex.min.css">
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="green" data-md-color-accent="deep-purple">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#unit-conversion" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="index.html" title="Course Notes GEP 280" class="md-header__button md-logo" aria-label="Course Notes GEP 280" data-md-component="logo">
+      
+  <img src="assets/280LOGO.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Course Notes GEP 280
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Unit Conversion
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="green" data-md-color-accent="deep-purple"  aria-label="Dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="deep-orange"  aria-label="Light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="index.html" title="Course Notes GEP 280" class="md-nav__button md-logo" aria-label="Course Notes GEP 280" data-md-component="logo">
+      
+  <img src="assets/280LOGO.png" alt="logo">
+
+    </a>
+    Course Notes GEP 280
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction to GEP 280
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Introduction to GEP 280
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="overview-motivation.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    The Motivation for Learning Quantitative Analysis
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="mindsets.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mindsets for Success in GEP 280
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 1 - Problem Solving
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Chapter 1 - Problem Solving
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="problem.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    What is a Problem?
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="solving.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Problem Solving Techniques
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="problem-exercises.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Exercises
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 2 - General Concepts in Quantitative Analysis
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Chapter 2 - General Concepts in Quantitative Analysis
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="quantities-measurements.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Measurements
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="estimations.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Estimations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="relationships.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Relationships
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="causality-studies.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Causality
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="models.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Models
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="equations.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Equations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="estimations-exercises.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Exercises
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 3 - Number Systems, Units, and Measurement
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Chapter 3 - Number Systems, Units, and Measurement
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="place-value.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Place Value
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="scientific-notation.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Scientific Notation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="quantities-concepts.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Units and Measurement
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Unit Conversion
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="quantities-unit_conversion.html" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Unit Conversion
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#mathematical-properties-of-units" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mathematical Properties of Units
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Mathematical Properties of Units">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#adding-and-subtracting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Adding and Subtracting
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#multiplying-and-dividing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Multiplying and Dividing
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#multiplying-with-quantities" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Multiplying with Quantities
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dividing-with-quantities" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dividing with Quantities
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#length-by-number" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Length by Number
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#length-by-length" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Length by Length
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#two-units-in-the-denominator" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Two units in the denominator
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#proportional-reasoning" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Proportional Reasoning
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#combinations-of-units" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Combinations of units
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#student-density" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Student density
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#example-units-of-students-per-acre" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example: Units of students per acre
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="quantities-exercises.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Exercises
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 4 - Linear Relationships
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Chapter 4 - Linear Relationships
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="linear-concepts.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Linear Concepts
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="linear-scales.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Linear Scales
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="linear-graphs.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Linear Graphs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="linear-extrapolation.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Extrapolations and Fits
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="linear-exercises.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Exercises
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 5 - Exponential Relationships
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Chapter 5 - Exponential Relationships
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="exponential-1-basics.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Exponential Concepts
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="exponential-log-scales.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Logarithmic Scales
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="exponential-exercises.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Exercises
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 6 - Distributions and Histograms
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Chapter 6 - Distributions and Histograms
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="distributions-1-concepts.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Concepts
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="distributions-2-metrics.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Metrics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="distributions-case-studies.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Histogram Case Studies
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="distributions-computer.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Histograms on the Computer
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="distributions-examples.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Histograms to Distributions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="distributions-exercises.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Exercises
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 7 - Populations and Samples
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Chapter 7 - Populations and Samples
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="populations.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Concepts
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="populations-1-interventions.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Shifting Distributions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="populations-2-CLT-concepts.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Central Limit Theorem
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="populations-examples.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Examples
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="populations-3-CLT-spreadsheet.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Spreadsheet Computation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="populations-associations.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Associations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="populations-exercises.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Exercises
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 8 - Linear Regression
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Chapter 8 - Linear Regression
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="regression.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Linear Regression
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="regression-exercises.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Exercises
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11" >
+        
+          
+          <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Case Studies
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Case Studies
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="calenviroscreen.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CalEnviroScreen
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="statistics-ces.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CES Case Study
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="confounding-variables.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Confounding Variables
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_12" >
+        
+          
+          <label class="md-nav__link" for="__nav_12" id="__nav_12_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Resources
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_12_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_12">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Resources
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="data-sources.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Data Sources
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#mathematical-properties-of-units" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mathematical Properties of Units
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Mathematical Properties of Units">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#adding-and-subtracting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Adding and Subtracting
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#multiplying-and-dividing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Multiplying and Dividing
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#multiplying-with-quantities" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Multiplying with Quantities
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dividing-with-quantities" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dividing with Quantities
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#length-by-number" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Length by Number
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#length-by-length" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Length by Length
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#two-units-in-the-denominator" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Two units in the denominator
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#proportional-reasoning" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Proportional Reasoning
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#combinations-of-units" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Combinations of units
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#student-density" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Student density
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#example-units-of-students-per-acre" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example: Units of students per acre
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<div><h1 id="unit-conversion">Unit Conversion</h1>
+<h2 id="mathematical-properties-of-units">Mathematical Properties of Units</h2>
+<h3 id="adding-and-subtracting">Adding and Subtracting</h3>
+<p>6 meters plus 170 pounds has no meaning since these are different dimensions.</p>
+<p>You can add 5 feet and 3 meters if you convert to same unit first.</p>
+<p>This concept in algebra is akin to 'combining like terms'.</p>
+<h3 id="multiplying-and-dividing">Multiplying and Dividing</h3>
+<p>5 feet multiplied by 10 pounds could have meaning even though these are different dimensions.
+(In this case if we have a 5 feet lever with 10 pounds of force at the end, that is 50 foot-pounds of torque.)</p>
+<h2 id="multiplying-with-quantities">Multiplying with Quantities</h2>
+<ul>
+<li>Multiplying a length by a number gives a length<ul>
+<li>1 meter times 10 equals 10 meters</li>
+<li>1 stride times 10 strides equals 10 strides</li>
+</ul>
+</li>
+<li>Multiplying a length by a length gives an area<ul>
+<li>1 foot times 1 foot equals 1 square foot</li>
+</ul>
+</li>
+</ul>
+<p>$$ 2 \cdot 2 = 2^2 $$
+$$ a \cdot a = a^2 $$</p>
+<p>$$ 
+\textrm{inch} \cdot \textrm{inch} = \textrm{inch}^2 
+$$ </p>
+<h2 id="dividing-with-quantities">Dividing with Quantities</h2>
+<p>$$\frac{2\cdot 4}{4 \cdot 5} = \frac{2}{5} $$
+$$\frac{a\cdot b}{b \cdot c} = \frac{a}{c} $$
+$$\frac{\textrm{meter}\cdot \textrm{foot}}{\textrm{foot} \cdot \textrm{pound}} = \frac{\textrm{meter}}{\textrm{pound}} $$</p>
+<h2 id="length-by-number">Length by Number</h2>
+<p>When we divide a length by a number we use partition.</p>
+<p>Quotition is meaningless since length and number are different dimensions.</p>
+<p><img alt="Divide length by number" src="figures_static/quantities/length-div-number.png"></p>
+<h2 id="length-by-length">Length by Length</h2>
+<p>When we divide a length by a length we use quotition, subtracting the length repeatedly.</p>
+<!-- TODO: good sentence for why no partition -->
+
+<p><img alt="Divide length by length" src="figures_static/quantities/length-div-length.png"> </p>
+<h2 id="two-units-in-the-denominator">Two units in the denominator</h2>
+<ul>
+<li>Births per capita per year</li>
+<li>Hours per week per unit</li>
+</ul>
+<h2 id="proportional-reasoning">Proportional Reasoning</h2>
+<ul>
+<li>You have a mass $m$ of water and you see that when you add $E$ joules of energy the temperature raises by $T$ degrees. How much do you expect the water to raise if you add twice as much energy? Can you write this as a unit conversion?</li>
+<li>You have a population of $P$ people and they give birth to $B$ babies over the course of a year. How many people do you expect them to give birth to over two years? How many births in a year do you expect if you have 2 million people?</li>
+<li>It is widely assumed that students will spend 3 hours each week for every unit of credit they are taking in college. How many hours a week do you need to spend for a two unit class? How many hours do you need to spend over two weeks for a one-unit class?</li>
+</ul>
+<h2 id="combinations-of-units">Combinations of units</h2>
+<ul>
+<li>We often combine units to express new quantities</li>
+</ul>
+<!-- can you think of a derived unit? -->
+
+<h2 id="student-density">Student density</h2>
+<ul>
+<li>Students per acre</li>
+<li>Number per area</li>
+<li>Spans two orders of magnitude</li>
+</ul>
+<h2 id="example-units-of-students-per-acre">Example: Units of students per acre</h2>
+<p><a href="https://twitter.com/calpolypomona/status/431937140457349120/photo/1">Cal State densities</a></p>
+<p><img alt="" src="figures_static/cal-state-density.jpg"></p>
+<p>The main objective we are practicing in this section, is to write out our unit conversions using a mathematical notation. </p>
+<p>Our unit conversions on paper should:</p>
+<ul>
+<li>Clearly show the number arithmetic leading to the answer</li>
+<li>Clearly show the unit arithmetic leading to the answer</li>
+<li>All equals signs must have equal quantities on both sides of the equals sign</li>
+<li>Follow accepted mathematical conventions</li>
+</ul>
+<h1 id="opening-question">Opening Question</h1>
+<ul>
+<li>Can we divide a length by a number? What do we get?</li>
+<li>Can we divide a length by a different length? What do we get?</li>
+</ul>
+<h2 id="unit-conversion-factors">Unit conversion factors</h2>
+<ul>
+<li>These factors are equivalent to one</li>
+<li>They can have units but be dimensionless</li>
+<li>They are not numerically equal to one in most cases.</li>
+<li>Units can be crossed out</li>
+</ul>
+<h2 id="different-dimensions">Different Dimensions</h2>
+<ul>
+<li>You cannot convert a quantity with one dimension to another dimension with a unit conversion factor</li>
+<li>There may be a linear relationship between those two quantities that looks like a "conversion" but isn't</li>
+<li>For example stoichiometry uses fractions that look like conversion factors, but the dimensions are often changing</li>
+</ul>
+<h1 id="creating-a-conversion-factor">Creating a Conversion Factor</h1>
+<p>Start with a quantity equality</p>
+<p><img alt="" src="figures_static/quantities/cm2inch.jpg"></p>
+<p>Now use algebra rules to create a fraction equal to one</p>
+<p>$$ {{2.54 cm}\over{1 inch}} = {{1 inch}\over{1 inch}} $$</p>
+<p>$$ {{2.54 cm}\over{1 inch}} = 1 $$</p>
+<p>We can also divide both sides by 2.54 cm instead.</p>
+<p>$$ {{1 inch}\over{2.54 cm}} = {{2.54 cm}\over{2.54 cm}} $$</p>
+<p>$$ {{1 inch}\over{2.54 cm}} = 1 $$</p>
+<p>Multiplying a length by these factors doesn't change the length since the factor is equal to one.</p>
+<p>We can also thing of multiplying this factor as dividing by a length to get a number and then multiplying by an equal length with different units.</p>
+<p><img alt="Unit Conversion" src="figures_static/quantities/unit-conversion.jpg"></p>
+<!-- ![](./figures_static/inch-cm-conversion-1.png)
+
+![](./figures_static/inch-cm-conversion-2.png) -->
+
+<!-- ## Unit conversion factors
+
+These two quantities are equal.
+
+$$ 3\;\textrm{feet} = 1\;\textrm{yard} $$
+
+If we divide both sides by 3 feet, we get
+
+$$ 1 = \frac{1\;\textrm{yard}}{3\;\textrm{feet}}  $$
+
+Note that this quantity has units of yard per feet, but has no
+dimensions since it is a length divided by a length.  If you multiply a
+quantity of feet by this, you won't change the quantity but you will
+change the units. -->
+
+<h1 id="alternative-method">Alternative Method</h1>
+<p>To convert 10 meters to feet:</p>
+<p>$$ 1 m = 3.28 ft $$
+$$ 10 \cdot 1 m = 10 \cdot 3.28\; ft $$
+$$ 10 m = 32.8 ft $$</p>
+<p>To convert 30 miles per hour to meters per second:</p>
+<p>$$ 1\; mile = 1609\; meters $$
+$$ 1\; hour = 3600\; seconds $$</p>
+<p>We can divide these two equations to get a combined unit conversion equality or equation.</p>
+<p>$$ 1\; mile \div 1\; hour = 1609\; meters \div 3600\; seconds $$
+$$ 1\; \textrm{mile per hour} = 0.447\; \textrm{meters per second} $$</p>
+<p>Now we can use this for conversions.</p>
+<p>$$ 30 \cdot 1\; \textrm{mile per hour} = 30 \cdot 0.447\; \textrm{meters per second} $$
+$$ 30\; \textrm{miles per hour} = 13.4\; \textrm{meters per second} $$</p>
+<p><img alt="Rate Equation Animation" src="figures_static/quantities/rate-equation.gif"></p>
+<h1 id="using-conversion-factors">Using Conversion Factors</h1>
+<p>The strategy we will use is to write the quantity with the units you are starting with on the left side of our paper and the units we want to get to on the right side of your page. Then we can fill in the unit conversions necessary to get to your desired units.</p>
+<p>Some folks prefer to do this in steps with each conversion on a single line.
+Other prefer to do it straight across the page as in the examples below.</p>
+<p>At the end ask if your quantity makes sense.
+Often the resulting number will be smaller or larger (though the quantity is the same).</p>
+<h1 id="mass-example">Mass Example</h1>
+<p>Convert the quantity of 150 pounds to kilograms.</p>
+<p>$$ 150\;{\color{blue}\cancel{\textrm{pounds}}}
+   \cdot
+   \frac{1\;\textrm{kilogram}}
+        {2.2\;\color{blue}\cancel{\textrm{pound}}}
+   = 68\;\textrm{kilograms} $$</p>
+<h1 id="speed-example">Speed Example</h1>
+<p>Convert the quantity of 100 miles per hour to meters per second.
+Note that we make two unit conversions.
+One from miles to meters and another from hours to seconds.</p>
+<p>Once we have this set up, we perform the computation on a calculator or other device.</p>
+<p>$$ \frac{100\;{\color{blue}\cancel{\textrm{miles}}}}
+        {\color{green}\cancel{\textrm{hour}}}
+   \cdot
+   \frac{1600\;\textrm{meters}}
+        {\color{blue}\cancel{\textrm{mile}}}
+   \cdot
+   \frac{\color{green}\cancel{\textrm{hour}}}
+        {60\;\color{purple}\cancel{\textrm{min}}}
+   \cdot
+   \frac{\color{purple}\cancel{\textrm{min}}}
+        {60\;\textrm{sec}}
+   = 44\;\frac{\textrm{meters}}
+          {\textrm{sec}} $$</p>
+<p>Some students prefer to perform this computation in steps.</p>
+<p>$$ \frac{100\;{\color{blue}\cancel{\textrm{miles}}}}
+        {\textrm{hour}}
+   \cdot
+   \frac{1600\;\textrm{meters}}
+        {\color{blue}\cancel{\textrm{mile}}}
+     = \frac{160,000\;\textrm{meters}}{\textrm{hour}}
+$$
+$$
+   \frac{160,000\;\textrm{meters}}{\color{green}\cancel{\textrm{hour}}}
+   \cdot
+   \frac{\color{green}\cancel{\textrm{hour}}}
+        {60\;\textrm{min}}
+     = \frac{2667\;\textrm{meters}}{\textrm{min}}
+$$
+$$
+  \frac{2667\;\textrm{meters}}{\color{purple}\cancel{\textrm{min}}}
+   \cdot
+   \frac{\color{purple}\cancel{\textrm{min}}}
+        {60\;\textrm{sec}}
+   = 44\;\frac{\textrm{meters}}
+          {\textrm{sec}} $$</p>
+<!-- show example here -->
+
+<h1 id="per-per-example">"Per Per" Example</h1>
+<p>In August 2021, Sonoma County is recording 20 new cases per day per 100,000 people.
+If we have a population of 5,000 people, how many cases per week do we expect?</p>
+<p>$$ \frac{20\;\textrm{cases}}{{\color{green}\cancel{\textrm{day}}}\cdot 100,000\;\color{blue}\cancel{\textrm{people}}}
+\cdot
+   5,000\;{\color{blue}\cancel{\textrm{people}}}
+\cdot
+   \frac{7\;\color{green}\cancel{\textrm{day}}}{\textrm{week}}
+= 7\;\textrm{cases per week}
+$$</p>
+<!-- this example isn't great, can I come up with a true per/per unit conversion? besides the heat capacity one? -->
+
+<p>It is recommended that students spend in total 3 hours per week per unit.
+Let's assume all of our classes are 4-units, we can then convert this to minutes per day per class.</p>
+<p>$$
+\frac{3\;\color{blue}\cancel{\textrm{hours}}}
+        {\color{purple}\cancel{\textrm{week}}\cdot\color{green}\cancel{\textrm{unit}}}
+\cdot
+\frac{60\;\textrm{min}}
+     {\color{blue}\cancel{\textrm{hour}}}
+\cdot
+\frac{4\;\color{green}\cancel{\textrm{units}}}
+     {\textrm{class}}
+\cdot
+\frac{\color{purple}\cancel{\textrm{week}}}
+     {7\;\textrm{days}}
+= 103\;
+\frac{\textrm{minutes}}
+        {\textrm{day}\cdot\textrm{class}}
+$$</p>
+<h2 id="two-units-in-the-denominator_1">Two units in the denominator</h2>
+<p>This is often confusing.
+A few thought experiments can help.</p>
+<ul>
+<li>Is eggs per chicken per day the same as eggs per day per chicken?</li>
+</ul>
+<!-- - Is energy per temperature per mass the same as energy per mass per temperature?
+- Is J/g/C the same as J/C/g?
+- Is 1/2/3 the same as 1/3/2?
+- Is $\frac{J}{gC}$ the same as $\frac{J}{Cg}$ -->
+
+<h2 id="multiple-units">Multiple Units</h2>
+<p>In the example above, you may see the quantity written in several different ways:</p>
+<ul>
+<li>3 hours per week per unit</li>
+<li>3 hours/week/unit</li>
+<li>3 hours/week $\cdot$ unit<ul>
+<li>this one has an implicit parenthesis around the week and unit</li>
+</ul>
+</li>
+</ul>
+<p>Another example is that humans need approximately 2000 kcalories per person per day.</p>
+<h2 id="food-example">Food Example</h2>
+<p>Estimation: How many calories worth of food does the caf need to buy each week?</p>
+<p>A unit could be calories per student per week.</p>
+<!-- 2200 kcal/person/day * 7 day/week * 2500 persons/caf = 38,500,000 kcal/caf/week -->
+
+<!-- ## Converting Body Units
+
+Let's say you measure that your stride is 5 feet and a distance is 6 strides.
+You can then convert strides to feet and meters.
+
+6 strides x 2.5 ft/stride = 15 feet
+
+6 strides x 2.5 ft/stride x 1 meter/3.28 ft = 4.6 meters -->
+
+<!-- ## Dimensional analysis example
+
+We can use the dimensions of the relevant quantities to deduce the form
+of an equation -->
+
+<!-- ![](./figures_static/dimensional-analysis-1.png) -->
+
+<!-- ![](./figures_static/dimensional-analysis-2.png) -->
+
+<!-- what are some units and some unusual units -->
+<!-- clicks, bytes, click velocity -->
+
+<!-- Energy has dimensions of mass times length squared divided by time squared.
+
+$$ E = \frac{\textrm{[mass]}\textrm{[length]}^2}{[\textrm{time}]^2} $$
+
+
+If we know that the mass and velocity are related to energy, we can find how by:
+
+- $m$ mass of the object
+- $v$ velocity of the object
+
+That is we think the energy formula must be of the form:
+
+$$ E \propto m^a v^b $$
+
+We can substitute these units
+
+$$ m = [\textrm{mass}]$$
+$$ v = \frac{\textrm{[length]}}{\textrm{[time]}} $$
+
+Set equal to the units for energy
+
+$$ \textrm{[mass]}^a \frac{\textrm{[length]}^b}{[\textrm{time}]^b} = \frac{\textrm{[mass]}\textrm{[length]}^2}{[\textrm{time}]^2} $$
+
+and deduce that
+
+$$ E \propto m v^2 $$
+
+These units match the formula for kinetic energy and for mass-energy equivalence. -->
+
+<h1 id="temperature">Temperature</h1>
+<p>Temperature conversions are different depending on if we are converting differences or absolute temperatures.</p>
+<p>We can see a similar issue with distances and positions. (The mathematical term for this is an affine space.)</p>
+<p>We can add two distances together. If it is 8 miles to drive from Santa Rosa to Rohnert Park and 12 miles to drive from Rohnert Park to Petaluma, it is 20 miles to drive from Santa Rosa to Petaluma.</p>
+<p>However, adding (the positions of) Santa Rosa and Petaluma doesn't mean anything.</p>
+<p>Similarly, if it is 70 degrees Fahrenheit here and 80F somewhere else, adding those temperatures together doesn't mean anything.</p>
+<h2 id="related-videos">Related Videos</h2>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=KQZzsm8Q7qo">Drawing a Cube</a></li>
+<li><a href="https://www.youtube.com/watch?v=kkfIXUjkYqE">Cursed Units</a></li>
+<li><a href="https://www.youtube.com/watch?v=IvQ5ag2cEx8">Dog time Tree</a></li>
+</ul></div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="quantities-concepts.html" class="md-footer__link md-footer__link--prev" aria-label="Previous: Units and Measurement">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Units and Measurement
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="quantities-exercises.html" class="md-footer__link md-footer__link--next" aria-label="Next: Exercises">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Exercises
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://youtube.com/@profDubG" target="_blank" rel="noopener" title="youtube.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.498 6.186a3.02 3.02 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.02 3.02 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.02 3.02 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.02 3.02 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814M9.545 15.568V8.432L15.818 12z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["navigation.footer"], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="katex/katex.min.js"></script>
+      
+        <script src="katex/contrib/auto-render.min.js"></script>
+      
+        <script src="js/extra.js"></script>
+      
+    
+  </body>
+</html>
