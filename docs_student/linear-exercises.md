@@ -142,10 +142,9 @@ Examine the <a href="https://keelingcurve.ucsd.edu/">Keeling Curve</a>.
 <h1 id="unit-conversion-scale">10. Unit Conversion Scale</h1>
 
 <ul>
-<li>Create a hand-drawn linear scale converting between two units (choose from the list provided).</li>
+<li>Create a hand-drawn linear scale converting between pounds and kilograms.</li>
 <li>Mark tick marks at clear, round-number intervals.</li>
-<li>State the numerical conversion factor.</li>
-<li>Show explicitly how you converted units into distances on the page.</li>
+<li>State the numerical conversion factor you are using.</li>
 <li>Use a spreadsheet to calculate the exact page distance for each tick mark and include this calculation.</li>
 </ul>
 
