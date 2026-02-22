@@ -1,152 +1,187 @@
 <h1 id="linear-exercises">Linear Exercises</h1>
-<h1 id="ellenberg-chapter-1">1 Ellenberg Chapter 1</h1>
-<p>Read the <a
-href="https://www.dropbox.com/s/8ue7ol2e1sy5ol4/HNTBW-CH1.pdf?dl=0">first
-chapter of How Not to Be Wrong</a> for background on linear and
-non-linear models.</p>
+
+<h1 id="ellenberg-chapter-1">1. Ellenberg Chapter 1</h1>
+<p>
+Read the <a href="https://www.dropbox.com/s/8ue7ol2e1sy5ol4/HNTBW-CH1.pdf?dl=0">
+first chapter of <em>How Not to Be Wrong</em></a>. Focus on the difference
+between linear and non-linear relationships.
+</p>
+
 <ul>
-<li>Brainstorm a list of things (could be environmental, social,
-economic, or other) you think might have an association or
-correlation.</li>
-<li>For each one state if an increase in one quantity causes an increase
-or decrease in the other quantity.</li>
-<li>Try to get to a listing of 10.</li>
+<li>Create a list of at least 10 pairs of quantities (environmental, social, economic, biological, etc.) that you believe may be associated or correlated.</li>
+<li>For each pair, clearly state:
+  <ul>
+    <li>Which quantity you believe is the independent variable.</li>
+    <li>Whether an increase in the independent variable would likely cause an increase or decrease in the other variable.</li>
+    <li>Whether you believe the relationship is likely linear or non-linear (brief justification required).</li>
+  </ul>
+</li>
+<li>Your final submission should include exactly 10 clearly written examples.</li>
 </ul>
-<h1 id="linear-relationships">2 Linear relationships</h1>
-<p>Revisit your list of 10 potentially linear relationships from the
-Ellenberg Chapter 1 exercise. You are welcome to remove or add topics to
-your list. Imagine you are planning to gather data for these to
-understand the kind of relationship. You don’t need to gather data or
-estimate the slope. For at least 3 of them specify</p>
+
+<h1 id="linear-relationships">2. Linear Relationships</h1>
+<p>
+Revisit your list from Exercise 1. You may revise your examples.
+Select at least 3 relationships that you believe could reasonably be modeled as linear.
+</p>
+
+<p>For each of the 3 selected relationships, explicitly provide:</p>
 <ul>
-<li>What quantity is on the x-axis (the independent quantity)? What are
-its units and dimensions?</li>
-<li>What quantity is on the y-axis (the dependent quantity)? What are
-its units and dimensions?</li>
-<li>What are the units and dimensions of the slope?</li>
-<li>In a sentence, write a question that you could ask or answer with
-this relationship.</li>
+<li>The quantity on the x-axis (independent variable), including:
+  <ul>
+    <li>Units (e.g., dollars, meters, years)</li>
+    <li>Dimensions (e.g., length, time, mass, currency)</li>
+  </ul>
+</li>
+<li>The quantity on the y-axis (dependent variable), including:
+  <ul>
+    <li>Units</li>
+    <li>Dimensions</li>
+  </ul>
+</li>
+<li>The units and dimensions of the slope (show how you determined them).</li>
+<li>A clearly written quantitative question that this linear model would allow you to answer.</li>
 </ul>
-<h1 id="linear-notes">3 Linear Notes</h1>
-<p>Please read the notes for
-this section and answer the following questions.</p>
+
+<h1 id="linear-notes">3. Linear Notes</h1>
+<p>Read the notes for this section carefully.</p>
+
 <ul>
-<li>How can you determine the units and dimensions of a slope?</li>
-<li>Does the slope change in a linear graph?</li>
+<li>Explain in complete sentences how to determine the units and dimensions of a slope.</li>
+<li>State whether the slope changes in a linear graph and justify your answer.</li>
 </ul>
-<h1 id="unit-conversion-graph">4 Unit Conversion Graph</h1>
-<p>You can represent the unit conversion from miles to meters as a
-linear graph.</p>
+
+<h1 id="unit-conversion-graph">4. Unit Conversion Graph</h1>
+<p>
+Represent the conversion from miles to meters as a linear graph.
+</p>
+
 <ul>
-<li>Draw a graph of the unit conversion going from miles to meters.</li>
-<li>Label the x and y axes and put numbers for the reader to use.</li>
-<li>Show from 0–10 miles on the x-axis.</li>
-<li>Show how the unit conversion is the slope.</li>
-<li>Show how to use the graph to make an estimation.</li>
+<li>Draw a clearly labeled graph with:
+  <ul>
+    <li>x-axis labeled “Miles”</li>
+    <li>y-axis labeled “Meters”</li>
+  </ul>
+</li>
+<li>Show values from 0 to 10 miles on the x-axis with labeled tick marks.</li>
+<li>Include corresponding meter values on the y-axis.</li>
+<li>Explicitly show how the slope of the line represents the unit conversion factor.</li>
+<li>Demonstrate (in writing) how to use your graph to estimate the number of meters in a given number of miles.</li>
 </ul>
-<h1 id="taco-estimation">5 Taco Estimation</h1>
-<p>You can represent the previous exercise we did on tacos at SSU.</p>
+
+<h1 id="taco-estimation">5. Taco Estimation</h1>
+<p>Model the taco estimation problem as a linear relationship.</p>
+
 <ul>
-<li>Draw a graph that shows tacos needed for a number of students.</li>
-<li>Show from 0–20,000 students on the x-axis.</li>
-<li>Show the units of the slope.</li>
-<li>Show how the formula and the graph is related.</li>
-<li>Show how to use the graph to make an estimation.</li>
+<li>Draw a graph where:
+  <ul>
+    <li>x-axis = number of students (0–20,000)</li>
+    <li>y-axis = number of tacos</li>
+  </ul>
+</li>
+<li>Clearly label all axes and include units.</li>
+<li>State the units of the slope and explain what the slope represents in context.</li>
+<li>Write the linear formula and explain how it corresponds to your graph.</li>
+<li>Show how to use the graph to estimate the number of tacos for a specific number of students.</li>
 </ul>
-<h1 id="pizza-formula">6 Pizza Formula</h1>
-<p>A Rafy’s large cheese pizza is 16 USD and 2 USD for each topping.</p>
+
+<h1 id="pizza-formula">6. Pizza Formula</h1>
+<p>
+A Rafy’s large cheese pizza costs $16 plus $2 per topping.
+</p>
+
 <ul>
-<li>Write a formula for the cost of a large cheese pizza</li>
-<li>Sketch a graph showing the price for up to 4 toppings</li>
+<li>Write a clearly defined linear formula for total cost as a function of number of toppings. Define your variables.</li>
+<li>Sketch a graph showing price versus number of toppings (0–4).</li>
+<li>Label axes and include units.</li>
 </ul>
-<h1 id="modern-keeling-curve">7 Modern Keeling Curve</h1>
-<p>The <a href="https://keelingcurve.ucsd.edu/">Keeling Curve</a> is the
-carbon dioxide concentration that has been observed at the Mauna Loa
-Observatory since the late 1950s.</p>
+
+<h1 id="modern-keeling-curve">7. Modern Keeling Curve</h1>
+<p>
+Examine the <a href="https://keelingcurve.ucsd.edu/">Keeling Curve</a>.
+</p>
+
 <ul>
-<li>Describe what you think is important about the slope of the Keeling
-Curve.</li>
-<li>What is the approximate slope of the carbon dioxide concentration in
-units of ppm per year from 2010 to 2020?</li>
-<li>If the carbon dioxide emissions continue at the 2010–2020 rate, what
-concentration do we expect in 2050?</li>
+<li>Describe what the slope represents physically and why it is important.</li>
+<li>Estimate the average slope (ppm per year) from 2010 to 2020. Show how you calculated your estimate.</li>
+<li>Assuming the 2010–2020 rate continues linearly, calculate the projected CO₂ concentration in 2050. Show your work.</li>
 </ul>
-<p><img src="./figures_static/linear/keeling-curve.jpg" /></p>
-<h1 id="early-20th-century-keeling-curve">8 Early 20th Century Keeling
-Curve</h1>
-<p>A record of carbon dioxide concentrations from 1700 to the present is
-available at the <a href="https://keelingcurve.ucsd.edu/">Keeling Curve
-website</a>.</p>
+
+<img src="./figures_static/linear/keeling-curve.jpg" />
+
+<h1 id="early-20th-century-keeling-curve">8. Early 20th Century Keeling Curve</h1>
+
 <ul>
-<li>Describe what you think is important about the slope of the carbon
-dioxide concentration curve from the 1700s until now.</li>
-<li>What is the approximate slope of the carbon dioxide concentration in
-units of ppm per year from 1900 to 1950.</li>
-<li>If we had continued at the 1900–1950 rate, what would the
-concentration be now?</li>
+<li>Describe how the slope from 1700 to today changes over time.</li>
+<li>Estimate the average slope (ppm per year) from 1900 to 1950. Show your calculation.</li>
+<li>If the 1900–1950 rate had continued unchanged, calculate what today’s concentration would be. Show your work.</li>
+<li>Briefly compare this projection to actual modern values.</li>
 </ul>
-<p><img src="./figures_static/linear/co2_1800-2019_5.png" /></p>
-<h1 id="taco-estimation-graph">9 Taco Estimation Graph</h1>
-<p>Using your taco estimation, create a spreadsheet that</p>
+
+<img src="./figures_static/linear/co2_1800-2019_5.png" />
+
+<h1 id="taco-estimation-graph">9. Taco Estimation Spreadsheet</h1>
+
 <ul>
-<li>Has a column for the number of people</li>
-<li>Has a column that calculates the number of tacos</li>
-<li>Creates a graph from the people and tacos column</li>
+<li>Create a spreadsheet with:
+  <ul>
+    <li>One column labeled “Number of People”</li>
+    <li>One column labeled “Number of Tacos”</li>
+  </ul>
+</li>
+<li>Use a formula (not manual typing) to calculate tacos. If you don't know how this is done check out <a href="https://www.youtube.com/watch?v=llkP9DxRAPI"> this tutorial</a></li>
+<li>Create a graph using these two columns.</li>
+<li>Upload a screenshot that clearly shows:
+  <ul>
+    <li>Your formulas</li>
+    <li>Your graph</li>
+  </ul>
+</li>
 </ul>
-<p>Upload a screenshot showing the graph and your formulas.</p>
-<h1 id="unit-conversion-scale">10 Unit Conversion Scale</h1>
-<p>Create a linear scale on paper that you can use to “convert” between
-units. Choose your own unit conversion from this list (meters to yards,
-square feet to square meters, kilograms to pounds, or liters to
-gallons).</p>
+
+<h1 id="unit-conversion-scale">10. Unit Conversion Scale</h1>
+
 <ul>
-<li>Mark your scale for each unit in round numbers (multiples of 1, 2,
-5, or 10 are common)</li>
-<li>State clearly the conversion for each unit to distance on the
-page</li>
-<li>Show clearly how you computed the conversion between the unit and
-the distance on the page</li>
-<li>Use a spreadsheet to calculate the location (distance) from zero for
-each of your ticks.</li>
+<li>Create a hand-drawn linear scale converting between two units (choose from the list provided).</li>
+<li>Mark tick marks at clear, round-number intervals.</li>
+<li>State the numerical conversion factor.</li>
+<li>Show explicitly how you converted units into distances on the page.</li>
+<li>Use a spreadsheet to calculate the exact page distance for each tick mark and include this calculation.</li>
 </ul>
-<h1 id="absolute-temperature-converting-scale">11 Absolute Temperature
-Converting Scale</h1>
-<p>Draw a linear scale showing the conversion between celsius and
-fahrenheit.</p>
+
+<h1 id="absolute-temperature-converting-scale">11. Absolute Temperature Scale</h1>
+
 <ul>
-<li>Mark your scale for each unit in round numbers (multiples of 1, 2,
-5, or 10 are common)</li>
-<li>State clearly the conversion for each unit to distance on the
-page</li>
-<li>Show clearly how you computed the conversion between the unit and
-the distance on the page</li>
-<li>Show how you are handling the difference in location of the zeros on
-each scale</li>
+<li>Draw a linear conversion scale between Celsius and Fahrenheit.</li>
+<li>Mark round-number tick marks on both scales.</li>
+<li>State the conversion formula.</li>
+<li>Show how you accounted for the different zero points.</li>
+<li>Demonstrate your calculations for positioning tick marks.</li>
 </ul>
-<h1 id="linear-relationship">12 Linear Relationship</h1>
-<p>Find a news article describing a topic of interest that mentions a
-relationship between two variables and write a short essay (~150 words)
-covering the following points.</p>
+
+<h1 id="linear-relationship">12. Linear Relationship in the News</h1>
+
 <ul>
-<li>Include a link to the article and its title</li>
-<li>Describe the units and dimensions of these two variables</li>
-<li>Sketch a graph of the relationship (you make assume it is linear
-over a small area)</li>
-<li>Discuss what quantitative questions you can ask or answer using this
-relationship</li>
+<li>Select a news article discussing a relationship between two variables.</li>
+<li>Include the article title and working link.</li>
+<li>Identify the two variables and state their units and dimensions.</li>
+<li>Sketch a graph (assume linear locally if needed) and label axes.</li>
+<li>Write ~150 words explaining what quantitative questions this relationship allows you to answer.</li>
 </ul>
-<h1 id="spreadsheet-extrapolation">13 Spreadsheet Extrapolation</h1>
-<p>In this exercise, you’ll plot a linear function in a spreadsheet</p>
+
+<h1 id="spreadsheet-extrapolation">13. Spreadsheet Extrapolation</h1>
+
 <ul>
-<li>Choose a slope between 2 and 5.</li>
-<li>Choose a y-intercept between 2 and 5.</li>
-<li>Use a spreadsheet to create a table of y-values corresponding to
-x-values between 0 and 10.</li>
-<li>Create a plot of your data</li>
-<li>Use the spreadsheet to find the slope and y-intercept of the data
-and show it matches your choice</li>
-<li>Use the spreadsheet to extrapolate and find the value of the data
-for the x-values of 20 and 30</li>
-<li>Upload a 30-60 second video of your assignment.</li>
+<li>Choose:
+  <ul>
+    <li>A slope between 2 and 5</li>
+    <li>A y-intercept between 2 and 5</li>
+  </ul>
+</li>
+<li>Write your linear equation clearly.</li>
+<li>Use a spreadsheet to compute y-values for x = 0 to 10.</li>
+<li>Create a graph of your data.</li>
+<li>Use spreadsheet tools (trendline or formula) to confirm the slope and intercept match your chosen values.</li>
+<li>Use your spreadsheet to extrapolate values for x = 20 and x = 30.</li>
+<li>Upload a 30–60 second video explaining your spreadsheet, equation, and extrapolation.</li>
 </ul>
-<!-- instructor notes below -->
