@@ -70,6 +70,18 @@ TODO: solve for l as a function of f(l)
 
 # DBH Tape
 
+A common way to measure a tree is using DBH (Diameter to Breast Height) tape.
+
+![DBH Tape](./figures_static/linear/dbh.png)
+
+To use a DBH tape, wrap the tape around a tree at the appropriate height on the tree's bole. One
+end of the tape will indicate "0." Where the "0" measurement overlaps values on the other end of
+the tape is the DBH measurement (Figure J). Since the tape is wrapped around the bole of a tree,
+DBH tapes indicate 1 in of tree diameter for every 3.14 in of bole circumference.
+Therefore, although the goal is to obtain the diameter of a tree, what's actually being measured is
+the circumference of a tree when using a DBH tape. So, DBH tapes convert the circumference
+measurement to diameter using the following formula: 
+
 We are placing two scales on our line:
 
 - circumference centimeter scale
