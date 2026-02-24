@@ -87,7 +87,7 @@ Represent the conversion from miles to meters as a linear graph.
 
 <h1 id="pizza-formula">6. Pizza Formula</h1>
 <p>
-A Rafy’s large cheese pizza costs &dollar;16 plus &dollar;2 per topping.
+A Rafy’s large cheese pizza costs 16 dollars plus 2 dollars for each per topping.
 </p>
 
 <ul>
