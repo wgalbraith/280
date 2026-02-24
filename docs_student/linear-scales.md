@@ -70,36 +70,24 @@ TODO: solve for l as a function of f(l)
 
 # DBH Tape
 
-A common way to measure a tree is using DBH (Diameter to Breast Height) tape.
+A common way to measure a tree is using DBH (Diameter-at-Breast Height) tape.
 
 ![DBH Tape](./figures_static/linear/dbh.png)
 
-To use a DBH tape, wrap the tape around a tree at the appropriate height on the tree's bole. One
+To use a DBH tape, we wrap the tape around a tree at the appropriate height on the tree's trunk. One
 end of the tape will indicate "0." Where the "0" measurement overlaps values on the other end of
-the tape is the DBH measurement (Figure J). Since the tape is wrapped around the bole of a tree,
-DBH tapes indicate 1 in of tree diameter for every 3.14 in of bole circumference.
-Therefore, although the goal is to obtain the diameter of a tree, what's actually being measured is
-the circumference of a tree when using a DBH tape. So, DBH tapes convert the circumference
-measurement to diameter using the following formula: 
+the tape is the DBH measurement (see image above. The measure looks to be about 65.2 units). Although the tape goes around the circumefernce of the tree, the tape is calibrated so that the tape shows the associated diameter of the tree. Therefore, although the goal is to obtain the diameter of a tree, what's actually being measured is the circumference of a tree. DBH tape works on the assumption that the tree is cylindrical, and thus the cross section is a circle. To convert we can leverage the formula $C = \pi d$. 
 
-We are placing two scales on our line:
+$$ 1 \textrm{ circumference unit} = 1 \textrm{ diameter unit}\cdot \pi $$
 
-- circumference centimeter scale
-    - this scale directly measures the circumference
-- diameter centimeter scale
-    - this scale "calculates" the diameter
+In other words, for <b>every 1 unit</b> in the diameter we would have $\pi$ units in the circumference. So a unit conversion factor would be 
 
-The circumference scale is a 1-to-1 scale so
+$$\frac{1 \textrm{ dia unit}}{\pi \cdot 1 \textrm{ circ unit}}$$
 
-$$ 1 \textrm{ circumference scale centimeter unit} = 1 \textrm{ paper cm} $$
 
-Because $C = \pi d$, we have.
+This will work for any linear unit. For example, we can convert from diameter in centimeters to circumference in centimeters.
 
-$$ 1 \textrm{ circumference scale centimeter unit} = \pi \cdot 1 \textrm{ diameter scale unit} $$
+$$ 1 \textrm{ circ cm} \cdot \frac{1 \textrm{ dia cm}}{\pi \cdot 1 \textrm{ circ cm}} = 0.318 \textrm{ dia cm}$$
 
-To determine the distance on the page between the zero and the one on the diameter centimeter scale, we convert from
 
-- diameter centimeter scale to circumference centimeter scale
-- from circumference centimeter scale to paper centimeters
 
-$$ 1 \textrm{ dia cm scale} \cdot \frac{1 \textrm{ circ cm scale}}{\pi \cdot 1 \textrm{ dia cm scale}} \cdot \frac{1 \textrm{ paper cm}}{1 \textrm{ circ cm scale}} = 0.318 \textrm{ cm} $$
