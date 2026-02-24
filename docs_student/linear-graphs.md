@@ -26,28 +26,13 @@ When you draw a graph, think about what you are communicating to your audience.
 - Draw the trendline
 - Draw any annotations
 
-# Spreadsheet Graphing
-
-- Find menu item for insert graph
-- We usually want a "scatter" plot
-- Choose the data for the x and y
-- Set colors and sizes and labels to annotate graph
-
-# Creating Linear Data
-
-$$ y = mx + b $$
-
-- Create a column of x values
-- Create a cell for the slope
-- Create a cell for the y-intercept
-- Use relative and absolute references to make the formula $y=mx+b$ in a column for the y-values
 
 # Regression
 
-If you have data and you want the computer to find the best slope, you use a technique called regression.
-
+If you have data and you want the computer to find the best slope, you use a technique called regression.[Check out Desmos](https://help.desmos.com/hc/en-us/articles/4406972958733-Regressions)
+ for a nice interface.
 - In most graphs, there is an option to show the trendline and display the equation of the trendline
-- You can also show $R^2$ which is a measure of how closely the data matches the trendline
+- You can also show $r$ which is a measure of how closely the data matches the trendline
 - There are also functions for the slope and intercept that you can use without a graph
 
 
