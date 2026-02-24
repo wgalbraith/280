@@ -29,10 +29,9 @@ When you draw a graph, think about what you are communicating to your audience.
 
 # Regression
 
-If you have data and you want the computer to find the best slope, you use a technique called regression.[Check out Desmos](https://help.desmos.com/hc/en-us/articles/4406972958733-Regressions)
+If you have data and you want the computer to find the best slope, you use a technique called regression. [Check out Desmos](https://help.desmos.com/hc/en-us/articles/4406972958733-Regressions)
  for a nice interface.
 - In most graphs, there is an option to show the trendline and display the equation of the trendline
-- You can also show $r$ which is a measure of how closely the data matches the trendline
 - There are also functions for the slope and intercept that you can use without a graph
 
 
