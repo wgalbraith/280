@@ -29,28 +29,4 @@ linear function as a model</li>
 <li>The process of finding this linear model from the data is called
 regression or fitting</li>
 </ul>
-<h2 id="linear-extrapolation">Linear Extrapolation</h2>
-<ul>
-<li>If we assume a relationship, we can predict its value in the
-future</li>
-</ul>
-<h2 id="extrapolation-formula">Extrapolation Formula</h2>
-<p>It is helpful to be able to see how the pieces of the extrapolation
-formula correspond to a visual picture.</p>
-<ul>
-<li>Find the slope of the known portion of the graph so you have the
-relationship between x and y.</li>
-<li>You are calculating the distance on the x-axis between your last
-known data and the point you want to compute. This will be the run in a
-slope triangle.</li>
-<li>Multiplying this x-distance by the slope will give you the rise in a
-slope triangle.</li>
-<li>Adding this to the last known y-value will give you the
-corresponding value of y for the x you chose.</li>
-</ul>
-<p><img src="./figures_static/linear/extrapolation.png"
-width="800" /></p>
-<h1 id="mauna-loa-data">Mauna Loa Data</h1>
-<p><img
-src="./figures_static/linear/keeling-curve-pencil-extrapolation.png"
-width="800" /></p>
+
