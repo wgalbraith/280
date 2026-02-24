@@ -176,6 +176,7 @@ Examine the <a href="https://keelingcurve.ucsd.edu/">Keeling Curve</a>.
 <li> What is the slope in your equation?</li>
 <li> 10 diseased trees were measured using the DBH tape. Their measurements in inches were as follows: 23,22,15,15,18,24,28,25,23,27.  After they were cut down their circumferences were carefully measured. The circumferences were 65,73,50,43,62,71,102,91,88,100 . This is shown in the table below. $x_1$ represents circumferences, and $y_1$ represents DBH measurements.
 </li>
+  ![DBH Tape](./figures_static/linear/dbhtbl.png)
 <li> Use spreadsheet tools (e.g. Desmos) to plot the data. On the same plot graph the linear equation you stated in the first part of this question.</li>
 <li> Do the data points all fall on the line? Are they 'close' to the line?</li>
 <li> Explain why we would not expect the dots to all fall exactly on the line.</li>
