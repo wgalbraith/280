@@ -151,11 +151,12 @@ Examine the <a href="https://keelingcurve.ucsd.edu/">Keeling Curve</a>.
 <h1 id="absolute-temperature-converting-scale">11. Absolute Temperature Scale</h1>
 
 <ul>
-<li>Draw a linear conversion scale between Celsius and Fahrenheit.</li>
-<li>Mark round-number tick marks on both scales.</li>
-<li>State the conversion formula.</li>
-<li>Show how you accounted for the different zero points.</li>
-<li>Demonstrate your calculations for positioning tick marks.</li>
+<li>Draw a linear conversion scale between Celsius and Fahrenheit from 20 to 30 degrees Celsius.</li>
+<li>Mark tick marks on both scales using a ruler. Decide on a measure in millimeters on your paper that will represent the distance between the tick marks on your Celsius scale.  The measure of the tick marks must be as consistent as possible. </li>
+<li>State the conversion formula from degrees Celsius to degrees Fahrenheit.</li>
+<li>State the unit conversion factor that can be used to convert between Celsius and Fahrenheit (this is not the same thing as the formula from the previous question).
+<li>State the conversion factor for the change one degree Celsius to the distance between your tick marks. Your answer should have the unit "degree Celsius per unit millimeter"  </li>
+<li>Use you conversion factor from the previous problem to determine the distance between each degree Fahrenheit and the conversion factor between Celsius and Fahrenheit. Check your answer by looking at the measure between tick marks on your physical paper against one degree Fahrenheit. </li>
 </ul>
 
 <h1 id="linear-relationship">12. Linear Relationship in the News</h1>
@@ -168,19 +169,14 @@ Examine the <a href="https://keelingcurve.ucsd.edu/">Keeling Curve</a>.
 <li>Write ~150 words explaining what quantitative questions this relationship allows you to answer.</li>
 </ul>
 
-<h1 id="spreadsheet-extrapolation">13. Spreadsheet Extrapolation</h1>
+<h1 id="DBH">13. Using a DBH tape </h1>
 
 <ul>
-<li>Choose:
-  <ul>
-    <li>A slope between 2 and 5</li>
-    <li>A y-intercept between 2 and 5</li>
-  </ul>
+<li> Write a linear equation that shows the relationship bewteen the circumference of a tree and the diameter measurement shown on the DBH tape (see Linear Concepts reading). 
+<li> What is the slope in your equation?</li>
+<li> 10 diseased trees were measured using the DBH tape. Their measurements in inches were as follows: 23,22,15,15,18,24,28,25,23,27.  After they were cut down their circumferences were carefully measured. The circumferences were 65,73,50,43,62,71,102,91,88,100 . This is shown in the table below. $x_1$ represents circumferences, and $y_1$ represents DBH measurements.
 </li>
-<li>Write your linear equation clearly.</li>
-<li>Use a spreadsheet to compute y-values for x = 0 to 10.</li>
-<li>Create a graph of your data.</li>
-<li>Use spreadsheet tools (trendline or formula) to confirm the slope and intercept match your chosen values.</li>
-<li>Use your spreadsheet to extrapolate values for x = 20 and x = 30.</li>
-<li>Upload a 30–60 second video explaining your spreadsheet, equation, and extrapolation.</li>
+<li> Use spreadsheet tools (e.g. Desmos) to plot the data. On the same plot graph the linear equation you stated in the first part of this question.</li>
+<li> Do the data points all fall on the line? Are they 'close' to the line?</li>
+<li> Explain why we would not expect the dots to all fall exactly on the line.</li>
 </ul>
