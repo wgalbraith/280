@@ -142,10 +142,11 @@ Examine the <a href="https://keelingcurve.ucsd.edu/">Keeling Curve</a>.
 <h1 id="unit-conversion-scale">10. Unit Conversion Scale</h1>
 
 <ul>
-<li>Create a hand-drawn linear scale converting between pounds and kilograms.</li>
-<li>Mark tick marks at clear, round-number intervals.</li>
-<li>State the numerical conversion factor you are using.</li>
-<li>Use a spreadsheet to calculate the exact page distance for each tick mark and include this calculation.</li>
+<li>Create a hand-drawn $x-y$ graph converting between pounds and kilograms. Put pounds on the $x$-axis.</li>
+<li>Mark tick marks at clear, round-number (no decimals) intervals. Use a ruler to ensure the actual distance between tick marks is consistent.</li>
+<li>Write the linear equation that relates pounds to kilograms.</li>
+<li>Calculate the exact page distance (in inches) between each of yout tick marks for each of your axes. The "page distance" means the distance on your paper between each of you tick marks. In other words, you are detemining the rate "pounds per tick mark distance (in inches)", and the the rate "kilograms per tick mark distance (in inches)".  </li>
+<li>Let $P$ be "pounds per tick mark distance (in inches)" and $K$ be "kilograms per tick mark distance (in inches)". Find $\dfrac{P}{Q}$ </li>
 </ul>
 
 <h1 id="absolute-temperature-converting-scale">11. Absolute Temperature Scale</h1>
