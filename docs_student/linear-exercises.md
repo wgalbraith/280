@@ -146,7 +146,7 @@ Examine the <a href="https://keelingcurve.ucsd.edu/">Keeling Curve</a>.
 <li>Mark tick marks at clear, round-number (no decimals) intervals. Use a ruler to ensure the actual distance between tick marks is consistent.</li>
 <li>Write the linear equation that relates pounds to kilograms.</li>
 <li>Calculate the exact page distance (in inches) between each of yout tick marks for each of your axes. The "page distance" means the distance on your paper between each of you tick marks. In other words, you are detemining the rate "pounds per tick mark distance (in inches)", and the the rate "kilograms per tick mark distance (in inches)".  </li>
-<li>Let $P$ be "pounds per tick mark distance (in inches)" and $K$ be "kilograms per tick mark distance (in inches)". Find $\dfrac{P}{Q}$ and include units. Explain the meaning of this ratio. Specifically does this ratio have to do with the relationship between the physical units of pounds and kilograms, is the ratio determined by the choices you made regarding tick mark spacing, or some combination of the two? Explain. </li>
+<li>Let $P$ be "pounds per tick mark distance (in inches)" and $K$ be "kilograms per tick mark distance (in inches)". Find $\frac{P}{K}$ and include units. Explain the meaning of this ratio. Specifically does this ratio have to do with the relationship between the physical units of pounds and kilograms, is the ratio determined by the choices you made regarding tick mark spacing, or some combination of the two? Explain. </li>
 </ul>
 
 <h1 id="absolute-temperature-converting-scale">11. Absolute Temperature Scale</h1>
