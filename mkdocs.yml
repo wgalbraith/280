@@ -69,7 +69,8 @@ nav:
   - Chapter 5 - Exponential Relationships:
       - Exponential Concepts: exponential-1-basics.md
       - Logarithmic Scales: exponential-log-scales.md
-      - Exercises: exponential-exercises.md
+      - Exponential Exercises: exponential-exercises.md
+      - Logarithmic Exercises: logarithm-exercises
   - Chapter 6 - Distributions and Histograms:
       - Concepts: distributions-1-concepts.md
       - Metrics: distributions-2-metrics.md
