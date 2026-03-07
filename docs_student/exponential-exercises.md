@@ -3,9 +3,9 @@
 
 Read through the exponentials section of our course notes.
 
-- What is the key way to determine if something is following a linear equation?  
-- What is the key way to determine if something is following an exponential equation?  
-- How are linear functions and exponential functions similar and different?  
+- What does it mean to if we say the relationship between two variables is linear?  
+- What does it mean to if we say the relationship between two variables is exponential?    
+
 
 ## 2 Exponential Article
 
@@ -22,6 +22,8 @@ Look over the topics and exercises we have done so far.
 - Which topics do you not understand yet?  
 
 ## 4 Demonstrate Doubling Time
+
+Doubling time is the amount of time it takes a quantity to double. 
 
 ![](figures/exponentials/exponential-2.png)
 
