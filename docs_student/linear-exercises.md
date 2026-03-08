@@ -173,7 +173,7 @@ Examine the <a href="https://keelingcurve.ucsd.edu/">Keeling Curve</a>.
 <h1 id="DBH">13. Using a DBH tape </h1>
 
 <ul>
-<li> Write a linear equation that shows the relationship bewteen the circumference of a tree and the diameter measurement shown on the DBH tape (see Linear Concepts reading). Represent the circumference as the independent variable, and the DBH reasurement as the dependent measurement.
+<li> Write a linear equation that shows the relationship bewteen the circumference of a tree and the diameter measurement shown on the DBH tape (see Linear Scales reading). Represent the circumference as the independent variable, and the DBH reasurement as the dependent measurement.
 <li> What is the slope in your equation? Use appropriate units.</li>
 <li> 10 diseased trees were measured using the DBH tape. Their measurements in inches were as follows: 23,22,15,15,18,24,28,25,23,27.  After they were cut down their circumferences were carefully measured. The circumferences were 65,73,50,43,62,71,102,91,88,100 . This is shown in the table below. $x_1$ represents circumferences, and $y_1$ represents DBH measurements.
 </li>
