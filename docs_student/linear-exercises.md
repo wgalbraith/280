@@ -130,7 +130,7 @@ Examine the <a href="https://keelingcurve.ucsd.edu/">Keeling Curve</a>.
   </ul>
 </li>
 <li>Use a formula (not manual typing) to calculate tacos. If you don't know how this is done check out <a href="https://www.youtube.com/watch?v=llkP9DxRAPI"> this tutorial</a></li>
-<li>Create a graph using these two columns.</li>
+<li>Create a graph using these two columns. Note: You must enter the number of people (the independent variable), your formula will automatically generate the number of tacos needed. Use a reasonable range of values for number of people. </li>
 <li>Upload a screenshot that clearly shows:
   <ul>
     <li>Your formulas</li>
