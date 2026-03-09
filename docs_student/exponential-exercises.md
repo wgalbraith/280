@@ -73,11 +73,15 @@ Explain the reasoning behind your selection.
 
 Carbon-14 has a half-life of 5730 years.
 
-a. Assume we have an initial amount of 113 grams of Carbon-14. Use the shortcut shown above problem 9 to find the value of $k$ to 6 decimal places and write a model in the form  
+a. Use the shortcut shown above problem 9 to find the value of $k$ and write a model in the form  
 
    $A(t) = A_0e^{kt}$
 
-b. How much Carbon-14 will remain in 8000 years? Use your model to the amount to 2 decimal places.
+   For any decimal approximations in your calculations use at least 6 decimal places. 
+
+b. Assume we have an initial amount of 113 grams of Carbon-14. Write the revised model.
+
+c. How much Carbon-14 will remain in 8000 years? Use your model to the amount to 2 decimal places.
 
 ---
 
