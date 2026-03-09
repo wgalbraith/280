@@ -83,7 +83,7 @@ b. Assume we have an initial amount of 113 grams of Carbon-14. Write the revised
 
 c. How much Carbon-14 will remain in 8000 years? Use your model to the amount to 2 decimal places.
 
-d. Research the discovery of Carbon-14 as a form of dating organic material. Write a 200 word summary that includes how this method is used to determine the age of organic materials, the name of the person who discovered the method (including their hometown!), and the time limitations on this method of dating. 
+d. Research the discovery of Carbon-14 as a form of dating organic material. Write a 100-word summary that includes how this method is used to determine the age of organic materials, the name of the person who discovered the method (including their hometown after the age of 5), and the time scale limitations on this method of dating. 
 
 ---
 
