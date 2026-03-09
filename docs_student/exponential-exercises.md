@@ -66,3 +66,64 @@ Which of the above graphs is exponential?
 
 Explain the reasoning behind your selection.
 
+## 9. Carbon-14 Half-Life
+
+Carbon-14 has a half-life of 5730 years.
+
+a. Assume we have an initial amount of 113 grams of Carbon-14. Find the value of $k$ to 4 decimal places and write a model in the form  
+   $A(t) = A_0e^{kt}$
+
+b. How much Carbon-14 will remain in 8000 years? Use your model to the amount to 2 decimal places.
+
+---
+
+## 10. Interpreting the Decay Constant
+
+A radioactive element follows:
+
+$A(t) = A_0e^{−0.031t}$
+
+a. Is this growth or decay? Explain how you know.
+b. What percent of the substance remains after 1 year? 
+c. What is the approximate yearly percent decrease?
+
+---
+
+
+
+---
+
+## 11. Converting from Base b to Base e
+
+A population model is $P(t) = 800(1.12)^t$
+
+a. Rewrite the model in the form $P(t) = 800e^{kt}$. Approximate $k$ to 4 decimal places.
+
+b. Explain what $k$ represents in context.
+
+---
+
+
+---
+
+## 12. Building a Model from Percent Growth
+
+A population increases by 7% per year.
+
+a. Write a model using base $b^t$.
+
+b. Convert the model to the form $A(t) = A_0e^{kt}$. Approximate $k$ to 4 decimal places.
+
+
+---
+
+## 13. Conceptual Understanding
+
+Answer in complete sentences.
+
+a. Explain how can every model of the form $A_0b^t$ be rewritten as $A_0e^{kt}$?
+
+b. Suppose we have two models $P(t)=P_0e^{k_1t}$ and $k<0$, and $Q(t)=Q_0e^{k_2t}$ and $k_2<k_1$, what does that tell us about how these models differ with regards to their rate of change? In other words, if one model has a `more negative' $k$ value than the other, what does this mean?
+
+c. Explain why we might prefer the form $A_0e^{kt}$ to $A_0b^t$ when trying to understand exponential change. Mention the interpretation of $k$ in your explanation. 
+
