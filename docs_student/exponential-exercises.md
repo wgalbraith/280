@@ -66,11 +66,15 @@ Which of the above graphs is exponential?
 
 Explain the reasoning behind your selection.
 
+
+# For 9-13 you may use the following shortcut for finding $k$. Given the form $A=A_0b^t$ we can use $$k=ln(b)$$ to determine the $k$ value in the form $A=A_0e^{kt}$. (Warning: this will only work if your exponent $t$ is not multiplied (or divided) by a value.)
+
 ## 9. Carbon-14 Half-Life
 
 Carbon-14 has a half-life of 5730 years.
 
-a. Assume we have an initial amount of 113 grams of Carbon-14. Find the value of $k$ to 4 decimal places and write a model in the form  
+a. Assume we have an initial amount of 113 grams of Carbon-14. Use the shortcut shown above problem 9 to find the value of $k$ to 6 decimal places and write a model in the form  
+
    $A(t) = A_0e^{kt}$
 
 b. How much Carbon-14 will remain in 8000 years? Use your model to the amount to 2 decimal places.
@@ -84,7 +88,9 @@ A radioactive element follows:
 $A(t) = A_0e^{−0.031t}$
 
 a. Is this growth or decay? Explain how you know.
+
 b. What percent of the substance remains after 1 year? 
+
 c. What is the approximate yearly percent decrease?
 
 ---
@@ -97,7 +103,7 @@ c. What is the approximate yearly percent decrease?
 
 A population model is $P(t) = 800(1.12)^t$
 
-a. Rewrite the model in the form $P(t) = 800e^{kt}$. Approximate $k$ to 4 decimal places.
+a. Rewrite the model in the form $P(t) = 800e^{kt}$. You may use shortcut for $k$. Approximate $k$ to 4 decimal places.
 
 b. Explain what $k$ represents in context.
 
@@ -112,7 +118,7 @@ A population increases by 7% per year.
 
 a. Write a model using base $b^t$.
 
-b. Convert the model to the form $A(t) = A_0e^{kt}$. Approximate $k$ to 4 decimal places.
+b. Convert the model to the form $A(t) = A_0e^{kt}$. You may use shortcut for $k$. Approximate $k$ to 4 decimal places.
 
 
 ---
