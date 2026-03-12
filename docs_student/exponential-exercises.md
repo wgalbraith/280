@@ -95,9 +95,11 @@ $A(t) = A_0e^{−0.031t}$
 
 a. Is this growth or decay? Explain how you know.
 
-b. What percent of the substance remains after 1 year? 
+b. What is the continuous rate of decay?
 
-c. What is the approximate yearly percent decrease?
+c. What percent of the substance remains after 1 year? 
+
+d. What is the approximate yearly percent decrease?
 
 ---
 
