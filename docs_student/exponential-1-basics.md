@@ -118,28 +118,13 @@ year?
 ## Exponential Decay
 ![](./figures_static/exponential/exponential-decay.png)
 
+
+
 ## The exponential function $y=e^x$
 
 Even though $y=e^x$ is just one function in the class of exponential functions, $e^x$ is often called **the** exponential function because it has the unique property that the rate of change of $e^x$ for any $x$ is equal to the value of $e^x$.
 
 Using the language of calculus, the function whose output $y=f(x)$ is equal to the slope of the tangent line $f'(x)$ is $f(x) = e^x$.
-
-## Exponential growth
-- The rate of change is proportional to the total number
-- The doubling time is constant over the entire range
-- What things exhibit these characteristics?
-
-# Definitions
-
-## Which gets bigger faster?
-$x^2$ or $2^x$
-
-Draw these out in your notebook to see
-
-<!-- note you are moving the x from the base to the exponent -->
-
-
-
 
 
 ## Exponential decay
@@ -147,6 +132,20 @@ Draw these out in your notebook to see
 - Nuclear waste
 - Toxins in a body
 - The water in a stream (baseflow)
+
+## Standard Form $A(t)=A_0b^t$
+
+In the standard form, we see $b$ is the base and $A_0$ is the initial value.  
+
+Examples:
+- An population of 100 rabbits doubles every year could be modeled as $P(t)=100(2)^t$. (Growth factor is 2, "Doubling" is 200%)
+- A $50,000 car depreciates in value by 25% each year can be modeled by $Q(t)=50000(0.75)^t$ (Decay factor is 0.75)
+
+## Using Base-e Models
+The standard form can be converted to the base-$e$ model $A(t)=A_0e^{kt}$ by using the shortcut $k=\ln b$. Out examples above would be
+- $P(t)=100e^{\ln(2)t}$ or approximately $100e^{0.693t}$
+- $Q(t)=50000e^{\ln(0.75)t}$ or approximately $50000e^{-0.288t}$
+The value of $k$ is the proportion of the value that the quantity is contiunous growth (or decay) rate. For example, $k=0.693$ means that the rabbits are growing at 69.3% continuously.
 
 # Further Reading
 
