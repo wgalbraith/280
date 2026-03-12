@@ -139,7 +139,7 @@ In the standard form, we see $b$ is the base and $A_0$ is the initial value.
 
 Examples:
 - An population of 100 rabbits doubles every year could be modeled as $P(t)=100(2)^t$. (Growth factor is 2, "Doubling" is 200%)
-- A \$50,000 car depreciates in value by 25% each year can be modeled by $Q(t)=50000(0.75)^t$ (Decay factor is 0.75)
+- A 50,000 dollar car depreciates in value by 25% each year can be modeled by $Q(t)=50000(0.75)^t$ (Decay factor is 0.75)
 
 ## Using Base-e Models
 The standard form can be converted to the base-$e$ model $A(t)=A_0e^{kt}$ by using the shortcut $k=\ln b$. Out examples above would be
