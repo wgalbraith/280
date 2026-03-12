@@ -145,7 +145,7 @@ Examples:
 The standard form can be converted to the base-$e$ model $A(t)=A_0e^{kt}$ by using the shortcut $k=\ln b$. Out examples above would be
 - $P(t)=100e^{\ln(2)t}$ or approximately $100e^{0.693t}$
 - $Q(t)=50000e^{\ln(0.75)t}$ or approximately $50000e^{-0.288t}$
-The value of $k$ is the proportion of the value that the quantity is contiunous growth (or decay) rate. For example, $k=0.693$ means that the rabbits are growing at 69.3% continuously.
+The value of $k$ is contiunous growth (or decay) rate. For example, $k=0.693$ means that the rabbits are growing at rate of 69.3% *continuously*.
 
 # Further Reading
 
