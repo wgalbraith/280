@@ -1,38 +1,32 @@
-## 1 Which is Exponential (Log Scale)
+## 1 Return of the Mold Function
 
-![](figures/exponentials/which-is-exponential-log.png)
+Recall from your previous assignment we had a doubling function for mold, $M=10(2)^t$ where $M$ is mold in grams and $t$ is time in days. Rewrite this as a logarithmic function where $M$ is the input variable and $t$ is the output variable.
 
-Which of the above graphs is exponential? Discuss the reasons for your decision.
+## 2 Mold Log Graph
 
-- A (yes or no)  
-- B (yes or no)  
-- C (yes or no)  
-
-## 10 Doubling Time (Log Scale)
-
-![](figures/exponentials/doubling-time-log-graph.png)
-
-Please find and report the doubling time for this graph. How is it different from a linear-scale graph?
-
-## 2 Forward or Inverse to Find Amount
-
-Using the graph for **7 Doubling Time Extrapolation**:
-
-- Estimate the time at which the mass of mold is 15 grams and 30 grams.  
-- If you were to do this analytically (using formulas) do you need an inverse (log) function or the exponential function to find the amount?  
-
-## 3 Forward or Inverse to Find Time
-
-Using the graph for **7 Doubling Time Extrapolation**:
-
-- Estimate the mass of mold at day 1 and day 2.  
-- If you were to do this analytically (using formulas) do you need an inverse (log) function or the exponential function to find the time?  
-
+- Graph your function from #1 so that we can estimate at what day the mold reaches 200 grams. Mold should be represented in the horizontal axis.
+- What is your estimate from the graph?
+- Confirm your estimate is reasonable by pluggin in your estmimate for $t$ produces 200 in your exponential function $M=10(2)^t$ in #1.
+  
 ## 4 Estimates (Linear Scale)
 
 You have the following graph. At what time will we reach 27 grams of mold?
 
 ![](figures/exponentials/estimates-linear.png)
+## 11 Doubling Time (Log Scale)
+
+![](figures/exponentials/doubling-time-log-graph.png)
+
+Please find and report the doubling time for this graph. How is it different from a linear-scale graph?
+
+## 12 Forward or Inverse to Find Amount
+
+Recall the graph for **7 Doubling Time Extrapolation**:
+
+- Estimate the time at which the mass of mold is 15 grams and 30 grams.  
+- If you were to do this analytically (using formulas) do you need an inverse (log) function or the exponential function to find the amount?  
+
+
 
 ## 5 Estimates (Log Scale)
 
