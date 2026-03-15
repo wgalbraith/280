@@ -67,9 +67,9 @@ $$t\approx 3.035$$
 For any other number $b$, if $y = b^x$ then $\log_b y = x$.
 
 # Semi-log Plots
-A semi-log plot is a graph in which one axis is scaled logarithmically while the other axis remains linear. Most commonly, the y-axis is logarithmic and the x-axis is linear. This type of plot is useful when data span several orders of magnitude (powers of 10) or when the relationship between variables is exponential. On a semi-log plot, exponential growth or decay appears as a straight line, which makes trends easier to identify and analyze. For example, the exponential function $y=7^x$ can be shown using a linear $y$ axis as below.
+A semi-log plot is a graph in which one axis is scaled logarithmically while the other axis remains linear. Most commonly, the y-axis is logarithmic and the x-axis is linear. This type of plot is useful when data span several orders of magnitude (powers of 10) or when the relationship between variables is exponential. On a semi-log plot, exponential growth or decay appears as a straight line, which makes trends easier to identify and analyze. 
 
-If we show the values in the $y$-axis using a log scale we see the semi-log plot below.
+For example, the exponential function $y=7^x$ can be shown using a linear $y$ axis (below left). If we show the values in the $y$-axis using a log scale we see the semi-log plot (below right).
 
 ![](./figures_static/exponential/semilog.jpg)
 
