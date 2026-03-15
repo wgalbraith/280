@@ -50,33 +50,8 @@ Show the distances on a scale.
 
 ![](./figures_static/exponential/log_scale_1.svg)
 
-## 10 Determine if Exponential or Not
 
-Using the provided spreadsheet file, use a spreadsheet to determine if the data is exponential or not.
-
-Describe the test you used for the data.
-
-**Challenge:** Determine the formula for the non-exponential data
-
-# 12 Estimate Logarithm with Distance
-
-Show how to estimate the logarithm of a number between 20 and 90 using a logarithmic scale on paper and a length measurement.
-
-- Choose your own number  
-- Show the base 10 logarithm  
-- Show the natural logarithm  
-- Show explicitly how the measured lengths in mm can be converted to the logarithm  
-
-# 13 Draw Linear and Log Scales
-
-This uses the log and linear scale handout.
-
-- Which scale is linear, a or b?  
-- Which scale is logarithmic, a or b?  
-- Use a ruler and mark the locations of 2.5, 4, 7, 10, and 15 on the linear scale.  
-- Use a ruler and mark the locations of 4, 8, 10, 16, 20, 25, 40, 80, 100, 125, and $\sqrt{8}$  
-
-# 14 Exponential Graph from Scales
+# 10 Exponential Graph from Scales
 
 Use a logarithmic scale for this exercise.
 
@@ -88,7 +63,7 @@ Use a logarithmic scale for this exercise.
 
 For practice do this again for other values besides $e$.
 
-# 15 Exponents and Logarithms from Scales
+# 11 Exponents and Logarithms from Scales
 
 Use a logarithmic scale for this exercise.
 
