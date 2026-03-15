@@ -1,60 +1,27 @@
 ## 1 Return of the Mold Function
 
-Recall from your previous assignment we had a doubling function for mold, $M=10(2)^t$ where $M$ is mold in grams and $t$ is time in days. Rewrite this as a logarithmic function where $M$ is the input variable and $t$ is the output variable.
+Recall from your previous assignment we had a doubling function for mold, $M=10(2)^t$ where $M$ is mold in grams and $t$ is time in days. Rewrite this as a base-2 logarithmic function where $M$ is the input variable and $t$ is the output variable.
 
 ## 2 Mold Log Graph
 
-- Graph your function from #1 so that we can estimate at what day the mold reaches 200 grams. Mold should be represented in the horizontal axis.
-- What is your estimate from the graph?
-- Confirm your estimate is reasonable by pluggin in your estmimate for $t$ produces 200 in your exponential function $M=10(2)^t$ in #1.
+- Graph your logarithmic function from #1 so that we can estimate at what day the mold reaches 200 grams. Mold should be represented in the horizontal axis.
+- What is your estimate for $t$ from the graph?
+- Confirm your estimate is reasonable by plugging in your estmimate for $t$ produces 200 in your exponential function $M=10(2)^t$ in #1.
   
-## 4 Estimates (Linear Scale)
 
-You have the following graph. At what time will we reach 27 grams of mold?
+## 3 Comparing Different Log Relationships Using a Calculator
+- Create three input-output tables ($x-y$ tables) for the three functions $y=\log_2x$, $y=\log_3x$, and $y=\ln x$. Using the $x$-values shown in the table below.
+![](figures/exponentials/logbases.png)
+ To compute logarithms with bases other than the common log (base-10) and the natural log ($\ln$ aka base-e), we can use the change of base formula. $log_bM=\frac{log M}{\log b}$. For more information about this formula, check out this [Change-of-Base formula video](https://www.youtube.com/watch?v=28SlL5wVoXA)
+  
+- On the same set of axes, graph $y=\log_2x$, $y=\log_3x$, and $y=\ln x$
 
-![](figures/exponentials/estimates-linear.png)
-## 11 Doubling Time (Log Scale)
-
-![](figures/exponentials/doubling-time-log-graph.png)
-
-Please find and report the doubling time for this graph. How is it different from a linear-scale graph?
-
-## 12 Forward or Inverse to Find Amount
-
-Recall the graph for **7 Doubling Time Extrapolation**:
-
-- Estimate the time at which the mass of mold is 15 grams and 30 grams.  
-- If you were to do this analytically (using formulas) do you need an inverse (log) function or the exponential function to find the amount?  
-
-
-
-## 5 Estimates (Log Scale)
+## 6 Estimates (Log Scale)
 
 You have the following graph. When does the mass equal 7 grams?
 
 ![](figures/exponentials/estimates-log.png)
 
-## 6 Inverse base $e$
-
-We have the expression for mold growth of
-
-$$
-\text{mass} = A \cdot e^{b t}
-$$
-
-where $A = 2$ grams and $b = 0.08/\text{hours}$.
-
-How long until I have 20 grams of mold?
-
-## 7 Inverse base 10
-
-$$
-\text{mass} = A \cdot 10^{b \cdot t}
-$$
-
-where $A = 2$ grams and $b = 0.1/\text{hours}$.
-
-How long until I have 50 grams of mold?
 
 ## 8 Draw Your Own Log Scale
 
