@@ -71,7 +71,7 @@ A semi-log plot is a graph in which one axis is scaled logarithmically while the
 
 For example, the exponential function $y=7^x$ can be shown using a linear $y$ axis (below left). If we show the values in the $y$-axis using a log scale we see the semi-log plot (below right).
 
-![](./figures_static/exponential/semilog.jpg)
+![](./figures_static/exponential/semilog.png)
 
 
 
