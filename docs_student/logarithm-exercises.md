@@ -9,12 +9,20 @@ Recall from your previous assignment we had a doubling function for mold, $M=10(
 - Confirm your estimate is reasonable by plugging in your estmimate for $t$ produces 200 in your exponential function $M=10(2)^t$ in #1.
   
 
-## 3 Comparing Different Log Relationships Using a Calculator
+## 3 Comparing Different Log Relationships in a Table Using a Calculator
 - Create three input-output tables ($x-y$ tables) for the three functions $y=\log_2x$, $y=\log_3x$, and $y=\ln x$. Using the $x$-values shown in the table below.
-![](figures/exponentials/logbases.png)
- To compute logarithms with bases other than the common log (base-10) and the natural log ($\ln$ aka base-e), we can use the change of base formula. $log_bM=\frac{log M}{\log b}$. For more information about this formula, check out this [Change-of-Base formula video](https://www.youtube.com/watch?v=28SlL5wVoXA)
   
-- On the same set of axes, graph $y=\log_2x$, $y=\log_3x$, and $y=\ln x$
+![](figures/exponentials/logbases.png)
+
+To compute logarithms with bases other than the common log (base-10) and the natural log ($\ln$ aka base-e), we can use the change of base formula. $log_bM=\frac{log M}{\log b}$. For more information about this formula, check out this [Change-of-Base formula video](https://www.youtube.com/watch?v=28SlL5wVoXA)
+
+## 4 Comparing Different Log Relationships on the Same Axes
+- On the same set of axes, neatly graph $y=\log_2x$, $y=\log_3x$, and $y=\ln x$ using the table you created in #3. Make sure all points implied in the table are shown.
+
+## 5 Mystery Base
+Below is the graph of logarithmic function. Detemine the base of this function using 5 distinct points on the graph to justify your answer.
+
+![](figures/exponentials/mysterybase.png)
 
 ## 6 Estimates (Log Scale)
 
