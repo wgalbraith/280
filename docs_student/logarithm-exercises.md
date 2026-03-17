@@ -56,7 +56,7 @@ Show how you are arriving at your estimates on the scale below.
 Create a semi-log plot for $y=e^x$ according to the instructions below.
 
 - Measure the length between 1 and $e$ on the logarithmic scale (The $y$-axis).   
-- Mark out a linear scale on the $x$-axis where each tick mark equals this length between 1 and $e$ on the $y$-axis. 
+- Mark out a linear scale on the $x$-axis where each tick mark equals the length between 1 and $e$ on the $y$-axis. 
 - Make a table of $x$ and $y$ values for $x=-1,0,1,2,3,4$ according to your scales. Report all values involving $e$ as exact values (no decimal approximations)  
 - Plot the 5 points suggested by your table on your graph.
 - Choose any two points on your line. Then calculate the slope of the line on your graph according to $m=\frac{ln(y_2)-\ln(y_1)}{x_2-x_1}$.
