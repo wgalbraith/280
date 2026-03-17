@@ -58,24 +58,26 @@ Create a semi-log plot for $y=e^x$ according to the instructions below.
 - Measure the length between 1 and $e$ on the logarithmic scale (The $y$-axis).   
 - Mark out a linear scale on the $x$-axis where each tick mark equals the length between 1 and $e$ on the $y$-axis. 
 - Make a table of $x$ and $y$ values for $x=-1,0,1,2,3,4$ according to your scales. Report all values involving $e$ as exact values (no decimal approximations)  
-- Plot the 5 points suggested by your table on your graph.
+- Plot the 6 points suggested by your table on your graph.
 - Choose any two points on your line. Then calculate the slope of the line on your graph according to $m=\frac{ln(y_2)-\ln(y_1)}{x_2-x_1}$.
 
-# 11 Semi-log plot for $y=2e^x$
+# 11 Semi-log plot for $y=e^{2x}$
 
 - Create a semi-log plot similar to #10 for $y=e^{2x}$
 - Choose any two points on your line. Then calculate the slope of the line on your graph according to $m=\frac{ln(y_2)-\ln(y_1)}{x_2-x_1}$.
 - Make a conjecture (a guess) for how we can determine the slope of a line on a semi-log graph from the equation in the form $y=e^{kx}$.
 
+# 12 Semi-log plot for $y=8^x$
 
-# 11 Exponents and Logarithms from Scales
+- Create a semi-log plot similar to #10 for $y=8^x$
+- Choose any two points on your line. Then calculate the slope of the line on your graph according to $m=\frac{ln(y_2)-\ln(y_1)}{x_2-x_1}$.
+- Make a conjecture (a guess) for how we can determine the slope of a line on a semi-log graph from the equation in the form $y=b^{x}$.
 
-Use a logarithmic scale for this exercise.
+# 13 Estimating Roots on Semi-log Graphs
 
-- Measure the length between 1 and $e$ on the logarithmic scale  
-- Mark out a linear scale where 1 data equals this length  
-- Label the logarithmic scale as $y$ and the linear scale as $x$  
-- Make a table of $x$ and $y$ values according to your scales  
-- Show that these $x$ and $y$ values give excellent estimates for $e^x$ and $\ln y$ on a calculator  
+Estimate the following roots from your semi-log graphs.  Clearly explain how you are doing this from your graphs, do not use a calculator except to confirm your graph estimate is accurate.
 
-For practice do this again for other values besides $e$.
+- Use your semi-log graph in #10 to estimate $\sqrt{e}$. Remember: $\sqrt{e}=e^{\frac{1}{2}}$.
+- Use your semi-log graph in #12 to estimate $\sqrt{8}$
+- Use your semi-log graph in #12 to estimate $\sqrt[3]{8}^4$ Remember: $\sqrt[3]{8}^4=8^{\frac{4}{3}}$.
+
