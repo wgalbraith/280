@@ -44,24 +44,29 @@ In this exercise you’ll use a spreadsheet or similar technology (like Desmos) 
 
 ## 9 Logarithmic Scale Roots
 
-Using a logarithmic scale, find the square root of 100, 1000, and the cube root of 100 and 1000.
+Using the logarithmic scale below, find the square root of 100, 1000, and the cube root of 100 and 1000.
 
-Show the distances on a scale.
+Show how you are arriving at your estimates on the scale below.
 
 ![](./figures_static/exponential/log_scale_1.svg)
 
 
 # 10 Exponential Graph from Scales
 
-Use a logarithmic scale for this exercise.
+Create a semi-log plot for $y=e^x$ according to the instructions below.
 
-- Measure the length between 1 and $e$ on the logarithmic scale  
-- Mark out a linear scale where 1 data equals this length  
-- Label the logarithmic scale as $y$ and the linear scale as $x$  
-- Make a table of $x$ and $y$ values according to your scales  
-- Plot this out  
+- Measure the length between 1 and $e$ on the logarithmic scale (The $y$-axis).   
+- Mark out a linear scale on the $x$-axis where each tick mark equals this length between 1 and $e$ on the $y$-axis. 
+- Make a table of $x$ and $y$ values for $x=-1,0,1,2,3,4$ according to your scales. Report all values involving $e$ as exact values (no decimal approximations)  
+- Plot the 5 points suggested by your table on your graph.
+- Choose any two points on your line. Then calculate the slope of the line on your graph according to $m=\frac{ln(y_2)-\ln(y_1)}{x_2-x_1}$.
 
-For practice do this again for other values besides $e$.
+# 11 Semi-log plot for $y=2e^x$
+
+- Create a semi-log plot similar to #10 for $y=e^{2x}$
+- Choose any two points on your line. Then calculate the slope of the line on your graph according to $m=\frac{ln(y_2)-\ln(y_1)}{x_2-x_1}$.
+- Make a conjecture (a guess) for how we can determine the slope of a line on a semi-log graph from the equation in the form $y=e^{kx}$.
+
 
 # 11 Exponents and Logarithms from Scales
 
