@@ -31,8 +31,13 @@ You have the following graph. When does the mass equal 7 grams?
 ![](figures/exponentials/estimates-log.png)
 
 ## 7 Create a Semi-log Plot
-- Using a table using $x$-values from $-1$ to $6$, create a semi-log plot for $y=e^x$
-- Use your plot to estimate $\sqrt{e}$.
+
+Create a semi-log plot for $y=e^x$ according to the instructions below.
+
+- Measure the length between 1 and $e$ on the logarithmic scale (The $y$-axis).   
+- Mark out a linear scale on the $x$-axis where each tick mark equals the length between 1 and $e$ on the $y$-axis. 
+- Make a table of $x$ and $y$ values for $x=-1,0,1,2,3,4$ according to your scales. Report all values involving $e$ as exact values (no decimal approximations), e.g. $e^2$ is the exact value for $x=2$.  
+- Plot the 6 points suggested by your table on your graph.
 
 ## 8 Create Spreadsheet Graph
 
@@ -51,33 +56,28 @@ Show how you are arriving at your estimates on the scale below.
 ![](./figures_static/exponential/log_scale_1.svg)
 
 
-# 10 Exponential Graph from Scales
+## 10 Exponential Graph from Scales
 
-Create a semi-log plot for $y=e^x$ according to the instructions below.
-
-- Measure the length between 1 and $e$ on the logarithmic scale (The $y$-axis).   
-- Mark out a linear scale on the $x$-axis where each tick mark equals the length between 1 and $e$ on the $y$-axis. 
-- Make a table of $x$ and $y$ values for $x=-1,0,1,2,3,4$ according to your scales. Report all values involving $e$ as exact values (no decimal approximations)  
-- Plot the 6 points suggested by your table on your graph.
+- Using the semi-log plot from #7 for $y=e^x$
 - Choose any two points on your line. Then calculate the slope of the line on your graph according to $m=\frac{ln(y_2)-\ln(y_1)}{x_2-x_1}$.
 
-# 11 Semi-log plot for $y=e^{2x}$
+## 11 Semi-log plot for $y=e^{2x}$
 
-- Create a semi-log plot similar to #10 for $y=e^{2x}$
+- Create a semi-log plot a similar procedure used in #7 for $y=e^{2x}$
 - Choose any two points on your line. Then calculate the slope of the line on your graph according to $m=\frac{ln(y_2)-\ln(y_1)}{x_2-x_1}$.
 - Make a conjecture (a guess) for how we can determine the slope of a line on a semi-log graph from the equation in the form $y=e^{kx}$.
 
-# 12 Semi-log plot for $y=8^x$
+## 12 Semi-log plot for $y=8^x$
 
-- Create a semi-log plot similar to #10 for $y=8^x$
+- Create a semi-log plot using a similar procedure used in #7 for $y=8^x$
 - Choose any two points on your line. Then calculate the slope of the line on your graph according to $m=\frac{ln(y_2)-\ln(y_1)}{x_2-x_1}$.
 - Make a conjecture (a guess) for how we can determine the slope of a line on a semi-log graph from the equation in the form $y=b^{x}$.
 
-# 13 Estimating Roots on Semi-log Graphs
+## 13 Estimating Roots on Semi-log Graphs
 
 Estimate the following roots from your semi-log graphs.  Clearly explain how you are doing this from your graphs, do not use a calculator except to confirm your graph estimate is accurate.
 
-- Use your semi-log graph in #10 to estimate $\sqrt{e}$. Remember: $\sqrt{e}=e^{\frac{1}{2}}$.
+- Use your semi-log graph in #7 to estimate $\sqrt{e}$. Remember: $\sqrt{e}=e^{\frac{1}{2}}$.
 - Use your semi-log graph in #12 to estimate $\sqrt{8}$
 - Use your semi-log graph in #12 to estimate $\sqrt[3]{8}^4$ Remember: $\sqrt[3]{8}^4=8^{\frac{4}{3}}$.
 
