@@ -23,16 +23,6 @@ Notice how this behavior of the logarithmic scale is different and similar to th
 
 ![](./figures_static/exponential/log-scale-makes-2x.jpg)
 
-# Exponential Notation
-
-You've probably seen notation like $x^2$ or $x^3$ several times before.
-In exponential notation, our symbol for a variable, $x$ is in the exponent.
-
-For example $2^x$ or $3^x$.
-
-Recall that $1 = 2^0$, $2 = 2^1$, $2 \cdot 2 = 2^2 = 4$, etc.
-So, $2^x$ means to multiply 2 by itself x times.
-
 # Fractional Powers
 
 Here we see that if we go a distance (about 50mm on the original paper drawing) we multiply by $10^1$.
@@ -41,7 +31,7 @@ Going half that distance multilies by $10^{1/2}$.
 
 ![](./figures_static/exponential/logarithmic-scale-powers-10.png)
 
-# Exponentials and Logarithms are Inverses of on Another
+# Exponentials and Logarithms are Inverses of one Another
 
 Observe that we can rewrite the equation $y=2x$ as $\frac{y}{2}=x$ because the division of $y$ by 2 on the left side of the equation is the inverse of the multiplication of $x$ by 2 on the right side. Because the logarithm is the inverse of an exponential function, we can do something similar to rewrite exponential equations as logarithmic equations.
 
