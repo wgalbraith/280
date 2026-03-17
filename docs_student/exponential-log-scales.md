@@ -46,7 +46,7 @@ We can use this relationship to help us solve exponential equations.
 
 For example, let's say you want to solve $75 = 10^x$ for $x$. We can rewrite this as $\log_{10}75=x$.  Note that base-10 logs are known as the "common log". The `log` button on your calculator corresponds to base-10, So we can use our calculator to find that $\log 75\approx 1.875$. You can confirm that $10^{1.875}\approx 75$.
 
-When we use the number $e$ we use the natural log $\ln$. For example, we could solve $104=5e^t$ for $t$ as follows.
+When we use the number $e$ as our base, the corresponding logarithm is called the natural log, notated as $\ln$ (also a button on your calculator). For example, we could solve $104=5e^t$ for $t$ as follows.
 
 $$\frac{104}{5} = e^t$$ 
 
