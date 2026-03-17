@@ -26,7 +26,7 @@ Below is the graph of logarithmic function. Detemine the base of this function u
 
 ## 6 Estimates (Log Scale)
 
-You have the following graph. When does the mass equal 7 grams?
+We have the following graph where the vertical axis is given in a logarithmic scale. When does the mass equal 7 grams? You may use a calculator. (Hint: You will need to find out the power of 10 that is equivalent to 7).
 
 ![](figures/exponentials/estimates-log.png)
 
