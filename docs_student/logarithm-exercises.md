@@ -59,18 +59,18 @@ Show how you are arriving at your estimates on the scale below.
 ## 10 Exponential Graph from Scales
 
 - Using the semi-log plot from #7 for $y=e^x$
-- Choose any two points $(x_1,y_1)$ and $(x_2,y_2)$ on your line. Then calculate the slope of the line on your graph according to $m=\frac{\ln(y_2)-\ln(y_1)}{x_2-x_1}$. 
+- Choose any two points $(x_1,y_1)$ and $(x_2,y_2)$ on your line. Then calculate the slope of the line on your graph according to $m=\frac{\ln(y_2)-\ln(y_1)}{x_2-x_1}$. Note that this slope is not measuring the rate of change of the exponential relationship, as exponential relationships do not have a constant rate of change (slope). Applying the logarithm to our $y$-values in the numerator is giving us the **constant rate of change of the logarthim of $y$ per change in $x$**. 
 
 ## 11 Semi-log plot for $y=e^{2x}$
 
 - Create a semi-log plot a similar procedure used in #7 for $y=e^{2x}$
-- Choose any two points $(x_1,y_1)$ and $(x_2,y_2)$ your line. Then calculate the slope of the line on your graph according to $m=\frac{\ln(y_2)-\ln(y_1)}{x_2-x_1}$.
+- Choose any two points $(x_1,y_1)$ and $(x_2,y_2)$ your line. Then calculate the slope of the line on your graph according to $m=\frac{\ln(y_2)-\ln(y_1)}{x_2-x_1}$. See the note about the interpretation of this slope in #10.
 - Make a conjecture (a guess) for how we can determine the slope of a line on a semi-log graph from the equation in the form $y=e^{kx}$.
 
 ## 12 Semi-log plot for $y=8^x$
 
 - Create a semi-log plot using a similar procedure used in #7 for $y=8^x$
-- Choose any two points $(x_1,y_1)$ and $(x_2,y_2)$ your line. Then calculate the *exact value* (not a decimal approximation) of the slope of the line on your graph according to $m=\frac{\ln(y_2)-\ln(y_1)}{x_2-x_1}$. Hint: To find exact value of your slope, use the subtraction property of logarithms: $\ln(A)-\ln(B)=\ln\frac{A}{B}$  
+- Choose any two points $(x_1,y_1)$ and $(x_2,y_2)$ your line. Then calculate the *exact value* (not a decimal approximation) of the slope of the line on your graph according to $m=\frac{\ln(y_2)-\ln(y_1)}{x_2-x_1}$. Hint: To find exact value of your slope, use the subtraction property of logarithms: $\ln(A)-\ln(B)=\ln\frac{A}{B}$. 
 - Make a conjecture (a guess) for how we can determine the slope of a line on a semi-log graph from the equation in the form $y=b^{x}$. 
 
 
