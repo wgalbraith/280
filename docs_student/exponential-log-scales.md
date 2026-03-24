@@ -63,9 +63,9 @@ For example, the exponential function $y=7^x$ can be shown using a linear $y$ ax
 
 ![](./figures_static/exponential/semilog.png)
 
-#Log-linear Plots
+# Log-linear Plots
 
-A log-linear plot of $y=ab^{kx}$ is simliar to a semi-log plot, in the sense that we can view an exponential relationship as a line. The diffference is that instead of transforming the $y$-axis into a logarithmic scale as we do for a semi-log plot, we take the logarithm of both sides of the equation and using properties of logarithms we get the linear equation $\log_b y=\log a + kx$. The advantage of this plot is that both axes use linear scales and we can clearly see the slope and intercept on the graph. For example, the exponential function $A(t)=3e^{0.5t}$ can made into the log-linear plot $\ln(A(t)=\ln(3)+0.5t$.
+A log-linear plot of $y=ab^{kx}$ is simliar to a semi-log plot, in the sense that we can view an exponential relationship as a line. The diffference is that instead of transforming the $y$-axis into a logarithmic scale as we do for a semi-log plot, we take the logarithm of both sides of the equation and using properties of logarithms we get the linear equation $\log_b y=\log_b a + kx$. The advantage of this plot is that both axes use linear scales and we can clearly see the slope and intercept on the graph. For example, the exponential function $A(t)=3e^{0.5t}$ can made into the log-linear plot $\ln(A(t)=\ln(3)+0.5t$. The graphs below show the same relationship between $A$ and $t$. Note that the values 1,2,3, and 4 on vertical axis on the log-linear plot represent the exponents of $e$ associated with $e^1,e^2,e^3$ and $e^4$. Always Remember: Logarithms are exponents!
 
 ![](./figures_static/exponential/linlog.png)
 
