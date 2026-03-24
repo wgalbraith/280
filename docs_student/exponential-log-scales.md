@@ -63,6 +63,12 @@ For example, the exponential function $y=7^x$ can be shown using a linear $y$ ax
 
 ![](./figures_static/exponential/semilog.png)
 
+#Log-linear Plots
+
+A log-linear plot of $y=ab^{kx}$ is simliar to a semi-log plot, in the sense that we can view an exponential relationship as a line. The diffference is that instead of transforming the $y$-axis into a logarithmic scale as we do for a semi-log plot, we take the logarithm of both sides of the equation and using properties of logarithms we get the linear equation $\log_b y=\log a + kx$. The advantage of this plot is that both axes use linear scales and we can clearly see the slope and intercept on the graph. For example, the exponential function $A(t)=3e^{0.5t}$ can made into the log-linear plot $\ln(A(t)=\ln(3)+0.5t$.
+
+![](./figures_static/exponential/linlog.png)
+
 
 
 
