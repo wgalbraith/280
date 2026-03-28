@@ -71,33 +71,33 @@ nav:
       - Logarithmic Scales: exponential-log-scales.md
       - Exponential Exercises: exponential-exercises.md
       - Logarithmic Exercises: logarithm-exercises.md
-  - Chapter 6 - Distributions and Histograms:
-      - Concepts: distributions-1-concepts.md
-      - Metrics: distributions-2-metrics.md
-      - Histogram Case Studies: distributions-case-studies.md
-      - Histograms on the Computer: distributions-computer.md
-      - Histograms to Distributions: distributions-examples.md
+  #- Chapter 6 - Distributions and Histograms:
+     # - Concepts: distributions-1-concepts.md
+     # - Metrics: distributions-2-metrics.md
+    #  - Histogram Case Studies: distributions-case-studies.md
+     # - Histograms on the Computer: distributions-computer.md
+     # - Histograms to Distributions: distributions-examples.md
     # - Computer Plots: distributions-3-digital.md
-      - Exercises: distributions-exercises.md
-  - Chapter 7 - Populations and Samples:
-        - Concepts: populations.md
-        - Shifting Distributions: populations-1-interventions.md
-        - Central Limit Theorem: populations-2-CLT-concepts.md
-        - Examples: populations-examples.md
-        - Spreadsheet Computation: populations-3-CLT-spreadsheet.md
-        - Associations: populations-associations.md
-        - Exercises: populations-exercises.md
-  - Chapter 8 - Linear Regression:
-        - Linear Regression: regression.md
-        - Exercises: regression-exercises.md
+    #  - Exercises: distributions-exercises.md
+  #- Chapter 7 - Populations and Samples:
+        #- Concepts: populations.md
+        #- Shifting Distributions: populations-1-interventions.md
+        #- Central Limit Theorem: populations-2-CLT-concepts.md
+        #- Examples: populations-examples.md
+        #- Spreadsheet Computation: populations-3-CLT-spreadsheet.md
+        #- Associations: populations-associations.md
+        #- Exercises: populations-exercises.md
+  #- Chapter 8 - Linear Regression:
+       # - Linear Regression: regression.md
+        #- Exercises: regression-exercises.md
   #- Chapter 9 - Metacognition:
         #- Exercises: metacognition-exercises.md
-  - Case Studies:
-        - CalEnviroScreen: calenviroscreen.md
-        - CES Case Study: statistics-ces.md
-        - Confounding Variables: confounding-variables.md
-  - Resources:
-        - Data Sources: data-sources.md
+  #- Case Studies:
+        #- CalEnviroScreen: calenviroscreen.md
+        #- CES Case Study: statistics-ces.md
+       # - Confounding Variables: confounding-variables.md
+  #- Resources:
+        #- Data Sources: data-sources.md
   #- Assessments: 280-assessments.md
 extra_css:
    - katex/katex.min.css
