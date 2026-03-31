@@ -58,3 +58,7 @@ histogram.</p>
 <li><p>Shows the value of that data on the $x$-axis</p></li>
 <li><p>Divides the $x$-axis into evenly spaced bins</p></li>
 <li><p>On the $y$-axis shows the number of values in each bin</p></li>
+<figure>
+<img src="./figures_static/statistics/statepop.png"
+alt="State Areas" />
+</figure>
