@@ -71,5 +71,4 @@ alt="State Populations" />
 <img src="./figures_static/statistics/sumstats.png"
 alt="Summary Statistics" />
 </figure>
-<p>Note that the mean does not do a good job at describing the population of a typical state. This is largley due to the influence of the right-skew and the large outliers (the 4 states with much larger populations than the other 46). 
-In this case, we would rely on the median to describe the population of a typical state.</p>
+<p>Note that the mean does not do a great job at describing the population of a typical state since it is closer to Q3 than it is to the median, This is largley due to the influence of the right-skew and the large outliers (the 4 states with much larger populations than the other 46). In this case, we would usually rely on the median to describe the population of a typical state.</p>
