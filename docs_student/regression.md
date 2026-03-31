@@ -1,11 +1,11 @@
 <h1 id="linear-regression">Linear Regression</h1>
-<p>Linear Models with Gaussian Noise</p>
-<p>Here we combine our linear model with uncertainty. Even though data may not fall on a perfect line, we can uncover an underlying linear relationship even if the data have a lot of variation.</p>
+<p> Linear regression uses data from two quantitaive variables, typically and explantory variable and a response variable to produce a linear equation that describes the linear relationship between the variables, and also provides some measures that describe the uncertainty that is inherent in the data. </p>
+<h2>The Signal and the Noise</h2>
+<p>In linear regression Noise is often used in contrast to the signal, which is considered the variation that is being explained by the expanatory variable.
+<p>Below is a scatter plot that shows the relation ship between mass and length. We see that there is certainly a linear releationship suggested in the plot, but there is also quite a bit of statistical noise. The term "noise" refers  to random variation or unexplained fluctuations in data that are not being explained by the explanatory variable. </p>
 <figure>
 <img src="./figures_static/statistics/linear_model_with_noise.png" alt="Linear data with noise" /><figcaption aria-hidden="true">Linear data with noise</figcaption>
 </figure>
-<p>Before we have taken a population and broken it into two samples and looked for differences between the distributions. These concepts and techniques allow us to take a population and sort it according to a variable and see how the distribution varies.</p>
-<!-- ![Linear data with noise and violin plot]() -->
 <h1 id="questions">Questions</h1>
 <p>By finding the underlying slope in the data, we can ask what is the average change in a measurement based on a change in the other measurement.</p>
 <p>By measuring the variation in the data around that line, we can ask how much of the measurement is explained by the linear relationship and how much of the measurement can’t be explained yet.</p>
