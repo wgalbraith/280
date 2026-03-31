@@ -71,10 +71,10 @@ nav:
       - Logarithmic Scales: exponential-log-scales.md
       - Exponential Exercises: exponential-exercises.md
       - Logarithmic Exercises: logarithm-exercises.md
-  - Chapter 6 - Describing Data:
-      - Concepts: center-variation.md
-     # - Metrics: distributions-2-metrics.md
-    #  - Histogram Case Studies: distributions-case-studies.md
+  - Chapter 6 - Statistics:
+      - The Basic Anatomy of a Dataset: center-variation.md
+      - Types of Studies: studies.md
+      - Measures of Center and Variation: center-variation.md
      # - Histograms on the Computer: distributions-computer.md
      # - Histograms to Distributions: distributions-examples.md
     # - Computer Plots: distributions-3-digital.md
