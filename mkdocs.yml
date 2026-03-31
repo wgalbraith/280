@@ -75,7 +75,7 @@ nav:
       - The Basic Anatomy of a Dataset: cases-variables.md
       - Types of Studies: studies.md
       - Measures of Center and Variation: center-variation.md
-  #  - Linear Regression: regression.md
+      - Linear Regression: regression.md
       #- Exercises: regression-exercises.md
  # - Chapter 7 - Inferential Statistics:
       #-Samples and Populations
