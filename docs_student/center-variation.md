@@ -54,42 +54,38 @@ the data has a value above it.</p>
 
 <p>A histogram</p>
 <ul>
-  <li><p>Shows data of a single quantitative variable</p></li>
-  <li><p>Shows the value of that data on the $x$-axis</p></li>
-  <li><p>Divides the $x$-axis into evenly spaced bins</p></li>
-  <li><p>On the $y$-axis shows the number of values in each bin</p></li>
+  <li>Shows data of a single quantitative variable</li>
+  <li>Shows the value of that data on the x-axis</li>
+  <li>Divides the x-axis into evenly spaced bins</li>
+  <li>On the y-axis shows the number of values in each bin</li>
 </ul>
 
 <h2>Example: Populations of US States</h2>
 <p>
-  Below is a histogram showing the population of all 50 states in millions.
-  Each bin has a width of 2.5 million. The bins represent the intervals
-  (0,2.5), (2.5,5), (5,7.5), ..., (37.5,40). The height on the vertical axis
-  shows the number of states that have a population in a particular bin.
-  For example, there are 15 states with a population between 0 and 2.5 million people.
+Below is a histogram showing the population of all 50 states in millions.
+Each bin has a width of 2.5 million. The bins represent the intervals
+(0,2.5), (2.5,5), (5,7.5), ..., (37.5,40). The height on the vertical axis
+shows the number of states that have a population in a particular bin.
+For example, there are 15 states with a population between 0 and 2.5 million people.
 </p>
 
-<figure>
-  <img src="./figures_static/statistics/statespop.png" width="1000" alt="State Populations" />
-</figure>
+![State Populations](./figures_static/statistics/statespop.png)
 
 <p>
-  Note: The shape of the distribution above is called right-skewed.
-  A right-skewed distribution is characterized by a concentration of values
-  on the lower end of the distribution with a "tail" indicating fewer cases
-  as the values increase.
+Note: The shape of the distribution above is called right-skewed.
+A right-skewed distribution is characterized by a concentration of values
+on the lower end of the distribution with a tail indicating fewer cases
+as the values increase.
 </p>
 
 <p>Below are some summary statistics:</p>
 
-<figure>
-  <img src="./figures_static/statistics/sumstats.png" width="600" alt="Summary Statistics" />
-</figure>
+![Summary Statistics](./figures_static/statistics/sumstats.png)
 
 <p>
-  Note that the mean does not do a great job at describing the population of a
-  typical state since it is closer to Q3 than it is to the median. This is
-  largely due to the influence of the right-skew and the large outliers
-  (the 4 states with much larger populations than the other 46). In this case,
-  we would usually rely on the median to describe the population of a typical state.
+Note that the mean does not do a great job at describing the population of a
+typical state since it is closer to Q3 than it is to the median. This is
+largely due to the influence of the right-skew and the large outliers
+(the 4 states with much larger populations than the other 46). In this case,
+we would usually rely on the median to describe the population of a typical state.
 </p>
