@@ -75,23 +75,9 @@ nav:
       - The Basic Anatomy of a Dataset: cases-variables.md
       - Types of Studies: studies.md
       - Measures of Center and Variation: center-variation.md
-     # - Histograms on the Computer: distributions-computer.md
-     # - Histograms to Distributions: distributions-examples.md
-    # - Computer Plots: distributions-3-digital.md
-    #  - Exercises: distributions-exercises.md
-  #- Chapter 7 - Populations and Samples:
-        #- Concepts: populations.md
-        #- Shifting Distributions: populations-1-interventions.md
-        #- Central Limit Theorem: populations-2-CLT-concepts.md
-        #- Examples: populations-examples.md
-        #- Spreadsheet Computation: populations-3-CLT-spreadsheet.md
-        #- Associations: populations-associations.md
-        #- Exercises: populations-exercises.md
-  #- Chapter 8 - Linear Regression:
-       # - Linear Regression: regression.md
+      #- Populations and Samples:
+      #- Linear Regression: regression.md
         #- Exercises: regression-exercises.md
-  #- Chapter 9 - Metacognition:
-        #- Exercises: metacognition-exercises.md
   #- Case Studies:
         #- CalEnviroScreen: calenviroscreen.md
         #- CES Case Study: statistics-ces.md
