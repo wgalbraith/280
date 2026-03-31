@@ -71,13 +71,15 @@ nav:
       - Logarithmic Scales: exponential-log-scales.md
       - Exponential Exercises: exponential-exercises.md
       - Logarithmic Exercises: logarithm-exercises.md
-  - Chapter 6 - Statistics:
+  - Chapter 6 - Descriptive Statistics:
       - The Basic Anatomy of a Dataset: cases-variables.md
       - Types of Studies: studies.md
       - Measures of Center and Variation: center-variation.md
-      #- Populations and Samples:
-      #- Linear Regression: regression.md
-        #- Exercises: regression-exercises.md
+      - Linear Regression: regression.md
+      #- Exercises: regression-exercises.md
+  - Chapter 7 - Inferential Statistics:
+      #-Samples and Populations
+      #-Confidence Intervals
   #- Case Studies:
         #- CalEnviroScreen: calenviroscreen.md
         #- CES Case Study: statistics-ces.md
