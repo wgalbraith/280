@@ -65,7 +65,6 @@ Suppose a teacher collects data on students:
   </ul>
 </li>
 </ul>
-
 <p>
 If studying affects performance:
 </p>
