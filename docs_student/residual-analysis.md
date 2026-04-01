@@ -60,6 +60,9 @@ A residual plot graphs:
 
 The horizontal line at $0$ is especially important because it shows where the model predicts exactly correctly.
 
+<img src="./figures_static/statistics/resex.png" width="600">
+
+
 ### A good residual plot
 
 A good residual plot looks like a random cloud of points centered around $0$.
@@ -79,6 +82,8 @@ For example:
 - a curved shape may suggest the relationship is not linear
 - a funnel shape may suggest the spread changes as $x$ increases
 - a cluster or trend may suggest the model is missing something important
+
+
 
 ## Common patterns and what they mean
 
