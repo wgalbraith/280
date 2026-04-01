@@ -76,6 +76,7 @@ nav:
       - Types of Studies: studies.md
       - Measures of Center and Variation: center-variation.md
       - Linear Regression: regression.md
+      - Residual Analysis: residual-analysis.md
       #- Exercises: regression-exercises.md
  # - Chapter 7 - Inferential Statistics:
       #-Samples and Populations
