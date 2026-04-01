@@ -9,6 +9,6 @@
   <p>When doing regression, we are trying to separate the signal from the noise.</p>
 <p>Below is a scatter plot that shows the relationship between mass and length. While there a clear a linear releationship suggested in the plot, there is also quite a bit of statistical noise.  </p>
 <figure>
-<img src="./figures_static/statistics/linear_model_with_noise2.png" alt="Linear data with noise" /><figcaption aria-hidden="true">Linear data with noise</figcaption>
+<img src="./figures_static/statistics/linear_model_with_noise2.png" width="750" alt="Linear data with noise" /><figcaption aria-hidden="true">Linear data with noise</figcaption>
 </figure>
 
