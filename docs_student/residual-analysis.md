@@ -60,6 +60,8 @@ A residual plot graphs:
 
 The horizontal line at $0$ is especially important because it shows where the model predicts exactly correctly.
 
+Below we see the residual plot directly below the scatter plot and line-of-best-fit. The upward pointing arrows represent the positive residuals.
+
 <img src="./figures_static/statistics/resex.png" width="600">
 
 
