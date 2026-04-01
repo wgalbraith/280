@@ -1,8 +1,9 @@
 # Residual Analysis in Linear Regression
 
-If you have taken a statistics course, you have likely heard the word **residual**, but let us restate it clearly.
+In the last section we noted that a linear model consisted of a linear equation (the signal) and the random variation associated with the data (the noise). Our signal is expressed as the linear equation $\hat{y}=a+bx$, but how can we quantify the noise associated with unexplained variability? We do this by drawing our attention to the discrepancy between our regression equation and the obseved data. In other words, we want to measure how well (or poorly) is the equation doing at capturing the observed data by noting the difference between the predicted values of our response variable $\hat{y}$ and the observed values $y$ in our data. This difference is what we call this the residual.  
 
-A **residual** is the difference between the observed value of the response variable and the value predicted by the regression line.
+
+Definition: A **residual** is the difference between the observed value of the response variable and the value predicted by the regression line.
 
 $$
 \text{Residual} = y - \hat{y}
@@ -13,7 +14,7 @@ Here:
 - $y$ is the actual observed value  
 - $\hat{y}$ (y-hat) is the predicted value from the model  
 
-So a residual tells us how far off the model was for one particular data point.
+A residual tells us how far off the model was for one particular data point.
 
 A positive residual means the actual value was **above** the predicted value.  
 A negative residual means the actual value was **below** the predicted value.
@@ -83,13 +84,14 @@ For example:
 
 If the residuals bend upward and downward in a clear curve, the relationship may not be linear.
 
-### Funnel (or  shape
+### Funnel (or Fan) shape
 
 If the residuals spread out or compress as $x$ increases, the variability is not constant.
 
 ### Outliers
 
-If one or two residuals are much larger than the others, those points may be unusual.
+If we find that some data produces residuals are much larger than the others, those points may need to be treated as unusual, aka outliers. 
+Outliers can have disproportionate effect on out linear model.
 
 ## Interpreting residual size
 
