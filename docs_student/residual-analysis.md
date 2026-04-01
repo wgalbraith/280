@@ -14,7 +14,7 @@ Here:
 - $y$ is the actual observed value  
 - $\hat{y}$ (y-hat) is the predicted value from the model
 
-![Residual](res.png)
+![Residual](./figures_static/statistics/res.png)
 
 A residual tells us how far off the model was for one particular data point.
 
