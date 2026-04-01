@@ -1,0 +1,111 @@
+# Residual Analysis in Linear Regression
+
+If you have taken a statistics course, you have likely heard the word **residual**, but let us restate it clearly.
+
+A **residual** is the difference between the observed value of the response variable and the value predicted by the regression line.
+
+$$
+\text{Residual} = y - \hat{y}
+$$
+
+Here:
+
+- $y$ is the actual observed value  
+- $\hat{y}$ (y-hat) is the predicted value from the model  
+
+So a residual tells us how far off the model was for one particular data point.
+
+A positive residual means the actual value was **above** the predicted value.  
+A negative residual means the actual value was **below** the predicted value.
+
+## Why residuals matter
+
+When we fit a regression line, we are trying to describe the relationship between an explanatory variable and a response variable. But finding a regression equation is not the end of the story.
+
+We also need to ask:
+
+- Does a linear model make sense here?
+- Does the model miss an important pattern?
+- Are the prediction errors reasonably small and well behaved?
+
+Residual analysis helps answer those questions.
+
+In simple terms, residuals help us decide whether the regression model is doing a good job.
+
+## What we want residuals to look like
+
+For a linear regression model to be appropriate, the residuals should look **random**.
+
+That means:
+
+- they should be scattered around $0$
+- they should not form a curve or other pattern
+- they should have about the same spread across the graph
+
+If the residuals look random, that supports the idea that a linear model is reasonable.
+
+If the residuals show a pattern, that is a warning sign that the model may not fit well.
+
+## The residual plot
+
+One of the most common tools in regression is the **residual plot**.
+
+A residual plot graphs:
+
+- the residuals on the vertical axis
+- either the predictor values or the fitted values on the horizontal axis
+
+The horizontal line at $0$ is especially important because it shows where the model predicts exactly correctly.
+
+### A good residual plot
+
+A good residual plot looks like a random cloud of points centered around $0$.
+
+This suggests:
+
+- the relationship is roughly linear
+- the model is not systematically overpredicting or underpredicting
+- the variation in residuals is fairly constant
+
+### A bad residual plot
+
+A bad residual plot may show a visible pattern.
+
+For example:
+
+- a curved shape may suggest the relationship is not linear
+- a funnel shape may suggest the spread changes as $x$ increases
+- a cluster or trend may suggest the model is missing something important
+
+## Common patterns and what they mean
+
+### Curved pattern
+
+If the residuals bend upward and downward in a clear curve, the relationship may not be linear.
+
+### Funnel (or  shape
+
+If the residuals spread out or compress as $x$ increases, the variability is not constant.
+
+### Outliers
+
+If one or two residuals are much larger than the others, those points may be unusual.
+
+## Interpreting residual size
+
+The size of a residual tells us how inaccurate a prediction was.
+
+- Small residuals $\rightarrow$ prediction was close  
+- Large residuals $\rightarrow$ prediction was far off  
+
+## Main idea to remember
+
+> If a linear model is appropriate, the residuals should look random and patternless.
+
+## Summary
+
+- Residual $= y - \hat{y}$  
+- Residuals measure prediction error  
+- Residual plots help check model validity  
+- Good residuals look random  
+- Patterns indicate problems  
