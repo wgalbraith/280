@@ -75,6 +75,7 @@ nav:
       - The Basic Anatomy of a Dataset: cases-variables.md
       - Types of Studies: studies.md
       - Measures of Center and Variation: center-variation.md
+      #- Comparing Means: diff-means.md
       - Linear Regression: regression.md
       - Residual Analysis: residual-analysis.md
       #- Exercises: regression-exercises.md
