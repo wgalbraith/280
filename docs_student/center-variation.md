@@ -27,7 +27,7 @@ Let’s say this figure represents a group of organisms. How could we answer the
 
 ## Mean or Average
 
-A common measure of center is the mean. If we take a list of data, sum the values, and divide by the number of data values, we get the mean, or average.
+A common measure of center is the mean. If we take a list of data, sum the values, and divide by the number of data values, we get the mean, or average. When we refer to a mean from a sample we will use the notation $\bar{x}$. 
 
 ## Median
 
@@ -35,7 +35,7 @@ Another measure of central tendency is the median. The median is the value at wh
 
 ## Standard Deviation
 
-The standard deviation is a measure of how far a typical data value is from the mean.
+The standard deviation is a measure of how far a typical data value is from the mean. When we refer to the standard deviation from sample data, we will use the notation $s$.
 
 ## Interquartile Range
 
