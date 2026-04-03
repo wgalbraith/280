@@ -1,2 +1,4 @@
 # Comparing Means from Two Independent Groups
-Sometimes we want to know if a quantitative variable is being influenced by a categorical variable.
+Sometimes we want to know if a quantitative variable is being influenced by a categorical variable. Typlically, we will do this by comparing the means across the categories, or groups, implied in a categorical variable.
+While it is possible to perform this across multiple categories, we will focus on the case where we are comparing means across two groups. Further, we will make this comparison by looking at *the difference in means* between the groups.
+For example, suppose we want to know if there is a difference in the average pulse rate for olympic swimmers and olympic track athletes. We could calculate a mean from both groups and take a difference in their mean pulse rates. Specifically, if we let the mean pulse rate for swimmers be $\bar{x}_S$ and the mean for track athletes be $\bar{x}_T$, our difference of mean calulation would be $$\bar{x}_S-\bar{T}_T$$.
