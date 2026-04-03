@@ -80,7 +80,7 @@ nav:
       - Residual Analysis: residual-analysis.md
       #- Exercises: regression-exercises.md
  # - Chapter 7 - Inferential Statistics:
-      #-Samples and Populations
+      #-Making Estimates about Populations from Sample Data
       #-Confidence Intervals
   #- Case Studies:
         #- CalEnviroScreen: calenviroscreen.md
