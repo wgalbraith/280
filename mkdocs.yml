@@ -78,7 +78,7 @@ nav:
       - Comparing Means: diff-means.md
       - Linear Regression: regression.md
       - Residual Analysis: residual-analysis.md
-      #- Exercises: regression-exercises.md
+      - Exercises: stats-exercises.md
  # - Chapter 7 - Inferential Statistics:
       #-Making Estimates about Populations from Sample Data
       #-Confidence Intervals
