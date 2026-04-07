@@ -9,15 +9,20 @@ Suppose we have data on all olympic athletes from the 2024 olympic games and we 
 Even though we are using two means in our calculation, we should remember a **difference of means is a single value**. If our difference on means is significantly different from 0, this would provide evidence that the group the athlete is in 
 is associated with pulse rate.
 
-# Comparing Quantitative Distribution from Two Independent Groups
+# Comparing Quantitative Distributions from Two Independent Groups
 
-While the mean is often the most popular statistic to compare across groups, it often either an incomplete metric, or worse a misleading metric. It can be incomplete in the sense that it only gives a measure of central tendency. It includes no information about variablilty or the shape of the underlying data. We can visualize these relationships using the side-by-side plots. These side-by-side plots may be dot plots, histograms, or boxplots, shown below from top to bottom. The summary statistics follow. The data shown is hours of TV watched per week for males compared to females.
+While the mean is often the most popular statistic to compare across groups, it often either an incomplete metric, or worse a misleading metric. It can be incomplete in the sense that it only gives a measure of central tendency. It includes no information about variablilty or the shape of the underlying data. We can visualize these relationships using the side-by-side plots. These side-by-side plots may be dot plots, histograms, or boxplots 
+
+## Example The data shown below comparing hours of TV watched per week for males compared to females. Note how much more information we are getting than simply comparing their means.
 
 
 ![SSdot](./figures_static/statistics/ssdot.png)
 ![SShist](./figures_static/statistics/sshist.png)
 ![SSbox](./figures_static/statistics/ssbox.png)
 
+Note: The asterisks in the boxplots indicate these values are considered outliers in their respective groups.
+
 We can also compare the summary statistics across groups (below)
 
 ![SSstat](./figures_static/statistics/ssstat.png)
+
