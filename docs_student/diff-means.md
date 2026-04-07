@@ -11,7 +11,13 @@ is associated with pulse rate.
 
 # Comparing Quantitative Distribution from Two Independent Groups
 
-While the mean is often the most popular statistic to compare across groups, it often either an incomplete metric, or worse a misleading metric. It can be incomplete in the sense that it only gives a measure of central tendency. It includes no information about variablilty or the shape of the underlying data. In order to get a fuller picture we may rely on comparisons of the 5-number summaries for each groupa and/or side-by-side plots. Thes plots may be dot plots, histograms, or boxplots, shown below from top to bottom. 
+While the mean is often the most popular statistic to compare across groups, it often either an incomplete metric, or worse a misleading metric. It can be incomplete in the sense that it only gives a measure of central tendency. It includes no information about variablilty or the shape of the underlying data. We can visualize these relationships using the side-by-side plots. These side-by-side plots may be dot plots, histograms, or boxplots, shown below from top to bottom. The summary statistics follow. The data shown is hours of TV watched per week for males compared to females.
 
 
+![SSdot](./figures_static/statistics/ssdot.png)
+![SShist](./figures_static/statistics/sshist.png)
+![SSbox](./figures_static/statistics/ssbox.png)
 
+We can also compare the summary statistics across groups (below)
+
+![SSstat](./figures_static/statistics/ssstat.png)
