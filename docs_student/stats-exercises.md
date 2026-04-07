@@ -69,11 +69,13 @@ The effects of caffeine on the body have been extensively studied. In one experi
 ## 9 (Under Construction)
 # For Questions #10-12: 
 
-These questions will ise Stakey, but will not require us to upload daya. The data will be found in the dropdown menus on the approprate Statkey screen, i.e. the screen that you will need to answer the questions (single quantitative, 
+These questions will ise Stakey, but will **not** require us to upload data. The data will be found in the dropdown menus on the approprate Statkey screen, i.e. the screen that you will need to answer the questions (single quantitative, 
 one categorical and one quantitative, etc)
 
 ## 10 EV Range by Class
 A Plug-in Hybrid Electric Vehicle (PHEV) combines a gasoline engine with an electric motor and a larger battery that can be plugged in to charge. BEVs (Battery Electric Vehicles) run 100% on electricity. This data is available in the drop down menu under EV Cars (Electric Range by Class). See image below.
+
+
 
 ### a) Report the difference of means.
 ### b) What is the maximum range in the PHEV category?
