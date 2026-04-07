@@ -46,6 +46,45 @@ The flies fed organic food lived an average of 3.25 days longer than the flies f
 
 Science deniers oppose robust and valid results of scientific inquiry. A recent study investigates the most effective ways to debunk scientific misinformation. Science advocates can respond to misinformation using topic rebuttal (providing scientific facts on the subject) or technique rebuttal (explaining more generally the false techniques used by science deniers). In the study, 1773 participants first listened to a science denier and were then randomly assigned to one of four conditions: no rebuttal, topic rebuttal, technique rebuttal, or both topic and technique rebuttal. Participants’ attitudes toward the science topic were measured and recorded three times: before participation, after the science denier, and after the rebuttal. Results indicate the importance of having a rebuttal: participants on average were influenced by the science denier, but the influence was mitigated by having any rebuttal. The study further showed that topic or technique rebuttal worked equally well, and having both provided no additional benefit.
 
+
 # For Questions #7-9: 
 
-Go to [Lock Datasets](https://www.lock5stat.com/datapage4e.html) and download the .csv format of the *SleepStudy* dataset according to the instructions for *Uploading a File to Statkey* (Video is posted on our Canvas Page in the *Statkey Links and Support Videos* module.
+Go to [Lock Datasets](https://www.lock5stat.com/datapage4e.html) and download the files referenced in the problem .csv format according to the instructions for *Uploading a File to Statkey* (Video is posted on our Canvas Page in the *Statkey Links and Support Videos* module. 
+
+## 7  Finger Tapping and Caffeine 
+The effects of caffeine on the body have been extensively studied. In one experiment, researchers examined whether caffeine increases the rate at which people are able to tap their fingers. Twenty students were randomly divided into two groups of 10 students each, with one group receiving caffeinated coffee and one group receiving decaffeinated coffee. The study was double-blind, and after a 2-hour period, each student was tested to measure finger tapping rate (taps per minute). The goal of the experiment was to determine whether caffeine produces an increase in the average tap rate. This data is stored in *Caffeine Taps* on the Lock Dataset page. Use Statkey to find the following statistics. Review the tutorial videos on Canvas, as needed. Use the appropriate notation for each.
+
+### a) The mean number of *Taps*.
+### b) Create side-by-side boxplots to compare the *Caffeine* group and the *NoCaffeine* group. report the difference of means.
+### c) Does the value in 7b seem to provide evidence that caffeine is reponsible for the increase in tap rate. You should state the type of study that was done to defend your answer.
+
+## 7  Finger Tapping and Caffeine 
+The effects of caffeine on the body have been extensively studied. In one experiment, researchers examined whether caffeine increases the rate at which people are able to tap their fingers. Twenty students were randomly divided into two groups of 10 students each, with one group receiving caffeinated coffee and one group receiving decaffeinated coffee. The study was double-blind, and after a 2-hour period, each student was tested to measure finger tapping rate (taps per minute). The goal of the experiment was to determine whether caffeine produces an increase in the average tap rate. This data is stored in *Caffeine Taps* on the Lock Dataset page. Use Statkey to find the following statistics. Review the tutorial videos on Canvas, as needed. Use the appropriate notation for each.
+
+### a) The mean number of *Taps*.
+### b) Create side-by-side boxplots to compare the *Caffeine* group and the *NoCaffeine* group. report the difference of means.
+### c) Does the value in 7b seem to provide evidence that caffeine is reponsible for the increase in tap rate. You should state the type of study that was done to defend your answer.
+
+
+# For Questions #10-12: 
+
+These questions will ise Stakey, but will not require us to upload daya. The data will be found in the dropdown menus on the approprate Statkey screen, i.e. the screen that you will need to answer the questions (single quantitative, 
+one categorical and one quantitative, etc)
+
+## 10 EV Range by Class
+A Plug-in Hybrid Electric Vehicle (PHEV) combines a gasoline engine with an electric motor and a larger battery that can be plugged in to charge. BEVs (Battery Electric Vehicles) run 100% on electricity. This data is available in the drop down menu under EV Cars (Electric Range by Class). See image below.
+
+### a) Report the difference of means.
+### b) What is the maximum range in the PHEV category?
+### c) What is the minimum range in the BEV category?
+
+## 11 pH and Mercury in Florida Lakes
+A Plug-in Hybrid Electric Vehicle (PHEV) combines a gasoline engine with an electric motor and a larger battery that can be plugged in to charge. BEVs (Battery Electric Vehicles) run 100% on electricity. This data is available in the drop down menu under EV Cars (Electric Range by Class). See image below.
+
+### a) Discuss the scatterplot. Does the relationship between pH and mercury concentration appear linear? How strong is the relationship between pH and mercury concentration?
+### b) Report the the value of $r$ (the correlation coefficient).
+### c) State the regression equation in the form $\hat{y}=a+bx$. (Your equation should not use $y$ and $x$, but rather the names of the variables.)
+
+
+
+
