@@ -45,3 +45,7 @@ The flies fed organic food lived an average of 3.25 days longer than the flies f
 ## 6) How to Debate a Science Denier
 
 Science deniers oppose robust and valid results of scientific inquiry. A recent study investigates the most effective ways to debunk scientific misinformation. Science advocates can respond to misinformation using topic rebuttal (providing scientific facts on the subject) or technique rebuttal (explaining more generally the false techniques used by science deniers). In the study, 1773 participants first listened to a science denier and were then randomly assigned to one of four conditions: no rebuttal, topic rebuttal, technique rebuttal, or both topic and technique rebuttal. Participants’ attitudes toward the science topic were measured and recorded three times: before participation, after the science denier, and after the rebuttal. Results indicate the importance of having a rebuttal: participants on average were influenced by the science denier, but the influence was mitigated by having any rebuttal. The study further showed that topic or technique rebuttal worked equally well, and having both provided no additional benefit.
+
+# For Questions #7-9: 
+
+Go to [Lock Datasets](https://www.lock5stat.com/datapage4e.html) and download the .csv format of the *SleepStudy* dataset according to the instructions for *Uploading a File to Statkey* (Video is posted on our Canvas Page in the *Statkey Links and Support Videos* module.
