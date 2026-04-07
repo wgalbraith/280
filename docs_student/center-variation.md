@@ -1,6 +1,6 @@
 # Measures of Center and Variation
 
-Earlier in our course, we had some experience making quantitative estimates. For example, we attempted to estimate the total surface area of hairs on a human head, the mass of the air in our classroom, and so on. We made these estimates based on **theoretical** assumptions, such as how many hairs are on a human head or the volume of the room. These estimates are theoretical because no attempt was made to collect any actual information concerning our estimates.
+Earlier in our course, we had some experience making quantitative estimates. For example, we attempted to estimate the total surface area of hairs on a human head, the mass of the air in our classroom, and so on. We made these estimates based on **theoretical** assumptions, such as how many hairs are on a human head or the density of air of the room. These estimates are theoretical because no attempt was made to collect information (data) to confirm these quantities.
 
 We will now turn our attention to estimates based on information that has been collected, commonly called **data**.
 
@@ -8,7 +8,7 @@ Another way our estimates will differ in this section is that we will be making 
 
 - How tall are the students in this class?
 - How big are the classes at my university?
-- How big are the departments at my university?
+- What is the human body temperature?
 
 The examples above are all describing a single quantitative variable. When we seek to understand a single quantitative variable, there are two general questions we are concerned with:
 
@@ -35,7 +35,7 @@ Another measure of central tendency is the median. The median is the value at wh
 
 ## Standard Deviation
 
-The standard deviation is a measure of how far a typical data value is from the mean. When we refer to the standard deviation from sample data, we will use the notation $s$.
+The standard deviation is a measure of how far a typical data value is from the mean. When we refer to the standard deviation from sample data, we will use the notation $s$. We will calculate this value using technology. 
 
 ## Interquartile Range
 
