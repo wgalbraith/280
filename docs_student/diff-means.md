@@ -9,4 +9,9 @@ Suppose we have data on all olympic athletes from the 2024 olympic games and we 
 Even though we are using two means in our calculation, we should remember a **difference of means is a single value**. If our difference on means is significantly different from 0, this would provide evidence that the group the athlete is in 
 is associated with pulse rate.
 
+# Comparing Quantitative Distribution from Two Independent Groups
+
+While the mean is often the most popular statistic to compare across groups, it often either an incomplete metric, or worse a misleading metric. It can be incomplete in the sense that it only gives a measure of central tendency. It includes no information about variablilty or the shape of the underlying data. In order to get a fuller picture we may rely on comparisons of the 5-number summaries for each groupa and/or side-by-side plots. Thes plots may be dot plots, histograms, or boxplots, shown below from top to bottom. 
+
+
 
