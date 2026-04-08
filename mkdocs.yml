@@ -79,9 +79,9 @@ nav:
       - Linear Regression: regression.md
       - Residual Analysis: residual-analysis.md
       - Exercises: stats-exercises.md
- # - Chapter 7 - Inferential Statistics:
-      #-Making Estimates about Populations from Sample Data
-      #-Confidence Intervals
+  - Chapter 7 - Inferential Statistics:
+      - Making Estimates about Populations from Sample Data: infer-concepts.md
+      - Confidence Intervals: infer-CI.md
   #- Case Studies:
         #- CalEnviroScreen: calenviroscreen.md
         #- CES Case Study: statistics-ces.md
