@@ -6,7 +6,9 @@ While it is possible to perform this across multiple categories, we will focus o
 
 
 ### Example
-Suppose we have data on all olympic athletes from the 2024 olympic games and we want to know if there is a difference in the average pulse rate for olympic swimmers and olympic track atheletes (runners). The categorical variable would be the type of athlete (track or swimmers) and the quantitative variable would be pulse rate. To compare the pulse rates between the groups (track and swimmers), we could compute the a difference in their mean pulse rates. Specifically, if we let the mean pulse rate for swimmers be $\bar{x}_S$ and the mean for track athletes be $\bar{x}_T$ our difference of mean calulation would be $$\bar{x}_S-\bar{x}_T$$. Suppose that the average pulse rate for swimmwers was found to be $\bar{x}_S=45.8$ and the average pulse rate for track athletes was $\bar{x}_t=49.7$ beats per minute, our difference of mean calulation would be $$\bar{x}_S-\bar{x}_T=45.8-49.7=-3.9$$ 
+Suppose we have data on all olympic athletes from the 2024 olympic games and we want to know if there is a difference in the average pulse rate for olympic swimmers and olympic track atheletes (runners). The categorical variable would be the type of athlete (track or swimmers) and the quantitative variable would be pulse rate. To compare the pulse rates between the groups (track and swimmers), we could compute the a difference in their mean pulse rates. Specifically, if we let the mean pulse rate for swimmers be $\bar{x}_S$ and the mean for track athletes be $\bar{x}_T$ our difference of mean calulation would be $$\bar{x}_S-\bar{x}_T$$
+
+Suppose that the average pulse rate for swimmwers was found to be $\bar{x}_S=45.8$ and the average pulse rate for track athletes was $\bar{x}_t=49.7$ beats per minute, our difference of mean calulation would be $$\bar{x}_S-\bar{x}_T=45.8-49.7=-3.9$$ 
 
 This implies that he swimmwers had a pulse rate of 3.9 beats per minute less than the track athletes.
 
