@@ -19,7 +19,9 @@ is associated with pulse rate. Whether our value of $-3.9$ is significantly far 
 
 While the mean is often the most popular statistic to compare across groups, it often either an incomplete metric, or worse a misleading metric. It can be incomplete in the sense that it only gives a measure of central tendency. It includes no information about variablilty or the shape of the underlying data. We can visualize these relationships using the side-by-side plots. These side-by-side plots may be dot plots, histograms, or boxplots 
 
-### Example The data shown below comparing hours of TV watched per week for males compared to females. Note how much more information we are getting than simply comparing their means.
+### Example 
+
+The data shown below comparing hours of TV watched per week for males compared to females. Note how much more information we are getting than simply comparing their means.
 
 
 ![SSdot](./figures_static/statistics/ssdot.png)
