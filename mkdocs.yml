@@ -82,10 +82,10 @@ nav:
   - Chapter 7 - Inferential Statistics:
       - Making Estimates about Populations from Sample Data: infer-concepts.md
       - Confidence Intervals: infer-CI.md
-  #- Case Studies:
-        #- CalEnviroScreen: calenviroscreen.md
-        #- CES Case Study: statistics-ces.md
-       # - Confounding Variables: confounding-variables.md
+  - Case Studies:
+      - CalEnviroScreen: calenviroscreen.md
+      - CES Case Study: statistics-ces.md
+      - Confounding Variables: confounding-variables.md
   #- Resources:
         #- Data Sources: data-sources.md
   #- Assessments: 280-assessments.md
