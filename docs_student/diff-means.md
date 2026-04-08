@@ -28,7 +28,9 @@ While the mean is often the most popular statistic to compare across groups, it 
 
 Note: The asterisks in the boxplots indicate these values are considered outliers in their respective groups.
 
+
 We can also compare the summary statistics across groups (below)
 
 ![SSstat](./figures_static/statistics/ssstat.png)
 
+In the example above, we should condier the difference of means $\bar{x}_M-\bar{x}_F=7.620-5.237=2.383$ as just one piece of evidence when comparing groups.  A complete analysis should always include discussion of the distributions and measures of variability, e.g. standard deviations, ranges, and the IQRs for each group.
