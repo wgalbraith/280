@@ -12,3 +12,27 @@
 <img src="./figures_static/statistics/linear_model_with_noise2.png" width="750" alt="Linear data with noise" /><figcaption aria-hidden="true">
 </figure>
 <p>The line shown in the figure above is explaining the mass to some degree as it is clear that the mass is increasing linearly as length increases, but the data varies quite a bit above and below the line. That variation around the line is the unexplained "noise" around the "signal" (the line).</p>
+
+
+Definition: A **residual** is the difference between the observed value of the response variable and the value predicted by the regression line.
+
+$$
+\text{Residual} = y - \hat{y}
+$$
+
+where
+
+- $y$ is the actual observed value  
+- $\hat{y}$ (y-hat) is the predicted value from the model
+
+The image below shows the residual in red. 
+
+![Residual](./figures_static/statistics/res.png)
+
+A residual tells us how far off the model was for one particular data point. 
+
+![Residual2](./figures_static/statistics/res2.png)
+
+We can estimate the value of the residual that is highlighted in the image above for the data value associated with the point at $x=24$. We estimatethat $y=38$ and $\hat{y}=47$, hence our estimate for the value of the residual is $38-47=-9$. This tells us that the $y$-value is 9 less than the regression line predicts when $x=24$.
+
+It follows from the calculation that a positive residual implies the observed value is **above** the predicted value. And negative residual implies the observed value is **below** the predicted value.
