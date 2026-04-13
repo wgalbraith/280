@@ -33,6 +33,6 @@ A residual tells us how far off the model was for one particular data point.
 
 ![Residual2](./figures_static/statistics/res2.png)
 
-We can estimate the value of the residual that is highlighted in the image above for the data value associated with the point at $x=24$. We estimatethat $y=38$ and $\hat{y}=47$, hence our estimate for the value of the residual is $38-47=-9$. This tells us that the $y$-value is 9 less than the regression line predicts when $x=24$.
+We can estimate the value of the residual that is highlighted in the image above for the data value associated with the point at $x=24$. We see that $y=38$ and $\hat{y}=47$, hence the value of the residual is $38-47=-9$. This tells us that the $y$-value is 9 less than the regression line predicts when $x=24$.
 
 It follows from the calculation that a positive residual implies the observed value is **above** the predicted value. And negative residual implies the observed value is **below** the predicted value.
