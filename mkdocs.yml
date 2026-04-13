@@ -77,7 +77,7 @@ nav:
       - Measures of Center and Variation: center-variation.md
       - Comparing a Quantitative Variable across Categories: diff-means.md
       - Linear Regression: regression.md
-      - Residual Analysis: residual-analysis.md
+      #- Residual Analysis: residual-analysis.md
       - Exercises: stats-exercises.md
   - Chapter 7 - Inferential Statistics:
       - Making Estimates about Populations from Sample Data: infer-concepts.md
