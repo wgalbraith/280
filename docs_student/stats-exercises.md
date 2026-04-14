@@ -71,7 +71,11 @@ The effects of caffeine on the body have been extensively studied. In one experi
 
 (c) Does the value in 7b seem to provide evidence that caffeine is reponsible for the increase in tap rate. You should state the type of study that was done to defend your answer.
 
-(e) Interpret the values you found for the standard deviation for each group. In other words, what are the values for standard deviation measuring with regards to the values in each category?
+(d) Interpret the values you found for the standard deviation for each group. In other words, what are the values for standard deviation measuring with regards to the values in each category?
+
+(e) Calculate the $z$-score for the maximum value in the *Caffeine* group. Then comment on whether this $z$-score suggests the maximum of the *Caffeine* group should be considered an unusual value.
+
+(f) Calculate the $z$-score for the maximum value in the *NoCaffeine* group.  Then comment on whether this $z$-score suggests the maximum of the *NoCaffeine* group should be considered an unusual value.
 
 ## 9) Vegetable Consumption and Physical Activity in the US
 
