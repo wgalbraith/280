@@ -45,7 +45,7 @@ The $z$-score is the number of standard devations the data value $x$ is from the
 
 ## Interquartile Range
 
-Quantitative data is often divided up by quartiles. This entails dividing the cases into four equal-sized groups. The result of this quartering is often described by the five-number summary: minimum, Q1, median, Q3, and maximum, where Q1 and Q3 represent the 25th percentile and 75th percentile of the data, respectively. To compute the interquartile range, we compute Q3 - Q1.
+Quantitative data is often divided up by quartiles. This entails dividing the cases into four equal-sized groups. The result of this quartering is often described by the five-number summary: minimum, Q1, median, Q3, and maximum, where Q1 and Q3 represent the 25th percentile and 75th percentile of the data, respectively. To compute the interquartile range (notated IQR), we compute Q3 - Q1.
 
 ## Histogram
 
@@ -80,5 +80,5 @@ A box plot is another visualization of quantitative data.  A box plot is largely
 
 Note the vertical lines on the plots correspond to the respective values for $Q1$, median, and $Q3$.  The values represented by asterisks have been determined to be outliers according to the following definition:
 
-**Definition:** A data value $x$ is considered an *outlier* if either $x>Q3+1.5(IQR)$ or $x<Q1-1.5(IQR)$.
+**Definition:** A data value $x$ is considered an *outlier* if either $x>Q3+1.5(IQR)$ or $x<Q1-1.5(IQR)$. Where $IQR=Q3-Q1$.
 
