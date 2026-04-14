@@ -65,11 +65,13 @@ This exercise follows the video tutorial referenced above.  This data is stored 
 ## 8  Finger Tapping and Caffeine 
 The effects of caffeine on the body have been extensively studied. In one experiment, researchers examined whether caffeine increases the rate at which people are able to tap their fingers. Twenty students were randomly divided into two groups of 10 students each, with one group receiving caffeinated coffee and one group receiving decaffeinated coffee. The study was double-blind, and after a 2-hour period, each student was tested to measure finger tapping rate (taps per minute). The goal of the experiment was to determine whether caffeine produces an increase in the average tap rate. This data is stored in *Caffeine Taps* on the Lock Dataset page. Use Statkey to find the following statistics. Review the tutorial videos on Canvas, as needed. Use the appropriate notation for each.
 
-(a) The mean number of *Taps*.
+(a) The mean number of *Taps* for all 20 students.
 
-(b) Create side-by-side boxplots to compare $Taps$ between the *Caffeine* group and the *NoCaffeine* group. report the difference of means.
+(b) Create side-by-side boxplots to compare $Taps$ between the *Caffeine* group and the *NoCaffeine* group. Report the difference of means $\bar{x}_C-\bar{x}_{NC}$, where $C$ is the caffeine group and $NC$ is the no caffeine group.
 
 (c) Does the value in 7b seem to provide evidence that caffeine is reponsible for the increase in tap rate. You should state the type of study that was done to defend your answer.
+
+(e) Interpret the values you found for the standard deviation for each group. In other words, what are the values for standard deviation measuring with regards to the values in each category?
 
 ## 9) Vegetable Consumption and Physical Activity in the US
 
@@ -84,7 +86,7 @@ Is there a linear relationship between the percentage of residents in a state wh
 
 # For Questions #10-12: 
 
-These questions will ise Stakey, but will **not** require us to upload data. The data will be found in the dropdown menus on the approprate Statkey screen, i.e. the screen that you will need to answer the questions (single quantitative, 
+These questions will use Stakey, but will **not** require us to upload data. The data will be found in the dropdown menus on the approprate Statkey screen, i.e. the screen that you will need to answer the questions (single quantitative, 
 one categorical and one quantitative, etc)
 
 ## 10 EV Range by Class
@@ -97,6 +99,10 @@ A Plug-in Hybrid Electric Vehicle (PHEV) combines a gasoline engine with an elec
 (b) What is the maximum range in the PHEV category?
 
 (c) What is the minimum range in the BEV category?
+
+(d) Report the standard deviation in each category.
+
+(e) Interpret the values you found for the standard deviation for each group. In other words, what are the values for standard deviation measuring with regards to the values in each category?
 
 ## 11 pH and Mercury in Florida Lakes
 
