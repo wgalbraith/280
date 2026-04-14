@@ -41,7 +41,7 @@ The standard deviation is a measure of how far the data values are typically fro
 
 We can use the standard deviation to help us understand how unusual a value $x$ is with respect to the set values for a quantitative variable. The $z$-score is computed $$z=\frac{x-\bar{x}}{s}$$
 
-The $z$-score is the number of standard devations the data value $x$ is from the mean $\bar{x}$.  
+The $z$-score is the number of standard devations the data value $x$ is from the mean $\bar{x}$. As a general rule, we consider values that are more than 2 standard deviations away (above or below) from the mean to be unusual.
 
 ## Interquartile Range
 
