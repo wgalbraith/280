@@ -60,7 +60,7 @@ This exercise follows the video tutorial referenced above.  This data is stored 
 
 (c) Compare the values in the boxplots, i.e the 5-number summary, for $Owl$ and $Lark$ to make a decision about which group as a whole seems to have a better GPA.
 
-(d) Do you think the minimum and maximum values in the 5-number summary are as useful as the values for Q1, median, and Q3 when assessing an entire groups of data, as we did in part (c)?
+
 
 ## 8  Finger Tapping and Caffeine 
 The effects of caffeine on the body have been extensively studied. In one experiment, researchers examined whether caffeine increases the rate at which people are able to tap their fingers. Twenty students were randomly divided into two groups of 10 students each, with one group receiving caffeinated coffee and one group receiving decaffeinated coffee. The study was double-blind, and after a 2-hour period, each student was tested to measure finger tapping rate (taps per minute). The goal of the experiment was to determine whether caffeine produces an increase in the average tap rate. This data is stored in *Caffeine Taps* on the Lock Dataset page. Use Statkey to find the following statistics. Review the tutorial videos on Canvas, as needed. Use the appropriate notation for each.
@@ -103,6 +103,10 @@ A Plug-in Hybrid Electric Vehicle (PHEV) combines a gasoline engine with an elec
 (d) Report the standard deviation in each category.
 
 (e) Interpret the values you found for the standard deviation for each group. In other words, what are the values for standard deviation measuring with regards to the values in each category?
+
+(f) Which group seems to be exhibiting more variation in range? Use the standard deviation and the IQR to defend your answer.
+
+
 
 ## 11 pH and Mercury in Florida Lakes
 
