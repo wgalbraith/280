@@ -46,10 +46,11 @@ The flies fed organic food lived an average of 3.25 days longer than the flies f
 
 Science deniers oppose robust and valid results of scientific inquiry. A recent study investigates the most effective ways to debunk scientific misinformation. Science advocates can respond to misinformation using topic rebuttal (providing scientific facts on the subject) or technique rebuttal (explaining more generally the false techniques used by science deniers). In the study, 1773 participants first listened to a science denier and were then randomly assigned to one of four conditions: no rebuttal, topic rebuttal, technique rebuttal, or both topic and technique rebuttal. Participants’ attitudes toward the science topic were measured and recorded three times: before participation, after the science denier, and after the rebuttal. Results indicate the importance of having a rebuttal: participants on average were influenced by the science denier, but the influence was mitigated by having any rebuttal. The study further showed that topic or technique rebuttal worked equally well, and having both provided no additional benefit.
 
+# Questions #7-9 will require that you use the *Two Quantitative Variable* module on Statkey
 
-# For Questions #7-9: 
+# Questions #7-8 will require a dataset download and Statkey upload
 
-Go to [Lock Datasets](https://www.lock5stat.com/datapage4e.html) and download the files referenced in the problem .csv format according to the instructions in the video *Uploading a File to Statkey* (Video is posted on our Canvas Page in the *Statkey Links and Support Videos* module. You can also access it on [You Tube](https://www.youtube.com/watch?v=IA7TMmICjLk)
+Go to [Lock Datasets](https://www.lock5stat.com/datapage4e.html) and download the files referenced in the problem .csv format according to the instructions in the video *Uploading a File to Statkey* In addition to the in-class handout done on Monday 4/13, a video is posted on our Canvas Page in the *Statkey Links and Support Videos* module. You can also access it on [You Tube](https://www.youtube.com/watch?v=IA7TMmICjLk)
 
 ## 7  GPA and Night Owls vs Morning Larks 
 This exercise follows the video tutorial referenced above.  This data is stored in *SleepStudy* on the Lock Dataset page. Use Statkey to find the following statistics. Review the tutorial videos on Canvas, as needed. Use the appropriate notation for each.
@@ -77,23 +78,8 @@ The effects of caffeine on the body have been extensively studied. In one experi
 
 (f) Calculate the $z$-score for the maximum value in the *NoCaffeine* group.  Then comment on whether this $z$-score suggests the maximum of the *NoCaffeine* group should be considered an unusual value.
 
-## 9) Vegetable Consumption and Physical Activity in the US
 
-Is there a linear relationship between the percentage of residents in a state who eat at least one serving of vegetables per day and the percentage of residents in a statewho do 150+ minutes of aerobic physical activity per week? The *USStates$ dataset contains data collected on the 50 US States. Two variables in this dataset are *Vegetables* and *PhysicalActivity*. Use Statkey to find the following statistics. Review the tutorial videos on Canvas, as needed. Use the appropriate notation for each. Treat $PhysicalActivity$ as the explantory variable.
-
-(a) Report the the value of $r$ (the correlation coefficient).
-
-(b) State the regression equation in the form $\hat{y}=a+bx$. (Your equation should not use $y$ and $x$, but rather the names of the variables.)
-
-(c) Interpret the slope of the regression equation.
-
-
-# For Questions #10-12: 
-
-These questions will use Stakey, but will **not** require us to upload data. The data will be found in the dropdown menus on the approprate Statkey screen, i.e. the screen that you will need to answer the questions (single quantitative, 
-one categorical and one quantitative, etc)
-
-## 10 EV Range by Class
+## 9 EV Range by Class
 A Plug-in Hybrid Electric Vehicle (PHEV) combines a gasoline engine with an electric motor and a larger battery that can be plugged in to charge. BEVs (Battery Electric Vehicles) run 100% on electricity. This data is available in the drop down menu under EV Cars (Electric Range by Class). See image below.
 
 ![Drop Down Menu](./figures_static/statistics/dropdown.png)
@@ -110,11 +96,21 @@ A Plug-in Hybrid Electric Vehicle (PHEV) combines a gasoline engine with an elec
 
 (f) Which group seems to be exhibiting more variation in range? Use the standard deviation and the IQR to defend your answer.
 
+Questions #10-#12 will require you use the *Two Quantitative Variable* module on Statkey
 
+## 10) Vegetable Consumption and Physical Activity in the US
 
-## 11 pH and Mercury in Florida Lakes
+Is there a linear relationship between the percentage of residents in a state who eat at least one serving of vegetables per day and the percentage of residents in a statewho do 150+ minutes of aerobic physical activity per week? The *USStates$ dataset contains data collected on the 50 US States. You will need to download this data set from the Lock dataset site (like datasets for #7 and #8). Two variables in this dataset are *Vegetables* and *PhysicalActivity*. Use Statkey to find the following statistics. Review the tutorial videos on Canvas, as needed. Use the appropriate notation for each. Treat $PhysicalActivity$ as the explantory variable.
 
-The **FloridaLakes** dataset describes characteristics of water samples taken at 53 Florida lakes. Alkalinity (concentration of calcium carbonate in mg/L) and acidity (pH) are given for each lake. In addition, the average mercury level is recorded for a sample of fish (largemouth bass) from each lake. A standardized mercury level is obtained by adjusting the mercury averages to account for the age of the fish in each sample. Notice that the cases are the 53 lakes and that all variables are quantitative.
+(a) Report the the value of $r$ (the correlation coefficient).
+
+(b) State the regression equation in the form $\hat{y}=a+bx$. (Your equation should not use $y$ and $x$, but rather the names of the variables.)
+
+(c) Interpret the slope of the regression equation.
+
+## 11 pH and Mercury in Florida Lakes 
+
+The **FloridaLakes** dataset can be found in the drop down menu on Statkey in the *Two Quantitative Variable* module. The dataset describes characteristics of water samples taken at 53 Florida lakes. Alkalinity (concentration of calcium carbonate in mg/L) and acidity (pH) are given for each lake. In addition, the average mercury level is recorded for a sample of fish (largemouth bass) from each lake. A standardized mercury level is obtained by adjusting the mercury averages to account for the age of the fish in each sample. Notice that the cases are the 53 lakes and that all variables are quantitative.
 
 (a) Discuss the scatterplot. Does the relationship between pH and mercury concentration appear linear? How strong is the relationship between pH and mercury concentration?
 
@@ -127,7 +123,7 @@ The **FloridaLakes** dataset describes characteristics of water samples taken at
 (e) Can we conlude that the lower pH values are responsible for the high mercury concentrations? Explain.
 
 ## 12 Speed vs Drop on Rollercoasters
-We wish to see if there is linear relationship between the speed (miles/hour) of a roller coaster and the height of the drop (in feet). The data can be found in drop down menu under Roller Coasters(Speed vs Drop).
+We wish to see if there is linear relationship between the speed (miles/hour) of a roller coaster and the height of the drop (in feet). The data can be found in drop-down menu in the *Two Quantitative Variable* module under Roller Coasters(Speed vs Drop).
 
 (a) Discuss the scatterplot. Does the relationship between *Speed* and *Drop* appear linear? How strong is the relationship between *Speed* and *Drop*?
 
