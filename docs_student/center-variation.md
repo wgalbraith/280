@@ -71,3 +71,14 @@ Below are some summary statistics:
 ![Summary Statistics](./figures_static/statistics/sumstats.png)
 
 Note that the mean does not do a great job of describing the population of a typical state since it is closer to Q3 than it is to the median. This is largely due to the influence of the right skew and the large outliers, namely the four states with much larger populations than the other 46. In this case, we would usually rely on the median to describe the population of a typical state.
+
+## Box Plots and Outliers
+
+A box plot is another visualization of quantitative data.  A box plot is largely a visualization of the 5-number summary. The box plots we will be looking at also will be indicating any *outliers*.  Below we see side-by-side box plots that are comparing the average hours of TV watched for females (upper plot) and males (lower plot).  
+
+![SideBySide](./figures_static/statistics/sidebyside.png)
+
+Note the vertical lines on the plots correspond to the respective values for $Q1$, median, and $Q3$.  The values represented by asterisks have been determined to be outliers according to the following definition:
+
+**Definition:** A data value $x$ is considered an *outlier* if either $x>Q3+1.5(IQR)$ or $x<Q1-1.5(IQR)$.
+
