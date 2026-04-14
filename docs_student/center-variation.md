@@ -35,7 +35,13 @@ Another measure of central tendency is the median. The median is the value at wh
 
 ## Standard Deviation
 
-The standard deviation is a measure of how far the data values are typically from the mean. When we refer to the standard deviation from sample data, we will use the notation $s$. We will calculate this value using technology. The standard deviation is most useful when the mean is a good measure of the center.  When the mean is not a good measure of center, we will rely on other measures of variation, e.g. the interquartile range.
+The standard deviation is a measure of how far the data values are typically from the mean. When we refer to the standard deviation from sample data, we will use the notation $s$. We will calculate this value using technology. The standard deviation is most useful when the mean is a good measure of the center.  When the mean is not a good measure of center, we will rely on other measures of variation, e.g. the interquartile range. When we refer the standard deviation of a sample, we use the notation $s$.
+
+## The $z$-score of a data value
+
+We can use the standard deviation to help us understand how unusual a value $x$ is with respect to the set values for a quantitative variable. The $z$-score is computed $$z=\frac{x-\bar{x}}{s}$$
+
+The $z$-score is the number of standard devations the data value $x$ is from the mean $\bar{x}$.  
 
 ## Interquartile Range
 
