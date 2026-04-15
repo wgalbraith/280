@@ -13,26 +13,13 @@
 </figure>
 <p>The line shown in the figure above is explaining the mass to some degree as it is clear that the mass is increasing linearly as length increases, but the data varies quite a bit above and below the line. That variation around the line is the unexplained "noise" around the "signal" (the line).</p>
 
+# The Regression Line
 
-Definition: A **residual** is the difference between the observed value of the response variable and the value predicted by the regression line.
+As mentioned before, the regression line will take the form $\hat{y}=a+bx$, where $a$ is the intercept and $b$ is the slope of the regression line. We will often be asked to interpret the slope and/or the intercept in the context of real data.  Recall that for a linear equation $y=mx+b$, the slope $m$ is the change in the $y$-value for every unit change in the $x$-value. Here, we only need to make the small adjustment that we do not *know* the $y$ value, we are *predicting* the $y$-value. This is why we use the $\hat{y}$ notation.
 
-$$
-\text{Residual} = y - \hat{y}
-$$
+## Example
 
-where
+Suppose we have a sample from 100 adults over 40 for whom we have collected two quantitative variables: Income (per year in $1000s), and years of education beyond a high school degree.  We wish to explore the association between $Income$ and $Years$. We find a linear regression equation $$\widehat{Income}=41.5+15.6(Years)$$.  
 
-- $y$ is the actual observed value  
-- $\hat{y}$ (y-hat) is the predicted value from the model
+The slope of 17.6 tells us that the model predicts an increase of \$15,600 per year in annual income for each additional year of education beyond a high school degree for adults over 40.  The intercept of 41.5 predicts a \$41,500 per year income for a person over 40 with no education beyond a high school degree.
 
-The image below shows the residual in red. 
-
-![Residual](./figures_static/statistics/res.png)
-
-A residual tells us how far off the model was for one particular data point. 
-
-![Residual2](./figures_static/statistics/res2.png)
-
-We can estimate the value of the residual that is highlighted in the image above for the data value associated with the point at $x=24$. We see that $y=38$ and $\hat{y}=47$, hence the value of the residual is $38-47=-9$. This tells us that the $y$-value is 9 less than the regression line predicts when $x=24$.
-
-It follows from the calculation that a positive residual implies the observed value is **above** the predicted value. And negative residual implies the observed value is **below** the predicted value.
