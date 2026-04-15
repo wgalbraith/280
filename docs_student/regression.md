@@ -19,7 +19,7 @@ As mentioned before, the regression line will take the form $\hat{y}=a+bx$, wher
 
 ## Example
 
-Suppose we have a sample from 100 adults over 40 for whom we have collected two quantitative variables: Income (per year in $1000s), and years of education beyond a high school degree.  We wish to explore the association between $Income$ and $Years$. We find a linear regression equation $$\widehat{Income}=41.5+15.6(Years)$$.  
+Suppose we have a sample from 100 adults over 40 for whom we have collected two quantitative variables: Income (per year in \\$1000s), and years of education beyond a high school degree.  We wish to explore the association between $Income$ and $Years$. We find a linear regression equation $$\widehat{Income}=41.5+15.6(Years)$$.  
 
-The slope of 17.6 tells us that the model predicts an increase of \$15,600 per year in annual income for each additional year of education beyond a high school degree for adults over 40.  The intercept of 41.5 predicts a \$41,500 per year income for a person over 40 with no education beyond a high school degree.
+The slope of 17.6 tells us that the model predicts an increase of \\$ 15,600 per year in annual income for each additional year of education beyond a high school degree for adults over 40.  The intercept of 41.5 predicts a \\$41,500 per year income for a person over 40 with no education beyond a high school degree.
 
