@@ -98,6 +98,9 @@ For example:
 
 If the residuals bend upward and downward in a clear curve, the relationship may not be linear.
 
+![ResidualCurve](./figures_static/statistics/curvedres.png)
+
+
 ### Funnel (or Fan) shape
 
 If the residuals spread out or compress as $x$ increases, the variability is not constant.
