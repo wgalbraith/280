@@ -101,6 +101,7 @@ If the residuals bend upward and downward in a clear curve, the relationship may
 ### Funnel (or Fan) shape
 
 If the residuals spread out or compress as $x$ increases, the variability is not constant.
+![ResidualFan](./figures_static/statistics/residualplot.png)
 
 ### Outliers
 
