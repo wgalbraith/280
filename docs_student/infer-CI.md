@@ -38,7 +38,7 @@ Where:
 - $\bar{x}$ = sample mean  
 - $s$ = sample standard deviation  
 - $n$ = sample size  
-- $t^*$ = critical value from the t-distribution with $df = n - 1$  
+- $t^*$ = critical value from the t-distribution with $df = n - 1$ (we find this on StatKey)
 
 This interval reflects both sampling variability and uncertainty in estimating the population standard deviation.
 
@@ -58,6 +58,7 @@ Where:
 - $\bar{x}_1, \bar{x}_2$ are the sample means 
 - $s_1, s_2$ are the sample standard deviations  
 - $n_1, n_2$ are the sample sizes  
+- $t^*$ = critical value from the t-distribution with $df = n - 1$ where $n$ is the smaller of $n_1$ and $n_2$. (we find this on StatKey)
 
 ---
 
@@ -65,8 +66,8 @@ Where:
 
 The confidence interval for $\mu_1 - \mu_2$ provides direct insight into group differences:
 
-- If the interval contains $0$, the data do not provide strong evidence of a difference.
-- If the interval does not contain $0$, this suggests a statistically meaningful difference between the population means.
+- If the interval contains $0$, this means that $\mu_1 - \mu_2=0$ is a plausible value. In other words, it is reasonably possible that $\mu_1=\mu_2$. In this case we would say that our sample data do not provide strong evidence of a difference.
+- If the interval does not contain $0$, this means that $\mu_1 - \mu_2=0$ is NOT a plausible value. In other words, it is not reasonably possible that $\mu_1=\mu_2$, so this suggests a statistically meaningful difference between the population means.
 
 ---
 
