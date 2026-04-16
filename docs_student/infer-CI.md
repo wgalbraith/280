@@ -18,7 +18,7 @@ $$
 \text{estimate} \pm \text{margin of error}
 $$
 
-Where the estimate is typically the observed sample statistic. The **confidence level** (e.g., 95%) reflects the long-run performance of the method:
+Where the estimate is typically the value of our sample statistic. The **confidence level** (e.g., 95%) reflects the long-run performance of the method:
 
 - If we repeatedly took samples and constructed intervals in the same way, approximately 95% of those intervals would contain the true population parameter.
 
@@ -26,7 +26,7 @@ Where the estimate is typically the observed sample statistic. The **confidence 
 
 ## Confidence Interval for a Single Mean
 
-When estimating a population mean $$\mu$$ using a sample mean $$\bar{x}$$, the form of the confidence interval depends on whether the population standard deviation is known.
+When estimating a population mean $\mu$ using a sample mean $\bar{x}$, the form of the confidence interval depends on whether the population standard deviation is known.
 
 ### Case: Unknown Population Standard Deviation (most common)
 
@@ -35,10 +35,10 @@ $$
 $$
 
 Where:
-- $$\bar{x}$$ = sample mean  
-- $$s$$ = sample standard deviation  
-- $$n$$ = sample size  
-- $$t^*$$ = critical value from the t-distribution with $$df = n - 1$$  
+- $\bar{x}$ = sample mean  
+- $s$ = sample standard deviation  
+- $n$ = sample size  
+- $t^*$ = critical value from the t-distribution with $$df = n - 1$$  
 
 This interval reflects both sampling variability and uncertainty in estimating the population standard deviation.
 
@@ -48,9 +48,9 @@ This interval reflects both sampling variability and uncertainty in estimating t
 
 When comparing two populations, we are often interested in the difference between their means:
 
-$$
+$
 \mu_1 - \mu_2
-$$
+$
 
 The corresponding confidence interval is:
 
@@ -59,11 +59,9 @@ $$
 $$
 
 Where:
-- $$\bar{x}_1, \bar{x}_2$$ = sample means  
-- $$s_1, s_2$$ = sample standard deviations  
-- $$n_1, n_2$$ = sample sizes  
-
-This approach assumes independent samples and does **not** require pooling variances, aligning with your preferred methodology.
+- $\bar{x}_1, \bar{x}_2$ are the sample means 
+- $$s_1, s_2$$ are the sample standard deviations  
+- $$n_1, n_2$$ are the sample sizes  
 
 ---
 
@@ -71,8 +69,8 @@ This approach assumes independent samples and does **not** require pooling varia
 
 The confidence interval for $$\mu_1 - \mu_2$$ provides direct insight into group differences:
 
-- If the interval contains $$0$$, the data do not provide strong evidence of a difference.
-- If the interval does not contain $$0$$, this suggests a statistically meaningful difference between the population means.
+- If the interval contains $0$, the data do not provide strong evidence of a difference.
+- If the interval does not contain $0$, this suggests a statistically meaningful difference between the population means.
 
 ---
 
@@ -80,8 +78,8 @@ The confidence interval for $$\mu_1 - \mu_2$$ provides direct insight into group
 
 - Confidence intervals estimate population parameters using sample data  
 - They incorporate sampling variability through a margin of error  
-- Single-mean intervals estimate $$\mu$$  
-- Two-sample intervals estimate $$\mu_1 - \mu_2$$  
+- Single-mean intervals estimate $\mu$  
+- Two-sample intervals estimate $\mu_1 - \mu_2$  
 - The confidence level reflects long-run reliability of the method  
 
 Confidence intervals operationalize statistical inference by translating sample information into structured, uncertainty-aware conclusions about populations.
