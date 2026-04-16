@@ -38,7 +38,7 @@ Where:
 - $\bar{x}$ = sample mean  
 - $s$ = sample standard deviation  
 - $n$ = sample size  
-- $t^*$ = critical value from the t-distribution with $$df = n - 1$$  
+- $t^*$ = critical value from the t-distribution with $df = n - 1$  
 
 This interval reflects both sampling variability and uncertainty in estimating the population standard deviation.
 
@@ -46,11 +46,7 @@ This interval reflects both sampling variability and uncertainty in estimating t
 
 ## Confidence Interval for a Difference of Means
 
-When comparing two populations, we are often interested in the difference between their means:
-
-$
-\mu_1 - \mu_2
-$
+When comparing two populations, we are often interested in the difference between their means: $\mu_1 - \mu_2$
 
 The corresponding confidence interval is:
 
@@ -60,14 +56,14 @@ $$
 
 Where:
 - $\bar{x}_1, \bar{x}_2$ are the sample means 
-- $$s_1, s_2$$ are the sample standard deviations  
-- $$n_1, n_2$$ are the sample sizes  
+- $s_1, s_2$ are the sample standard deviations  
+- $n_1, n_2$ are the sample sizes  
 
 ---
 
 ## Interpreting the Difference of Means Interval
 
-The confidence interval for $$\mu_1 - \mu_2$$ provides direct insight into group differences:
+The confidence interval for $\mu_1 - \mu_2$ provides direct insight into group differences:
 
 - If the interval contains $0$, the data do not provide strong evidence of a difference.
 - If the interval does not contain $0$, this suggests a statistically meaningful difference between the population means.
@@ -82,4 +78,4 @@ The confidence interval for $$\mu_1 - \mu_2$$ provides direct insight into group
 - Two-sample intervals estimate $\mu_1 - \mu_2$  
 - The confidence level reflects long-run reliability of the method  
 
-Confidence intervals operationalize statistical inference by translating sample information into structured, uncertainty-aware conclusions about populations.
+Confidence intervals allow us to make estimates about a population parameter using only sample data. 
