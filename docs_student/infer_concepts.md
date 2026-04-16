@@ -1,5 +1,5 @@
 
-# Sampling, Populations, and Inferential Statistics
+# Making Estimates about Populations from Sample Data
 
 ## Populations
 
