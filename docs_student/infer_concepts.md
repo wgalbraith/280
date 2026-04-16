@@ -29,8 +29,8 @@ Key characteristics of a good sample:
 
 ## Parameters vs. Statistics
 
-* A **parameter** is a numerical summary that describes a population (e.g., population mean (\mu), population proportion (p)).
-* A **statistic** is a numerical summary calculated from a sample (e.g., sample mean (\bar{x}), sample proportion (\hat{p})).
+* A **parameter** is a numerical summary that describes a population (e.g., population mean $\mu$, population proportion $p$).
+* A **statistic** is a numerical summary calculated from a sample (e.g., sample mean $\bar{x}$, sample proportion $\hat{p}$).
 
 Since population parameters are usually unknown, we use sample statistics to estimate them.
 
