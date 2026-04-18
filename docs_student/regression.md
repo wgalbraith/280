@@ -23,23 +23,9 @@ Suppose we have a sample from 100 adults over 40 for whom we have collected two 
 
 The slope of 15.6 tells us that the model predicts an increase of <span class="arithmatex-not-math">$15,600</span> per year in annual income for each additional year of education beyond a high school degree for adults over 40.  The intercept of 41.5 predicts a <span class="arithmatex-not-math">$41,500</span> per year income for a person over 40 with no education beyond a high school degree.
 <h1>Understanding $r$, the Correlation Coefficient</h1>
-      <p class="lead">
+      <p>
         The correlation coefficient is a number that describes the strength and direction (positive or negative) of a linear relationship between two quantitative variables.
       </p>
-  <main class="container content">
-    <section class="card" aria-labelledby="what-it-means">
-      <h2 id="what-it-means">What does it measure?</h2>
-      <p>
-        Imagine you are studying the relationship between hours studied and exam scores. If students who study more
-        usually earn higher scores, those two variables have a <strong>positive relationship</strong>. If higher values
-        of one variable tend to go with lower values of the other, the relationship is <strong>negative</strong>.
-        If there is no consistent pattern, the relationship is close to <strong>no linear relationship</strong>.
-      </p>
-      <p>
-        The correlation coefficient gives a quick summary of that pattern with a single number. When the data comes from a sample, we use the notation
-        <strong>$r$</strong>.
-      </p>
-
   <section class="card" aria-labelledby="range-values">
       <h2 id="range-values">The range of <em>r</em></h2>
       <p>
