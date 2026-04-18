@@ -26,9 +26,6 @@ The slope of 15.6 tells us that the model predicts an increase of <span class="a
       <p class="lead">
         The correlation coefficient is a number that describes the strength and direction (positive or negative) of a linear relationship between two quantitative variables.
       </p>
-    </div>
-  </header>
-
   <main class="container content">
     <section class="card" aria-labelledby="what-it-means">
       <h2 id="what-it-means">What does it measure?</h2>
