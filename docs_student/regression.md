@@ -96,7 +96,7 @@ The slope of 15.6 tells us that the model predicts an increase of <span class="a
         </p>
       </article>
     </section>
-    <img src="./figures_static/statistics/correlation" width="750"/><figcaption aria-hidden="true">
+    <img src="./figures_static/statistics/correlation.png" width="1000"/><figcaption aria-hidden="true">
     <section class="card highlight" aria-labelledby="correlation-not-causation">
       <h2 id="correlation-not-causation">Correlation is not causation</h2>
       <p>
