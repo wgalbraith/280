@@ -52,7 +52,7 @@ Science deniers oppose robust and valid results of scientific inquiry. A recent 
 
 Go to [Lock Datasets](https://www.lock5stat.com/datapage4e.html) and download the files referenced in the problem .csv format according to the instructions in the video *Uploading a File to Statkey* In addition to the in-class handout done on Monday 4/13, a video is posted on our Canvas Page in the *Statkey Links and Support Videos* module. You can also access it on [You Tube](https://www.youtube.com/watch?v=IA7TMmICjLk)
 
-## 7  GPA and Night Owls vs Morning Larks 
+## 7)  GPA and Night Owls vs Morning Larks 
 This exercise follows the video tutorial referenced above.  This data is stored in *SleepStudy* on the Lock Dataset page. Use Statkey to find the following statistics. Review the tutorial videos on Canvas, as needed. Use the appropriate notation for each.
 
 (a) The mean *GPAs*.
@@ -63,7 +63,7 @@ This exercise follows the video tutorial referenced above.  This data is stored 
 
 
 
-## 8  Finger Tapping and Caffeine 
+## 8)  Finger Tapping and Caffeine 
 The effects of caffeine on the body have been extensively studied. In one experiment, researchers examined whether caffeine increases the rate at which people are able to tap their fingers. Twenty students were randomly divided into two groups of 10 students each, with one group receiving caffeinated coffee and one group receiving decaffeinated coffee. The study was double-blind, and after a 2-hour period, each student was tested to measure finger tapping rate (taps per minute). The goal of the experiment was to determine whether caffeine produces an increase in the average tap rate. This data is stored in *Caffeine Taps* on the Lock Dataset page. Use Statkey to find the following statistics. Review the tutorial videos on Canvas, as needed. Use the appropriate notation for each.
 
 (a) The mean number of *Taps* for all 20 students.
@@ -79,7 +79,7 @@ The effects of caffeine on the body have been extensively studied. In one experi
 (f) Calculate the $z$-score for the maximum value in the *NoCaffeine* group.  Then comment on whether this $z$-score suggests the maximum of the *NoCaffeine* group should be considered an unusual value.
 
 
-## 9 EV Range by Class
+## 9) EV Range by Class
 A Plug-in Hybrid Electric Vehicle (PHEV) combines a gasoline engine with an electric motor and a larger battery that can be plugged in to charge. BEVs (Battery Electric Vehicles) run 100% on electricity. This data is available in the drop down menu under EV Cars (Electric Range by Class). See image below.
 
 ![Drop Down Menu](./figures_static/statistics/dropdown.png)
@@ -110,7 +110,7 @@ Is there a linear relationship between the percentage of residents in a state wh
 
 (d) Interpret the slope of the regression equation. Be sure to include units in your interpretation.
 
-## 11 pH and Mercury in Florida Lakes 
+## 11) pH and Mercury in Florida Lakes 
 
 The **FloridaLakes** dataset can be found in the drop down menu on Statkey in the *Two Quantitative Variable* module. The dataset describes characteristics of water samples taken at 53 Florida lakes. Alkalinity (concentration of calcium carbonate in mg/L) and acidity (pH) are given for each lake. In addition, the average mercury level is recorded for a sample of fish (largemouth bass) from each lake. A standardized mercury level is obtained by adjusting the mercury averages to account for the age of the fish in each sample. Notice that the cases are the 53 lakes and that all variables are quantitative.
 
@@ -126,7 +126,7 @@ The **FloridaLakes** dataset can be found in the drop down menu on Statkey in th
 
 (f) Can we conlude that the lower pH values are responsible for the high mercury concentrations? Explain.
 
-## 12 Speed vs Drop on Rollercoasters
+## 12) Speed vs Drop on Rollercoasters
 We wish to see if there is linear relationship between the speed (miles/hour) of a roller coaster and the height of the drop (in feet). The data can be found in drop-down menu in the *Two Quantitative Variable* module under Roller Coasters(Speed vs Drop).
 
 (a) Discuss the scatterplot. Does the relationship between *Speed* and *Drop* appear linear? How strong is the relationship between *Speed* and *Drop*?
