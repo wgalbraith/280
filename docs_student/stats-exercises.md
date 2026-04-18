@@ -100,7 +100,7 @@ A Plug-in Hybrid Electric Vehicle (PHEV) combines a gasoline engine with an elec
 
 ## 10) Vegetable Consumption and Physical Activity in the US
 
-Is there a linear relationship between the percentage of residents in a state who eat at least one serving of vegetables per day and the percentage of residents in a statewho do 150+ minutes of aerobic physical activity per week? The *USStates$ dataset contains data collected on the 50 US States. You will need to download this data set from the Lock dataset site (like datasets for #7 and #8). Two variables in this dataset are *Vegetables* and *PhysicalActivity*. Use Statkey to find the following statistics. Review the tutorial videos on Canvas, as needed. Use the appropriate notation for each. Treat $PhysicalActivity$ as the explantory variable.
+Is there a linear relationship between the percentage of residents in a state who eat at least one serving of vegetables per day and the percentage of residents in a statewho do 150+ minutes of aerobic physical activity per week? The *USStates* dataset contains data collected on the 50 US States. You will need to download this data set from the Lock dataset site (like datasets for #7 and #8). Two variables in this dataset are *Vegetables* and *PhysicalActivity*. Use Statkey to find the following statistics. Review the tutorial videos on Canvas, as needed. Use the appropriate notation for each. Treat $PhysicalActivity$ as the explantory variable.
 
 (a) Look at the scatter plot. Confirm that the data looks linear and that no significant outliers exist. (See the notes in the Linear Regression section under Correlation Warnings for how we determine linearity and outliers)  Report the the value of $r$ (the correlation coefficient).
 
