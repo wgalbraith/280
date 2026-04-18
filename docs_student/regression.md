@@ -22,4 +22,125 @@ As mentioned before, the regression line will take the form $\hat{y}=a+bx$, wher
 Suppose we have a sample from 100 adults over 40 for whom we have collected two quantitative variables: Income (per year in <span class="arithmatex-not-math">$1000s</span>), and years of education beyond a high school degree.  We wish to explore the association between $Income$ and $Years$. We find a linear regression equation $$\widehat{Income}=41.5+15.6(Years)$$ 
 
 The slope of 15.6 tells us that the model predicts an increase of <span class="arithmatex-not-math">$15,600</span> per year in annual income for each additional year of education beyond a high school degree for adults over 40.  The intercept of 41.5 predicts a <span class="arithmatex-not-math">$41,500</span> per year income for a person over 40 with no education beyond a high school degree.
+<h1>Understanding $r$, the Correlation Coefficient</h1>
+      <p class="lead">
+        The correlation coefficient is a number that describes the strength and direction (positive or negative) of a linear relationship between two quantitative variables.
+      </p>
+    </div>
+  </header>
 
+  <main class="container content">
+    <section class="card" aria-labelledby="what-it-means">
+      <h2 id="what-it-means">What does it measure?</h2>
+      <p>
+        Imagine you are studying the relationship between hours studied and exam scores. If students who study more
+        usually earn higher scores, those two variables have a <strong>positive relationship</strong>. If higher values
+        of one variable tend to go with lower values of the other, the relationship is <strong>negative</strong>.
+        If there is no consistent pattern, the relationship is close to <strong>no linear relationship</strong>.
+      </p>
+      <p>
+        The correlation coefficient gives a quick summary of that pattern with a single number. When the data comes from a sample, we use the notation
+        <strong>$r$</strong>.
+      </p>
+
+  <section class="card" aria-labelledby="range-values">
+      <h2 id="range-values">The range of <em>r</em></h2>
+      <p>
+        The value of <strong>$r$</strong> is always between <strong>-1</strong> and <strong>1</strong>.
+      </p>
+      <ul class="value-list">
+        <li><strong>$r = 1$</strong>: a perfect positive linear relationship</li>
+        <li><strong>$r = -1$</strong>: a perfect negative linear relationship</li>
+        <li><strong>$r = 0$</strong>: no linear relationship</li>
+      </ul>
+      <p>
+        Most real data fall somewhere in between. Values closer to <strong>1</strong> or <strong>-1</strong>
+        show a stronger linear relationship, while values closer to <strong>0</strong> show a weaker one.
+      </p>
+    <p>CORRELATION WARNINGS: 
+    <ul>
+    <li>(1) The correlation is only useful in the context of analyzing a <b>linear relationship</b>. We need to check the scatter plot for to confirm that the data appears somewhat linear before incorporating $r$ into out analysis.</li>
+    <li>(2) $r$ can be heaviliy influenced by outliers.  We need to check the plot to understand to what degree any outliers may be influencing $r$.</li>
+    </ul>
+  </p>
+    </section>
+    <section class="card" aria-labelledby="interpretation">
+      <h2 id="interpretation">How to interpret the sign and strength</h2>
+      <p>Once we have confirmed our plot is reasonably linear and no significant outliers exist, we can interpret $r$ as follows.</p>
+      <div class="two-column">
+        <div>
+          <h3>Sign</h3>
+          <p>
+            The <strong>sign</strong> tells the direction of the relationship.
+          </p>
+          <ul>
+            <li><strong>Positive r</strong>: as one variable increases, the other tends to increase.</li>
+            <li><strong>Negative r</strong>: as one variable increases, the other tends to decrease.</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Strength</h3>
+          <p>
+            The <strong>size</strong> of the number tells how tightly the points follow a straight-line pattern.
+            A value like <strong>0.82</strong> suggests a stronger linear relationship than <strong>0.23</strong>.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="card" aria-labelledby="examples">
+      <h2 id="examples">Simple examples</h2>
+      <article class="example-box">
+        <h3>Example 1: Positive correlation</h3>
+        <p>
+          Suppose we compare the number of practice problems completed and quiz scores. Students who complete more
+          practice problems often earn higher quiz scores. This would likely produce a <strong>positive</strong>
+          correlation.
+        </p>
+      </article>
+      <article class="example-box">
+        <h3>Example 2: Negative correlation</h3>
+        <p>
+          Suppose we compare the number of absences and course grades. Students with more absences may tend to earn
+          lower grades. This would likely produce a <strong>negative</strong> correlation.
+        </p>
+      </article>
+      <article class="example-box">
+        <h3>Example 3: Little or no correlation</h3>
+        <p>
+          Suppose we compare shoe size and exam score in a class. There is no reason to expect a consistent
+          straight-line relationship, so the correlation would probably be close to <strong>0</strong>.
+        </p>
+      </article>
+    </section>
+    <section class="card highlight" aria-labelledby="correlation-not-causation">
+      <h2 id="correlation-not-causation">Correlation is not causation</h2>
+      <p>
+        This is one of the most important warnings in statistics. Even if two variables have a strong correlation,
+        that does not mean one variable causes the other to change.
+      </p>
+      <p>
+        For example, ice cream sales and sunscreen sales may both rise during the summer. They are related,
+        but buying ice cream does not cause people to buy sunscreen. Instead, both are influenced by a third factor:
+        warm weather.
+      </p>
+    </section>
+    <section class="card" aria-labelledby="using-scatterplots">
+      <h2 id="using-scatterplots">Why scatterplots matter</h2>
+      <p>
+        A correlation coefficient is useful, but it should not be used alone. A scatterplot helps you actually
+        see the pattern in the data. Two data sets can have similar correlation values but look very different when
+        graphed.
+      </p>
+      <p>
+        In practice, it is best to look at the scatterplot first and then use the correlation coefficient as a summary.
+      </p>
+    </section>
+ <section class="card" aria-labelledby="important-notes">
+      <h2 id="important-notes">Important ideas to remember</h2>
+      <ul class="key-points">
+        <li>Correlation describes the relationship between <strong>two quantitative variables</strong>.</li>
+        <li>Correlation measures how well the data follow a <strong>linear relationship</strong>.</li>
+         <li>Outliers can have a strong effect on the correlation</li>
+        <li>A strong correlation does <strong>not</strong> prove that one variable causes the other.</li>
+      </ul>
+    </section>
