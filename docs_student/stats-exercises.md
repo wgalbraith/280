@@ -102,36 +102,40 @@ A Plug-in Hybrid Electric Vehicle (PHEV) combines a gasoline engine with an elec
 
 Is there a linear relationship between the percentage of residents in a state who eat at least one serving of vegetables per day and the percentage of residents in a statewho do 150+ minutes of aerobic physical activity per week? The *USStates$ dataset contains data collected on the 50 US States. You will need to download this data set from the Lock dataset site (like datasets for #7 and #8). Two variables in this dataset are *Vegetables* and *PhysicalActivity*. Use Statkey to find the following statistics. Review the tutorial videos on Canvas, as needed. Use the appropriate notation for each. Treat $PhysicalActivity$ as the explantory variable.
 
-(a) Look at the scatter plot. Confirm that the data looks linear and that no significant outliers exist.  Report the the value of $r$ (the correlation coefficient).
+(a) Look at the scatter plot. Confirm that the data looks linear and that no significant outliers exist. (See the notes in the Linear Regression section under Correlation Warnings for how we determine linearity and outliers)  Report the the value of $r$ (the correlation coefficient).
 
-(b) State the regression equation in the form $\hat{y}=a+bx$. (Your equation should not use $y$ and $x$, but rather the names of the variables.)
+(b) Comment on the strength and direction of the linear relationship based on your value for $r$
 
-(c) Interpret the slope of the regression equation.
+(c) State the regression equation in the form $\hat{y}=a+bx$. (Your equation should not use $y$ and $x$, but rather the names of the variables.)
+
+(d) Interpret the slope of the regression equation. Be sure to include units in your interpretation.
 
 ## 11 pH and Mercury in Florida Lakes 
 
 The **FloridaLakes** dataset can be found in the drop down menu on Statkey in the *Two Quantitative Variable* module. The dataset describes characteristics of water samples taken at 53 Florida lakes. Alkalinity (concentration of calcium carbonate in mg/L) and acidity (pH) are given for each lake. In addition, the average mercury level is recorded for a sample of fish (largemouth bass) from each lake. A standardized mercury level is obtained by adjusting the mercury averages to account for the age of the fish in each sample. Notice that the cases are the 53 lakes and that all variables are quantitative.
 
-(a) Discuss the scatterplot. Does the relationship between pH and mercury concentration appear linear? How strong is the relationship between pH and mercury concentration?
+(a) Discuss the scatterplot. Does the relationship between pH and mercury concentration appear linear? 
 
-(b) Report the the value of $r$ (the correlation coefficient).
+(b) Report the the value of $r$ (the correlation coefficient). How strong is the relationship between pH and mercury concentration? (Extremely Strong, Strong, Moderately Strong, or Weak) Justify your choice.
 
-(c) State the regression equation in the form $\hat{y}=a+bx$. (Your equation should not use $y$ and $x$, but rather the names of the variables.)
+(c) Interpret the meaning of the sign of your $r$ value in the context of the problem.
 
-(d) Interpret the slope of the regression equation.
+(d) State the regression equation in the form $\hat{y}=a+bx$. (Your equation should not use $y$ and $x$, but rather the names of the variables.)
 
-(e) Can we conlude that the lower pH values are responsible for the high mercury concentrations? Explain.
+(e) Interpret the slope of the regression equation. Be sure to include units in your interpretation.
+
+(f) Can we conlude that the lower pH values are responsible for the high mercury concentrations? Explain.
 
 ## 12 Speed vs Drop on Rollercoasters
 We wish to see if there is linear relationship between the speed (miles/hour) of a roller coaster and the height of the drop (in feet). The data can be found in drop-down menu in the *Two Quantitative Variable* module under Roller Coasters(Speed vs Drop).
 
 (a) Discuss the scatterplot. Does the relationship between *Speed* and *Drop* appear linear? How strong is the relationship between *Speed* and *Drop*?
 
-(b) Report the the value of $r$ (the correlation coefficient).
+(b) Report the the value of $r$ (the correlation coefficient). Interpret the value for $r$ in the context of the problem.
 
 (c) State the regression equation in the form $\hat{y}=a+bx$. (Your equation should not use $y$ and $x$, but rather the names of the variables.)
 
-(d) Interpret the slope of the regression equation.
+(d) Interpret the slope of the regression equation. Be sure to include units.
 
 
 
