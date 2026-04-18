@@ -6,61 +6,37 @@ At the core of confidence intervals is the idea of **statistical inference**: us
 
 A confidence interval answers the question:
 
-> Based on this sample, what values of the population parameter would be reasonably consistent with collected data?
+> Based on our sample, what are is the range of plausible values of the population parameter?
 
 ---
 
 ## Interpretation of Confidence Intervals
 
-A confidence interval is typically written as:
+A confidence interval for a population parameter is typically written as:
 
 $$
-\text{estimate} \pm \text{margin of error}
+\text{statistic} \pm \text{margin of error}
 $$
 
-Where the estimate is typically the value of our sample statistic. The **confidence level** (e.g., 95%) reflects the long-run performance of the method:
-
-- If we repeatedly took samples and constructed intervals in the same way, approximately 95% of those intervals would contain the true population parameter.
+Where the *statistic* is the value of our sample statistic and the *margin of error* is the expected variability associated with our sample. The **confidence level** (e.g., 95%) reflects the success rate of the confidence interval. We define a 'success' as an interval that captures the population parameter. If we repeatedly took samples and constructed 95% confidence intervals, we would expect that approximately 95% of those intervals would *successfully* contain the true population parameter. In our course, we will estimate three parameters: A single mean, a difference of means, and the correlation coefficient.  We will use StatKey to greate these intervals for us.
 
 ---
 
-## Confidence Interval for a Single Mean
+# Confidence Interval for a Single Mean
 
-When estimating a population mean $\mu$ using a sample mean $\bar{x}$, the form of the confidence interval depends on whether the population standard deviation is known.
+When estimating a population mean $\mu$ using a sample mean $\bar{x}$, the form of the confidence interval is $$\bar{x}\pm ME$$
 
-### Case: Unknown Population Standard Deviation (most common)
+where $ME$ is the margin of error. 
 
-$$
-\bar{x} \pm t^* \cdot \frac{s}{\sqrt{n}}
-$$
-
-Where:
-- $\bar{x}$ = sample mean  
-- $s$ = sample standard deviation  
-- $n$ = sample size  
-- $t^*$ = critical value from the t-distribution with $df = n - 1$ (we find this on StatKey)
-
-This interval reflects both sampling variability and uncertainty in estimating the population standard deviation.
+## Example: Confidence Interval for a Single Mean 
 
 ---
 
-## Confidence Interval for a Difference of Means
+# Confidence Interval for a Difference of Means
 
 When comparing two populations, we are often interested in the difference between their means: $\mu_1 - \mu_2$
 
-The corresponding confidence interval is:
-
-$$
-(\bar{x}_1 - \bar{x}_2) \pm t^* \cdot \sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}}
-$$
-
-Where:
-- $\bar{x}_1, \bar{x}_2$ are the sample means 
-- $s_1, s_2$ are the sample standard deviations  
-- $n_1, n_2$ are the sample sizes  
-- $t^*$ = critical value from the t-distribution with $df = n - 1$ where $n$ is the smaller of $n_1$ and $n_2$. (we find this on StatKey)
-
----
+## Example: Confidence Interval for a Difference of Means
 
 ## Interpreting the Difference of Means Interval
 
@@ -70,13 +46,9 @@ The confidence interval for $\mu_1 - \mu_2$ provides direct insight into group d
 - If the interval does not contain $0$, this means that $\mu_1 - \mu_2=0$ is NOT a plausible value. In other words, it is not reasonably possible that $\mu_1=\mu_2$, so this suggests a statistically meaningful difference between the population means.
 
 ---
+# Confidence Interval for the Correlation
 
-## Summary
+## Example: Confidence Interval for the Correlation
 
-- Confidence intervals estimate population parameters using sample data  
-- They incorporate sampling variability through a margin of error  
-- Single-mean intervals estimate $\mu$  
-- Two-sample intervals estimate $\mu_1 - \mu_2$  
-- The confidence level reflects long-run reliability of the method  
+## Interpreting the Confidence Interval for the Correlation
 
-Confidence intervals allow us to make estimates about a population parameter using only sample data. 
