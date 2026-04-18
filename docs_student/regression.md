@@ -62,6 +62,7 @@ The slope of 15.6 tells us that the model predicts an increase of <span class="a
     <li>(1) The correlation is only useful in the context of analyzing a <b>linear relationship</b>. We need to check the scatter plot for to confirm that the data appears somewhat linear before incorporating $r$ into out analysis.</li>
     <li>(2) $r$ can be heaviliy influenced by outliers.  We need to check the plot to understand to what degree any outliers may be influencing $r$.</li>
     </ul>
+  <p> Unlike the formal procedure we learned for identifying outliers for a single quantitative variable, we will not learn a formal procedure for finding outliers in a scatter plot. To identify outliers, we look for data values that do not follow the general trend tha the other data follow. Likewise, we will not have a formal test for linearity. Will use the 'eyeball' test, which means we will make an informal observation based on the general appearance of the plot.</p>
   </p>
     </section>
     <section class="card" aria-labelledby="interpretation">
