@@ -22,28 +22,43 @@ As mentioned before, the regression line will take the form $\hat{y}=a+bx$, wher
 Suppose we have a sample from 100 adults over 40 for whom we have collected two quantitative variables: Income (per year in <span class="arithmatex-not-math">$1000s</span>), and years of education beyond a high school degree.  We wish to explore the association between $Income$ and $Years$. We find a linear regression equation $$\widehat{Income}=41.5+15.6(Years)$$ 
 
 The slope of 15.6 tells us that the model predicts an increase of <span class="arithmatex-not-math">$15,600</span> per year in annual income for each additional year of education beyond a high school degree for adults over 40.  The intercept of 41.5 predicts a <span class="arithmatex-not-math">$41,500</span> per year income for a person over 40 with no education beyond a high school degree.
-<h1>Understanding $r$, the Correlation Coefficient</h1>
-      <p>
-        The correlation coefficient is a number that describes the strength and direction (positive or negative) of a linear relationship between two quantitative variables.
-      </p>
-      <h2 id="range-values">The range of <em>r</em></h2>
-      <p>
-        The value of <strong>$r$</strong> is always between <strong>-1</strong> and <strong>1</strong>.
-      </p>
-      <ul class="value-list">
-        <li><strong>$r = 1$</strong>: a perfect positive linear relationship</li>
-        <li><strong>$r = -1$</strong>: a perfect negative linear relationship</li>
-        <li><strong>$r = 0$</strong>: no linear relationship</li>
-      </ul>
-      <p>
-        Most real data fall somewhere in between. Values closer to <strong>1</strong> or <strong>-1</strong>
-        show a stronger linear relationship, while values closer to <strong>0</strong> show a weaker one.
-      </p>
-    <p>CORRELATION WARNINGS: 
-    <ul>
-    <li>(1) The correlation is only useful in the context of analyzing a <b>linear relationship</b>. We need to check the scatter plot for to confirm that the data appears somewhat linear before incorporating $r$ into out analysis.</li>
-    <li>(2) $r$ can be heaviliy influenced by outliers.  We need to check the plot to understand to what degree any outliers may be influencing $r$.</li>
-    </ul>
+<h1>Understanding <em>r</em>, the Correlation Coefficient</h1>
+
+<p>
+  The correlation coefficient is a number that describes the strength and direction 
+  (positive or negative) of a linear relationship between two quantitative variables.
+</p>
+
+<h2>The range of <em>r</em></h2>
+
+<p>
+  The value of <strong><em>r</em></strong> is always between <strong>-1</strong> and <strong>1</strong>.
+</p>
+
+<ul class="value-list">
+  <li><strong>r = 1</strong>: a perfect positive linear relationship</li>
+  <li><strong>r = -1</strong>: a perfect negative linear relationship</li>
+  <li><strong>r = 0</strong>: no linear relationship</li>
+</ul>
+
+<p>
+  Most real data fall somewhere in between. Values closer to <strong>1</strong> or 
+  <strong>-1</strong> show a stronger linear relationship, while values closer to 
+  <strong>0</strong> show a weaker one.
+</p>
+
+<h2>Correlation Warnings</h2>
+
+<ul>
+  <li>
+    The correlation is only useful when analyzing a <strong>linear relationship</strong>. 
+    Always check the scatterplot to confirm the pattern is approximately linear before using r.
+  </li>
+  <li>
+    The value of <em>r</em> can be heavily influenced by outliers. 
+    Always inspect the plot to see whether unusual points are affecting the correlation.
+  </li>
+</ul>
   <p> Unlike the formal procedure we learned for identifying outliers for a single quantitative variable, we will not learn a formal procedure for finding outliers in a scatter plot. To identify outliers, we look for data values that do not follow the general trend tha the other data follow. Likewise, we will not have a formal test for linearity. Will use the 'eyeball' test, which means we will make an informal observation based on the general appearance of the plot.</p>
   </p>
     <section class="card" aria-labelledby="interpretation">
