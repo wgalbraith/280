@@ -26,7 +26,6 @@ The slope of 15.6 tells us that the model predicts an increase of <span class="a
       <p>
         The correlation coefficient is a number that describes the strength and direction (positive or negative) of a linear relationship between two quantitative variables.
       </p>
-  <section class="card" aria-labelledby="range-values">
       <h2 id="range-values">The range of <em>r</em></h2>
       <p>
         The value of <strong>$r$</strong> is always between <strong>-1</strong> and <strong>1</strong>.
@@ -47,7 +46,6 @@ The slope of 15.6 tells us that the model predicts an increase of <span class="a
     </ul>
   <p> Unlike the formal procedure we learned for identifying outliers for a single quantitative variable, we will not learn a formal procedure for finding outliers in a scatter plot. To identify outliers, we look for data values that do not follow the general trend tha the other data follow. Likewise, we will not have a formal test for linearity. Will use the 'eyeball' test, which means we will make an informal observation based on the general appearance of the plot.</p>
   </p>
-    </section>
     <section class="card" aria-labelledby="interpretation">
       <h2 id="interpretation">How to interpret the sign and strength</h2>
       <p>Once we have confirmed our plot is reasonably linear and no significant outliers exist, we can interpret $r$ as follows.</p>
