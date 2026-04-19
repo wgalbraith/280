@@ -109,11 +109,13 @@ The slope of 15.6 tells us that the model predicts an increase of <span class="a
         </p>
       </article>
     </section>
-    <img src="./figures_static/statistics/correlation.png" width="1000"/><figcaption aria-hidden="true">
-    <section class="card highlight" aria-labelledby="correlation-not-causation">
+    <figure>
+  <img src="./figures_static/statistics/correlation.png" width="1000" alt="Examples of positive, negative, and no correlation" />
+  <figcaption aria-hidden="true"></figcaption>
+</figure>
       <h2 id="correlation-not-causation">Correlation is not causation</h2>
       <p>
-        This is one of the most important warnings in statistics. Even if two variables have a strong correlation,
+        This is one of the most important warnings. Even if two variables have a strong correlation,
         that does not mean one variable causes the other to change.
       </p>
       <p>
