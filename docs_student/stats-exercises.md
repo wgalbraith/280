@@ -96,6 +96,8 @@ A Plug-in Hybrid Electric Vehicle (PHEV) combines a gasoline engine with an elec
 
 (f) Which group seems to be exhibiting more variation in range? Use the standard deviation and the IQR to defend your answer.
 
+---
+
 # Questions #10-#12 will require you use the *Two Quantitative Variable* module on Statkey
 
 ## 10) Vegetable Consumption and Physical Activity in the US
@@ -135,40 +137,47 @@ We wish to see if there is linear relationship between the speed (miles/hour) of
 
 (c) State the regression equation in the form $\hat{y}=a+bx$. (Your equation should not use $y$ and $x$, but rather the names of the variables.)
 
+---
+
 # Instructions for Exercises 13-15
 
-The data for each exercise are provided as .csv files in the Canvas assignment. Download the files onto your computer for upload to STatKey.  You will also need to import them into a spreadsheet, like Google Sheets.
+The data for each exercise are provided as .csv files in the Canvas assignment. Download the files onto your computer for upload to StatKey.  You will also need to import them into a spreadsheet, like Google Sheets.
 
 For each dataset, complete the following tasks:
 
 (a) Create a scatterplot of the explanatory variable (x) and response variable (y).
 
-(b) Describe the direction, form, and strength of the relationship: 
+(b) Report the regression equation $\hat{y}=a+bx$.
+
+(c) Describe the direction, form, and strength of the relationship: 
 
 - Direction: positive, negative, or none
 - Form: linear or non linear (curved)
 - Strength: weak, moderate, or strong
   
-(c) Create a residual plot (residuals vs. explanatory variable).
+(d) Create a third column in your datset entiled *Predicted*. This column will use the regression equation to compute a predicted response $\hat{y}$ for each value of your explanatory variable using the regression equation you found in (b).
 
-(d) Are there any issues that you see that would cause concern about using a linear model? See course notes about problematic residual plots.
+(e) Create a fourth column in your dataset entitled *Residuals* that will calculate the residuals for each value of the explanatory variable.
 
-(e) You should have found that two of the three relationships exhibited problematic residual plots. For the relationship that did NOT exhibit a problematic residual plot,report the regression equation and the value of the correlation. Be sure to include units.  We will return to those plots that showed residual plot issues in problem #16.
+(f) Provide a residual plot where the vertical axis shows the residual and the horizontal axis is the explanatory variable. Are there any issues that you see that would cause concern about using a linear model? See course notes about problematic residual plots.
 
-## 13 Is study time associated with test scores? (Study Time(x) and Test Score(y)) 
+(g) You should have found that two of the three relationships exhibited problematic residual plots. **For the relationship that did NOT exhibit a problematic residual plot**,(1) report the value of the correlation coefficient, $r$, and (2) interpret the value of the slope $b$ in the regression equation from part (b). We will return to those plots that showed residual plot issues in problems #16-17.
 
-## 14 Does spending on advertising increase sales? (Advertising(x) and Sales (y))
+## 13) Is study time associated with test scores? (Study Time(x) and Test Score(y)) 
 
-## 15 How does the voltage across a discharging capacitor change over time? (Time (x) and Voltage (y))
+## 14) Does spending on advertising increase sales? (Advertising(x) and Sales (y))
 
+## 15) How does the voltage across a discharging capacitor change over time? (Time (x) and Voltage (y))
+---
 # For Exercises 16 and 17, you will improve the two non linear relationships from #13-15 using a transformation.
 
-Create a new column in your dataset using the specified transformation:
+
+<!--(c) using the specified transformation
 Exercise 2: take the log of the response variable
 Exercise 3: create a squared term for the explanatory variable
 Create a new scatterplot using the transformed variable(s).
 Fit a new regression model using the transformed data.
-Create a new residual plot for the transformed model.16 
+Create a new residual plot for the transformed model.16 -->
 
 
 
