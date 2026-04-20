@@ -68,7 +68,7 @@ The effects of caffeine on the body have been extensively studied. In one experi
 
 (a) The mean number of *Taps* for all 20 students.
 
-(b) Create side-by-side boxplots to compare $Taps$ between the *Caffeine* group and the *NoCaffeine* group. Report the difference of means $\bar{x}_C-\bar{x}_{NC}$, where $C$ is the caffeine group and $NC$ is the no caffeine group.
+(b) Create side-by-side boxplots to compare *Taps* between the *Caffeine* group and the *NoCaffeine* group. Report the difference of means $\bar{x}_C-\bar{x}_N$ where $C$ is the caffeine group and $N$ is the no caffeine group.
 
 (c) Does the value in 7b seem to provide evidence that caffeine is reponsible for the increase in tap rate. You should state the type of study that was done to defend your answer.
 
