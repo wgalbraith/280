@@ -155,29 +155,54 @@ For each dataset, complete the following tasks:
 - Form: linear or non linear (curved)
 - Strength: weak, moderate, or strong
   
-(d) Create a third column in your datset entiled *Predicted*. This column will use the regression equation to compute a predicted response $\hat{y}$ for each value of your explanatory variable using the regression equation you found in (b).
+(d) Create a third column in your spread sheet entiled *Predicted*. This column will use the regression equation to compute a predicted response $\hat{y}$ for each value of your explanatory variable using the regression equation you found in (b).
 
-(e) Create a fourth column in your dataset entitled *Residuals* that will calculate the residuals for each value of the explanatory variable.
+(e) Create a fourth column in your spread sheet entitled *Residuals* that will calculate the residuals for each value of the explanatory variable.
 
 (f) Provide a residual plot where the vertical axis shows the residual and the horizontal axis is the explanatory variable. Are there any issues that you see that would cause concern about using a linear model? See course notes about problematic residual plots.
 
 (g) You should have found that two of the three relationships exhibited problematic residual plots. **For the relationship that did NOT exhibit a problematic residual plot**,(1) report the value of the correlation coefficient, $r$, and (2) interpret the value of the slope $b$ in the regression equation from part (b). We will return to those plots that showed residual plot issues in problems #16-17.
 
-## 13) Is study time associated with test scores? (Study Time(x) and Test Score(y)) 
+## 13) Is study time associated with test scores? Use *StudyTime* as explanatory variable and *TestScore* as the response variable. 
 
-## 14) Does spending on advertising increase sales? (Advertising(x) and Sales (y))
+## 14) Does spending on advertising increase sales?  Use *Advertising* as explanatory variable and *Sales* as the response variable.
 
-## 15) How does the voltage across a discharging capacitor change over time? (Time (x) and Voltage (y))
+## 15) How does the voltage across a discharging capacitor change over time? Use *Time* as explanatory variable and *Voltage* as the response variable.
 ---
 # For Exercises 16 and 17, you will improve the two non linear relationships from #13-15 using a transformation.
 
+## 17) Add a log transformation to your capacitor_discharge.csv spreadsheet. 
 
-<!--(c) using the specified transformation
-Exercise 2: take the log of the response variable
-Exercise 3: create a squared term for the explanatory variable
-Create a new scatterplot using the transformed variable(s).
-Fit a new regression model using the transformed data.
-Create a new residual plot for the transformed model.16 -->
+a) Add a 5th column in your Voltage spread sheet called *Log(Voltage)*. Have this column compute the base-10 log of the values in the *Voltage$ column.
+
+b) Create a new scatterplot using *Time* as the explantory variable and *LogVoltage* as the response variable. Does the data look linear now?
+
+c) Report the new regression equation, $\hat{LogVoltage}=a+b(Time)$ 
+
+d) Create a 6th column in your Voltage spread sheet called *LogVoltagePrediction* that computes the predicted values based on your regression equation in (b).
+
+e) Create a 7th column in your Voltage spread sheet called *LogResiduals* that computes the residuals for each value of $Time$.
+
+f) Interpret the slope in context. Remember your response is not *Voltage*.
+
+g) Report the correlation. Interpret the value of $r$ in the context of the problem.
+
+h) Using your new regression equation from (c). Predict the voltage at 4 seconds.
+
+i) Seeing that a log transformation linearized the relationship between *Voltage* and *Time*, what can we conclude about the type of relationship that exists between *Voltage* and *Time*?
+
+## 18) Add a log transformation to your sales.csv spreadsheet. 
+
+a) Add a fifth column in your sales.csv spread sheet called *Log(Sales)*. Have this column compute the base-10 log of the values in the *Voltage$ column.
+
+b) Create a new scatterplot using *Time* as the explantory variable and *LogSales* as the response variable. Does the data look linear now?
+
+c) Report the new regression equation, $\hat{LogSales}=a+b(Advertising)$ 
+
+d) Interpret the slope in context. Remember your response is not *Sales*.
+
+e) Report the correlation. Interpret the value of $r$ in the context of the problem.
+
 
 
 
