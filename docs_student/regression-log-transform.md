@@ -2,9 +2,7 @@
 
 In the last section, we emphasized the importance of meeting the conditions for using a linear model before interpreting the results. Up until now, we have only presented this as a problem without a solution. If our data does not satisfy one or more of the conditions, it is often a solution to transform, or reexpress one, or both, of your variables so that the conditions are reasonably satisfied.
 
-# Example: When a Semi-Log Transformation Is Sufficient
-
-## Context
+# Example: A Semi-Log Transformation
 
 Suppose we are studying **algal concentration** in a lake over time during the early stage of an algal bloom.
 
@@ -16,10 +14,22 @@ In environmental systems, early population growth is often approximately **expon
 
 ---
 
-## Step 1: Raw Data
+The least-squares line for the raw data is:
 
-| Time ($x$) | Algae Concentration ($y$) | Predicted $\hat{y}$ | Residual $e$ |
-|-----------|----------------------------|---------------------|--------------|
+$$
+\hat{y} = -411.01 + 151.52x
+$$
+
+with residuals:
+
+$$
+y - \hat{y}
+$$
+
+## Step 1: Use Data to Check Residuals
+
+| Time ($x$) | Algae Concentration ($y$) | Predicted $\hat{y}$ | Residual: $y-\hat{y}$ |
+|-----------|----------------------------|---------------------|-----------------------|
 | 1  | 18   | -259.50 | 277.50 |
 | 2  | 30   | -107.98 | 137.98 |
 | 3  | 55   | 43.53   | 11.47  |
@@ -33,17 +43,6 @@ In environmental systems, early population growth is often approximately **expon
 | 11 | 2950 | 1255.66 | 1694.34 |
 | 12 | 4850 | 1407.18 | 3442.82 |
 
-The least-squares line for the raw data is:
-
-$$
-\hat{y} = -411.01 + 151.52x
-$$
-
-with residuals:
-
-$$
-e = y - \hat{y}
-$$
 
 ### Interpretation
 
@@ -53,12 +52,12 @@ $$
 
 ---
 
-## Step 2: Semi-Log Transformation
+## Step 2: Try a Semi-Log Transformation
 
 Now transform only the response:
 
 $$
-y^* = \log(y)
+{Concentration}^= \log(y)
 $$
 
 Fit the least-squares line to $$x$$ and $$\log(y)$$:
