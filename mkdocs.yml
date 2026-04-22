@@ -78,8 +78,8 @@ nav:
       - Comparing a Quantitative Variable across Categories: diff-means.md
       - Linear Regression: regression.md
       - Residual Analysis: residual-analysis.md
-      - Making Estimates about Populations from Samples: infer-concepts.md
-      - Confidence Intervals: infer-CI.md
+      #- Making Estimates about Populations from Samples: infer-concepts.md
+      #- Confidence Intervals: infer-CI.md
       - Exercises: stats-exercises.md  
   #- Case Studies:
       #- CalEnviroScreen: calenviroscreen.md
