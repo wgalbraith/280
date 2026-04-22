@@ -169,7 +169,7 @@ For each dataset, complete the following tasks:
 
 ## 15) How does the voltage across a discharging capacitor change over time? Use *Time* as explanatory variable and *Voltage* as the response variable.
 ---
-# For Exercises 16 and 17, you will improve the two non linear relationships from #13-15 using a transformation.
+<!-- # For Exercises 16 and 17, you will improve the two non linear relationships from #13-15 using a transformation.
 
 ## 17) Add a log transformation to your capacitor_discharge.csv spreadsheet. 
 
@@ -203,6 +203,6 @@ d) Interpret the slope in context. Remember your response is not *Sales*.
 
 e) Report the correlation. Interpret the value of $r$ in the context of the problem.
 
-
+-->
 
 
