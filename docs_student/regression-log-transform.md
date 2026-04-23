@@ -1,143 +1,171 @@
 # Transforming Quantiative Variables
 
-In the last section, we emphasized the importance of meeting the conditions for using a linear model before interpreting the results. Up until now, we have only presented this as a problem without a solution. If our data does not satisfy one or more of the conditions, it is often a solution to transform, or reexpress one, or both, of your variables so that the conditions are reasonably satisfied.
+In the last section, we emphasized the importance of meeting the conditions for using a linear model before interpreting the results. Up until now, we have only presented this as a problem without a solution. If our data does not satisfy one or more of the conditions, it is often a solution to transform, or reexpress one, or both, of your variables so that the conditions are reasonably satisfied
 
-# Example: A Semi-Log Transformation
+# Example: Using a Log Transformation When a Semi-Log Model Is Sufficient
 
-Suppose we are studying **algal concentration** in a lake over time during the early stage of an algal bloom.
+## Context
+
+We study **algae concentration** in a lake over time during early bloom growth.
 
 Let:
-- $$x$$ = time in days
-- $$y$$ = algae concentration (cells per milliliter)
-
-In environmental systems, early population growth is often approximately **exponential**, so a semi-log transformation is a natural first step.
+- $$x$$ = time (days)  
+- $$y$$ = algae concentration (cells/mL)  
 
 ---
 
-The least-squares line for the raw data is:
+## 1. Scatter Plot of Original Data
 
-$$
-\hat{y} = -411.01 + 151.52x
-$$
+| $x$ | $y$ |
+|-----|-----|
+| 1 | 18 |
+| 2 | 30 |
+| 3 | 55 |
+| 4 | 90 |
+| 5 | 150 |
+| 6 | 245 |
+| 7 | 400 |
+| 8 | 660 |
+| 9 | 1090 |
+| 10 | 1800 |
+| 11 | 2950 |
+| 12 | 4850 |
 
-with residuals:
-
-$$
-y - \hat{y}
-$$
-
-## Step 1: Use Data to Check Residuals
-
-| Time ($x$) | Algae Concentration ($y$) | Predicted $\hat{y}$ | Residual: $y-\hat{y}$ |
-|-----------|----------------------------|---------------------|-----------------------|
-| 1  | 18   | -259.50 | 277.50 |
-| 2  | 30   | -107.98 | 137.98 |
-| 3  | 55   | 43.53   | 11.47  |
-| 4  | 90   | 195.05  | -105.05 |
-| 5  | 150  | 346.56  | -196.56 |
-| 6  | 245  | 498.08  | -253.08 |
-| 7  | 400  | 649.59  | -249.59 |
-| 8  | 660  | 801.11  | -141.11 |
-| 9  | 1090 | 952.63  | 137.37 |
-| 10 | 1800 | 1104.14 | 695.86 |
-| 11 | 2950 | 1255.66 | 1694.34 |
-| 12 | 4850 | 1407.18 | 3442.82 |
-
-
-### Interpretation
-
-- The relationship is strongly curved upward
-- The residuals are clearly not uniform
-- A straight-line model for the raw data is not appropriate
+The pattern is clearly nonlinear (curved upward).
 
 ---
 
-## Step 2: Try a Semi-Log Transformation
+## 2. Least-Squares Line and Residuals (Original Data)
 
-Now transform only the response:
-
-$$
-{Concentration}^= \log(y)
-$$
-
-Fit the least-squares line to $$x$$ and $$\log(y)$$:
+Fitted model:
 
 $$
-\widehat{\log(y)} = 2.119 + 0.505x
+\hat{y} = -411.0110 + 151.5167x
 $$
 
-Residuals are computed as:
+Residuals:
+
+$$
+e = y - \hat{y}
+$$
+
+| $x$ | $y$ | $\hat{y}$ | $e$ |
+|-----|-----|-----------|-----|
+| 1 | 18 | -259.4943 | 277.4943 |
+| 2 | 30 | -107.9776 | 137.9776 |
+| 3 | 55 | 43.5391 | 11.4609 |
+| 4 | 90 | 195.0558 | -105.0558 |
+| 5 | 150 | 346.5725 | -196.5725 |
+| 6 | 245 | 498.0892 | -253.0892 |
+| 7 | 400 | 649.6059 | -249.6059 |
+| 8 | 660 | 801.1226 | -141.1226 |
+| 9 | 1090 | 952.6393 | 137.3607 |
+| 10 | 1800 | 1104.1560 | 695.8440 |
+| 11 | 2950 | 1255.6727 | 1694.3273 |
+| 12 | 4850 | 1407.1894 | 3442.8106 |
+
+Check:
+
+$$
+\sum e_i \approx 0
+$$
+
+---
+
+## 3. Residual Plot (Original Model)
+
+Residuals show a clear curved pattern → linear model is inappropriate.
+
+---
+
+## 4. Log Transformation
+
+Define:
+
+$$
+y^* = \log(y)
+$$
+
+---
+
+## 5. Scatter Plot of Semi-Log Data
+
+The transformed data appear approximately linear.
+
+---
+
+## 6. Semi-Log Model and Residuals
+
+Fitted model:
+
+$$
+\widehat{\log(y)} = 2.4418623 + 0.5058684x
+$$
+
+Residuals:
 
 $$
 e = \log(y) - \widehat{\log(y)}
 $$
 
-| $x$ | $\log(y)$ | Predicted $\widehat{\log(y)}$ | Residual $e$ |
-|-----|-----------|-------------------------------|--------------|
-| 1  | 2.89 | 2.62 | 0.27 |
-| 2  | 3.40 | 3.13 | 0.27 |
-| 3  | 4.01 | 3.63 | 0.38 |
-| 4  | 4.50 | 4.14 | 0.36 |
-| 5  | 5.01 | 4.64 | 0.37 |
-| 6  | 5.50 | 5.15 | 0.35 |
-| 7  | 5.99 | 5.66 | 0.33 |
-| 8  | 6.49 | 6.16 | 0.33 |
-| 9  | 6.99 | 6.67 | 0.32 |
-| 10 | 7.50 | 7.17 | 0.33 |
-| 11 | 7.99 | 7.68 | 0.31 |
-| 12 | 8.49 | 8.18 | 0.31 |
+| $x$ | $\log(y)$ | $\widehat{\log(y)}$ | $e$ |
+|-----|-----------|----------------------|-----|
+| 1 | 2.8904 | 2.9477 | -0.0574 |
+| 2 | 3.4012 | 3.4536 | -0.0524 |
+| 3 | 4.0073 | 3.9595 | 0.0479 |
+| 4 | 4.4998 | 4.4653 | 0.0345 |
+| 5 | 5.0106 | 4.9712 | 0.0394 |
+| 6 | 5.5013 | 5.4771 | 0.0242 |
+| 7 | 5.9915 | 5.9830 | 0.0085 |
+| 8 | 6.4922 | 6.4889 | 0.0033 |
+| 9 | 6.9939 | 6.9947 | -0.0008 |
+| 10 | 7.4955 | 7.5006 | -0.0051 |
+| 11 | 7.9899 | 8.0065 | -0.0166 |
+| 12 | 8.4870 | 8.5123 | -0.0253 |
 
-### Interpretation
+Check:
 
-- The semi-log relationship is approximately linear
-- The residuals are much more consistent
-- This suggests an exponential model is appropriate
-- In this case, the semi-log transformation is sufficient
+$$
+\sum e_i \approx 0
+$$
 
 ---
 
-## Why the Semi-Log Transformation Works
+## 7. Residual Plot (Semi-Log Model)
 
-If the original relationship is approximately exponential,
+Residuals are:
+- small  
+- centered at 0  
+- no systematic pattern  
 
-$$
-y \approx ae^{bx}
-$$
-
-then taking logs gives:
-
-$$
-\log(y) = \log(a) + bx
-$$
-
-This is linear in $$x$$.
-
-So when the original data follow an exponential pattern, a semi-log plot is often all that is needed.
+This supports the semi-log model.
 
 ---
 
-## Model Interpretation
-
-Using the fitted model,
+## Interpretation
 
 $$
-\widehat{\log(y)} = 2.119 + 0.505x
+\widehat{\log(y)} = 2.4418623 + 0.5058684x
 $$
 
-the slope tells us that each additional day is associated with an increase of about $$0.505$$ in $$\log(y)$$.
-
-Exponentiating gives the daily multiplicative growth factor:
+Exponentiating:
 
 $$
-e^{0.505} \approx 1.66
+y \approx e^{2.4419} e^{0.5059x}
 $$
 
-So algae concentration is predicted to multiply by about **1.66** each day.
+Growth factor:
+
+$$
+e^{0.5059} \approx 1.658
+$$
+
+So algae concentration increases by about **66% per day**.
 
 ---
 
 ## Summary
 
-- The raw data show a curved pattern and non-uniform residuals
-- The semi-log transformation produces an approximately linear relationship
-- This suggests an exponential model fits the data well
+- Original model: poor fit, structured residuals  
+- Semi-log model: linear pattern, well-behaved residuals  
+- Semi-log transformation is sufficient 
