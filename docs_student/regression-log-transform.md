@@ -85,79 +85,29 @@ The transformed data appear approximately linear.
 
 ---
 
-## 6. Semi-Log Model and Residuals
+## 5. Semi-Log Model and Residuals
 
 Fitted model:
 
 $$
-\widehat{\log(y)} = 2.4418623 + 0.5058684x
+\widehat{\ln(AlgConc)} = 0.501(Days)+2.535  
 $$
 
-Residuals:
+Residuals for our model can be added to our Google Sheet:
 
 $$
-e = \log(y) - \widehat{\log(y)}
+\ln(AlgConc) - \widehat{\ln(AlgConc)}
 $$
 
-| $x$ | $\log(y)$ | $\widehat{\log(y)}$ | $e$ |
-|-----|-----------|----------------------|-----|
-| 1 | 2.8904 | 2.9477 | -0.0574 |
-| 2 | 3.4012 | 3.4536 | -0.0524 |
-| 3 | 4.0073 | 3.9595 | 0.0479 |
-| 4 | 4.4998 | 4.4653 | 0.0345 |
-| 5 | 5.0106 | 4.9712 | 0.0394 |
-| 6 | 5.5013 | 5.4771 | 0.0242 |
-| 7 | 5.9915 | 5.9830 | 0.0085 |
-| 8 | 6.4922 | 6.4889 | 0.0033 |
-| 9 | 6.9939 | 6.9947 | -0.0008 |
-| 10 | 7.4955 | 7.5006 | -0.0051 |
-| 11 | 7.9899 | 8.0065 | -0.0166 |
-| 12 | 8.4870 | 8.5123 | -0.0253 |
-
-Check:
-
-$$
-\sum e_i \approx 0
-$$
+![TransResPlot](./figures_static/statistics/lnresplot.png)
 
 ---
 
-## 7. Residual Plot (Semi-Log Model)
-
-Residuals are:
-- small  
-- centered at 0  
-- no systematic pattern  
-
-This supports the semi-log model.
-
----
-
-## Interpretation
-
-$$
-\widehat{\log(y)} = 2.4418623 + 0.5058684x
-$$
-
-Exponentiating:
-
-$$
-y \approx e^{2.4419} e^{0.5059x}
-$$
-
-Growth factor:
-
-$$
-e^{0.5059} \approx 1.658
-$$
-
-So algae concentration increases by about **66% per day**.
-
+We note that a residuals are now showing no systematic pattern. Our semi-log transformation was successfull!
 
 ---
 
 ## Summary
 
-- Original model: poor fit, structured residuals  
-- Semi-log model: linear pattern, well-behaved residuals  
-- Semi-log transformation is sufficient 
+- Original model: poor fiting line, scatterplot showed curvature, and residual plot showed a pattern
+- Semi-log model: linear scatterplot, randomly scattered residuals  
