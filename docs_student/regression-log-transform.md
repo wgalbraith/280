@@ -90,7 +90,7 @@ The transformed data appear approximately linear.
 Fitted model:
 
 $$
-\widehat{\ln(AlgConc)} = 2.535+0.501(Days) 
+\widehat{\ln(\mathrm{AlgConc})} = 2.535 + 0.501(\mathrm{Days})
 $$
 
 Residuals for our model can be added to our Google Sheet:
