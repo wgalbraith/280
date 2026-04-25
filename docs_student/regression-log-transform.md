@@ -65,17 +65,21 @@ Residuals show a clear curved pattern → linear model is inappropriate.
 
 ---
 
-## 4. Log Transformation
+## 3. Transforming the Data
 
-Define:
+Our goal is to transform the data so that the our relationship between Days and Algae Concentration can be expressed as a linear relationship.  Choosing the appropraite transformation can be tricky, and often involves some trial and error.  The first step is identifying the patterns you wish to eliminate.  Here we notice what might be exponential growth.  We see this from the upward curvature of the original plot, but also we know that population growth often follows an exponential pattern.  We learned previously that the logarithm will "undo" exponential growth, effectively linearizing the model. We will try a semi-log plot where we apply the logarithm to the algal concentration. Using the natural log, we will create a column in our Google Sheet called $ln(AlgConc$ and use the formula $=ln(B2)$ in cell E2.
 
-$$
-y^* = \log(y)
-$$
+![lnAlg](./figures_static/statistics/lnalg.png)
+
+Then apply this formula to all 12 days we download the Google Sheet.
 
 ---
 
-## 5. Scatter Plot of Semi-Log Data
+## 4. Plot the Semi-Log Data
+
+We upload our Google Sheet to StatKey, and see the following plot.
+
+![TransPlot](./figures_static/statistics/transplot.png)
 
 The transformed data appear approximately linear.
 
