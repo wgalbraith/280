@@ -25,7 +25,8 @@ We have data on **algae concentration** in a lake over time during early bloom g
 | 11 | 3000 |
 | 12 | 4850 |
 
-IMAGE
+
+![Algae Plot](./figures_static/statistics/algplot.png)
 
 The pattern is clearly nonlinear (curved upward). We can also create a residual plot to see the issue with our linear model.
 
@@ -41,7 +42,9 @@ $$AlgConc-widehat{AlgConc}$$
 
 Using Google Sheets, we can create a column for the predicted algae concentration using the formula $=344.483*A2-1190.97$ in cell C2, and a column for residuals unsing the formula $=B2-C2$ in cell $D2$. 
 
-IMAGE
+![Predicted](./figures_static/statistics/algpred.png)
+
+![ResidualColumn](./figures_static/statistics/rescol.png)
 ---
 
 ## 3. Residual Plot (Original Model)
