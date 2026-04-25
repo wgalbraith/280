@@ -67,7 +67,7 @@ Residuals show a clear curved pattern → linear model is inappropriate.
 
 ## 3. Transforming the Data
 
-Our goal is to transform the data so that the our relationship between Days and Algae Concentration can be expressed as a linear relationship.  Choosing the appropraite transformation can be tricky, and often involves some trial and error.  The first step is identifying the patterns you wish to eliminate.  Here we notice what might be exponential growth.  We see this from the upward curvature of the original plot, but also we know that population growth often follows an exponential pattern.  We learned previously that the logarithm will "undo" exponential growth, effectively linearizing the model. We will try a semi-log plot where we apply the logarithm to the algal concentration. Using the natural log, we will create a column in our Google Sheet called $ln(AlgConc$ and use the formula $=ln(B2)$ in cell E2.
+Our goal is to transform the data so that the our relationship between Days and Algae Concentration can be expressed as a linear relationship.  Choosing the appropraite transformation can be tricky, and often involves some trial and error.  The first step is identifying the patterns you wish to eliminate.  Here we notice what might be exponential growth.  We see this from the upward curvature of the original plot, but also we know that population growth often follows an exponential pattern.  We learned previously that the logarithm will "undo" exponential growth, effectively linearizing the model. We will try a semi-log plot where we apply the logarithm to the algal concentration. Using the natural log, we will create a column in our Google Sheet called $ln(AlgConc)$ and use the formula $=ln(B2)$ in cell E2.
 
 ![lnAlg](./figures_static/statistics/lnalg.png)
 
@@ -90,7 +90,7 @@ The transformed data appear approximately linear.
 Fitted model:
 
 $$
-\widehat{\ln(AlgConc)} = 0.501(Days)+2.535  
+\widehat{\ln(AlgConc)} = 2.535+0.501(Days) 
 $$
 
 Residuals for our model can be added to our Google Sheet:
