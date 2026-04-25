@@ -30,6 +30,9 @@ We have data on **algae concentration** in a lake over time during early bloom g
 
 The pattern is clearly nonlinear (curved upward). We can also create a residual plot to more clearly see the issue with our linear model.
 
+
+## 2 Creating the Residual Plot 
+
 To create the residual plot, we note the slope and intercept of the regression in our image above and have the least-squares equation:
 
 $$
@@ -45,9 +48,18 @@ Using Google Sheets, we can create a column for the predicted algae concentratio
 ![Predicted](./figures_static/statistics/algpred.png)
 
 ![ResidualColumn](./figures_static/statistics/rescol.png)
+
+If we apply those formulas to all 12 rows we get
+
+![AlgaeResTable](./figures_static/statistics/fullalg.png)
+
 ---
 
-## 3. Residual Plot (Original Model)
+We can upload this data to StatKey and select $x=$ Days and $y=$ Residual and we see the pattern expressed in the residuals.
+
+
+![AlgaeResTable](./figures_static/statistics/algresplot.png)
+
 
 Residuals show a clear curved pattern → linear model is inappropriate.
 
