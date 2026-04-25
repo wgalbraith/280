@@ -4,7 +4,7 @@ In the last section, we emphasized the importance of meeting the conditions for 
 
 # Example: Using a Semi-Log Transformation on Algae Concentration over Time
 
-We have data on **algae concentration** in a lake over time during early bloom growth. 
+We have data on **algae concentration** in a lake over during early bloom growth over time in days. 
 
 ---
 
@@ -85,7 +85,7 @@ The transformed data appear approximately linear.
 
 ---
 
-## 5. Semi-Log Model and Residuals
+## 5. Check the Semi-Log Model for Linearity
 
 Fitted model:
 
@@ -106,6 +106,30 @@ $$
 We note that a residuals are now showing no systematic pattern. Our semi-log transformation was successfull!
 
 ---
+
+## 6. Use the Model
+
+Now that we have met the conditions for a linear model, we can use it to make make predictions/estimates.  For example, we can predict the algae concentration after 7 days as follows. 
+
+$$
+\widehat{\ln(\mathrm{AlgConc})} = 2.535 + 0.501(7)
+$$
+
+$$
+\widehat{\ln(\mathrm{AlgConc})}= 6.042$$
+$$
+
+So we predcit the natural log of the algae concentration is 6.042. To convert back to the actual algae concentration, we rewrite the log equation above in exponential form:
+
+$$
+\mathrm{AlgConc}=e^{6.042}
+$$
+
+and 
+
+$$e^{6.042}\approx 420.7 \mathrm{cells/mL}$$
+
+Note that this estimate is close to the observed concentration of 410 cells/mL after 7 days the original dataset.
 
 ## Summary
 
