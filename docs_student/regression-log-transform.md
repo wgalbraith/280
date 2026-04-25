@@ -110,4 +110,5 @@ We note that a residuals are now showing no systematic pattern. Our semi-log tra
 ## Summary
 
 - Original model: poor fiting line, scatterplot showed curvature, and residual plot showed a pattern
-- Semi-log model: linear scatterplot, randomly scattered residuals  
+- Semi-log model: linear scatterplot, randomly scattered residuals.
+- Why dis a semi-log transformation work? The log transformation of a response variable compresses the larger $y$-values relative to the smaller $y$-values while keeping the explantory values unchanged.
