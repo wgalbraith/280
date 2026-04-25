@@ -153,6 +153,7 @@ $$
 
 So algae concentration increases by about **66% per day**.
 
+
 ---
 
 ## Summary
