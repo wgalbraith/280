@@ -55,7 +55,7 @@ If we apply those formulas to all 12 rows we get
 
 ---
 
-We can upload this data to StatKey and select $x=$ Days and $y=$ Residual and we see the pattern expressed in the residuals.
+We can upload this data as a csv file to StatKey and select $x=$ Days and $y=$ Residual and we see the pattern expressed in the residuals.
 
 
 ![AlgaeResTable](./figures_static/statistics/algresplot.png)
@@ -71,13 +71,13 @@ Our goal is to transform the data so that the our relationship between Days and 
 
 ![lnAlg](./figures_static/statistics/lnalg.png)
 
-Then apply this formula to all 12 days we download the Google Sheet.
+Then apply this formula to all 12 days, and then we download the updated Google Sheet as a csv file.
 
 ---
 
 ## 4. Plot the Semi-Log Data
 
-We upload our Google Sheet to StatKey, and see the following plot.
+We upload our csv file to StatKey and see the following plot.
 
 ![TransPlot](./figures_static/statistics/transplot.png)
 
