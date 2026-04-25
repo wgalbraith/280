@@ -169,39 +169,24 @@ For each dataset, complete the following tasks:
 
 ## 15) How does the voltage across a discharging capacitor change over time? Use *Time* as explanatory variable and *Voltage* as the response variable.
 ---
-<!-- # For Exercises 16 and 17, you will improve the two non linear relationships from #13-15 using a transformation.
+# For Exercises 16 and 17,  Follow the procedure laid out in the example in the Transforming Quantiative Relationships reading to improve the two non linear relationships from #14 and #15 using a natural log transformation applied to the response variable. You should include the following:
 
-## 17) Add a log transformation to your capacitor_discharge.csv spreadsheet. 
+-(a) A regression equation.
 
-a) Add a 5th column in your Voltage spread sheet called *Log(Voltage)*. Have this column compute the base-10 log of the values in the *Voltage$ column.
+-(b) A residual plot, and a discusssion of the plot. Do any residual issues persist?
 
-b) Create a new scatterplot using *Time* as the explantory variable and *LogVoltage* as the response variable. Does the data look linear now?
+-(c) Using your regression equation. Predict the response variable when the explantory variable is equal to 5.
 
-c) Report the new regression equation, $\hat{LogVoltage}=a+b(Time)$ 
+-(d) Report the correlation. Interpret the value of $r$ in the context of the problem.
 
-d) Create a 6th column in your Voltage spread sheet called *LogVoltagePrediction* that computes the predicted values based on your regression equation in (b).
 
-e) Create a 7th column in your Voltage spread sheet called *LogResiduals* that computes the residuals for each value of $Time$.
+# 16) Use *Time* as explanatory variable and $\ln(Voltage}$ as the response. 
 
-f) Interpret the slope in context. Remember your response is not *Voltage*.
 
-g) Report the correlation. Interpret the value of $r$ in the context of the problem.
+# 17) Use *Advrtising* as explanatory variable and $\ln(Sales}$ as the response. 
 
-h) Using your new regression equation from (c). Predict the voltage at 4 seconds.
 
-i) Seeing that a log transformation linearized the relationship between *Voltage* and *Time*, what can we conclude about the type of relationship that exists between *Voltage* and *Time*?
-
-## 18) Add a log transformation to your sales.csv spreadsheet. 
-
-a) Add a fifth column in your sales.csv spread sheet called *Log(Sales)*. Have this column compute the base-10 log of the values in the *Voltage$ column.
-
-b) Create a new scatterplot using *Time* as the explantory variable and *LogSales* as the response variable. Does the data look linear now?
-
-c) Report the new regression equation, $\hat{LogSales}=a+b(Advertising)$ 
-
-d) Interpret the slope in context. Remember your response is not *Sales*.
-
-e) Report the correlation. Interpret the value of $r$ in the context of the problem.
+# 18
 
 -->
 
