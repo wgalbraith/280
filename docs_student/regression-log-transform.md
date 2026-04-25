@@ -1,4 +1,4 @@
-# Transforming Quantiative Variables
+# Transforming Quantiative Relationships
 
 In the last section, we emphasized the importance of meeting the conditions for using a linear model before interpreting the results. Up until now, we have only presented this as a problem without a solution. If our data does not satisfy one or more of the conditions, it is often a solution to transform, or reexpress one, or both, of your variables so that the conditions are reasonably satisfied
 
