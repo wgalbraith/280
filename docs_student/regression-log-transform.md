@@ -28,7 +28,7 @@ We have data on **algae concentration** in a lake over time during early bloom g
 
 ![Algae Plot](./figures_static/statistics/algplot.png)
 
-The pattern is clearly nonlinear (curved upward). We can also create a residual plot to see the issue with our linear model.
+The pattern is clearly nonlinear (curved upward). We can also create a residual plot to more clearly see the issue with our linear model.
 
 To create the residual plot, we note the slope and intercept of the regression in our image above and have the least-squares equation:
 
@@ -38,7 +38,7 @@ $$
 
 To create the residual plot, we recall that the residual be the observed algae concentration minus the predicted algae concentration.
 
-$$AlgConc-widehat{AlgConc}$$
+$$AlgConc-\widehat{AlgConc}$$
 
 Using Google Sheets, we can create a column for the predicted algae concentration using the formula $=344.483*A2-1190.97$ in cell C2, and a column for residuals unsing the formula $=B2-C2$ in cell $D2$. 
 
