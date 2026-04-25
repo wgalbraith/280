@@ -135,4 +135,5 @@ Note that this estimate is close to the observed concentration of 410 cells/mL a
 
 - Original model: poor fiting line, scatterplot showed curvature, and residual plot showed a pattern
 - Semi-log model: linear scatterplot, randomly scattered residuals.
-- Why dis a semi-log transformation work? The log transformation of a response variable compresses the larger $y$-values relative to the smaller $y$-values while keeping the explantory values unchanged.
+- To use the semi-log model to predict values of the response variable we must remember to rewrite the log expression in exponential form.
+- Why does a semi-log transformation work in this situation? The log transformation of a response variable offset the exponential growth of the $y$-values while keeping the explantory values unchanged.
