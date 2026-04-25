@@ -2,74 +2,46 @@
 
 In the last section, we emphasized the importance of meeting the conditions for using a linear model before interpreting the results. Up until now, we have only presented this as a problem without a solution. If our data does not satisfy one or more of the conditions, it is often a solution to transform, or reexpress one, or both, of your variables so that the conditions are reasonably satisfied
 
-# Example: Using a Log Transformation When a Semi-Log Model Is Sufficient
+# Example: Using a Semi-Log Transformation on Algae Concentration over Time
 
-## Context
-
-We study **algae concentration** in a lake over time during early bloom growth.
-
-Let:
-- $$x$$ = time (days)  
-- $$y$$ = algae concentration (cells/mL)  
+We have data on **algae concentration** in a lake over time during early bloom growth. 
 
 ---
 
-## 1. Scatter Plot of Original Data
+## 1. Create a Scatter Plot of Original Data
 
-| $x$ | $y$ |
+| Days | Algae Concentration  (cells/mL)|
 |-----|-----|
 | 1 | 18 |
 | 2 | 30 |
 | 3 | 55 |
-| 4 | 90 |
-| 5 | 150 |
-| 6 | 245 |
-| 7 | 400 |
-| 8 | 660 |
-| 9 | 1090 |
-| 10 | 1800 |
-| 11 | 2950 |
+| 4 | 125 |
+| 5 | 135 |
+| 6 | 380 |
+| 7 | 410 |
+| 8 | 600 |
+| 9 | 1300 |
+| 10 | 1675 |
+| 11 | 3000 |
 | 12 | 4850 |
 
-The pattern is clearly nonlinear (curved upward).
+IMAGE
 
----
+The pattern is clearly nonlinear (curved upward). We can also create a residual plot to see the issue with our linear model.
 
-## 2. Least-Squares Line and Residuals (Original Data)
-
-Fitted model:
+To create the residual plot, we note the slope and intercept of the regression in our image above and have the least-squares equation:
 
 $$
-\hat{y} = -411.0110 + 151.5167x
+\widehat{AlgConc} = -1190.97 + 344.483x
 $$
 
-Residuals:
+To create the residual plot, we recall that the residual be the observed algae concentration minus the predicted algae concentration.
 
-$$
-e = y - \hat{y}
-$$
+$$AlgConc-widehat{AlgConc}$$
 
-| $x$ | $y$ | $\hat{y}$ | $e$ |
-|-----|-----|-----------|-----|
-| 1 | 18 | -259.4943 | 277.4943 |
-| 2 | 30 | -107.9776 | 137.9776 |
-| 3 | 55 | 43.5391 | 11.4609 |
-| 4 | 90 | 195.0558 | -105.0558 |
-| 5 | 150 | 346.5725 | -196.5725 |
-| 6 | 245 | 498.0892 | -253.0892 |
-| 7 | 400 | 649.6059 | -249.6059 |
-| 8 | 660 | 801.1226 | -141.1226 |
-| 9 | 1090 | 952.6393 | 137.3607 |
-| 10 | 1800 | 1104.1560 | 695.8440 |
-| 11 | 2950 | 1255.6727 | 1694.3273 |
-| 12 | 4850 | 1407.1894 | 3442.8106 |
+Using Google Sheets, we can create a column for the predicted algae concentration using the formula $=344.483*A2-1190.97$ in cell C2, and a column for residuals unsing the formula $=B2-C2$ in cell $D2$. 
 
-Check:
-
-$$
-\sum e_i \approx 0
-$$
-
+IMAGE
 ---
 
 ## 3. Residual Plot (Original Model)
