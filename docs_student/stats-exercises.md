@@ -171,7 +171,8 @@ For each dataset, complete the following tasks:
 
 ---
 
-# For Exercises 16-18,  Follow the procedure laid out in the example in the Transforming Quantiative Relationships reading to improve the two non linear relationships. You should include the following:
+# For Exercises 16-17,  Follow the procedure laid out in the example in the [Transforming Quantiative Relationships]([https://wgalbraith.github.io/280/regression-log-transform.html])
+ reading to improve the two non linear relationships. You should include the following:
 
 (a) A regression equation.
 
@@ -182,13 +183,13 @@ For each dataset, complete the following tasks:
 (d) Report the correlation. Interpret the value of $r$ in the context of the problem.
 
 
-## 16) Use *Time* as explanatory variable and $\ln(Voltage)$ as the response. 
+## 16) (This is an extension of #15) Use *Time* as explanatory variable and $\ln(Voltage)$ as the response. 
 
 
-## 17) Use *Advertising* as explanatory variable and $\ln(Sales)$ as the response. 
+## 17) (This is an extension of #14) Use *Advertising* as explanatory variable and $\ln(Sales)$ as the response. 
 
 
-# 18) 
+## 18) (This is a variation on the algae concentration problem in the reading). The data for this problem is found in the Canvas assignment. It is called *Algal Concentration.csv*. This problem looks at how the concentration of algae changes after an algacide is applied over time, in days. Follow all the steps found in the example in the section [Transforming Quantiative Relationships]([https://wgalbraith.github.io/280/regression-log-transform.html])
 
 
 
