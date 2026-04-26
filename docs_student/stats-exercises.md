@@ -171,26 +171,26 @@ For each dataset, complete the following tasks:
 
 ---
 
-# For Exercises 16-17,  Follow the procedure laid out in the example in the [Transforming Quantiative Relationships]([https://wgalbraith.github.io/280/regression-log-transform.html])
- reading to improve the two non linear relationships. You should include the following:
+# Instructions For Exercises 16-17
 
-(a) A regression equation.
-
-(b) A residual plot, and a discusssion of the plot. Do any residual issues persist?
-
-(c) Using your regression equation. Predict the response variable when the explantory variable is equal to 5.
-
-(d) Report the correlation. Interpret the value of $r$ in the context of the problem.
+Follow the procedure in Parts 3-6 in the example in the [Transforming Quantiative Relationships](regression-log-transform.md)
+reading to transform the response variables in #14 and #15. As in the example for Step 6, predict the response value when the expanatory value is equal to 5 for both problems.
 
 
-## 16) (This is an extension of #15) Use *Time* as explanatory variable and $\ln(Voltage)$ as the response. 
+## 16) Continue where you left off in #15 to find a useful semi-log model. 
+
+Use *Time* as explanatory variable and $\ln(Voltage)$ as the response. 
 
 
-## 17) (This is an extension of #14) Use *Advertising* as explanatory variable and $\ln(Sales)$ as the response. 
+## 17) Continue where you left off in #14 to find a useful semi-log model.  
+
+Use *Advertising* as explanatory variable and $\ln(Sales)$ as the response. 
 
 
-## 18) (This is a variation on the algae concentration problem in the reading). The data for this problem is found in the Canvas assignment. It is called *Algal Concentration.csv*. This problem looks at how the concentration of algae changes after an algacide is applied over time, in days. Follow all the steps found in the example in the section [Transforming Quantiative Relationships]([https://wgalbraith.github.io/280/regression-log-transform.html])
+## 18) This is a variation on the algae concentration problem in the reading. (It does not use the same dataset!)
 
+Follow the procedure in Parts 1-6 in the example in the [Transforming Quantiative Relationships](regression-log-transform.md)
+reading. As in the example for Step 6, predict the response value when the expanatory value is equal to 7. The data for this problem is found in the Canvas assignment. It is called *Algal Concentration.csv*. This problem looks at how the concentration of algae changes after an algaecide is applied over time, in days. 
 
 
 
