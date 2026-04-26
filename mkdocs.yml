@@ -82,10 +82,10 @@ nav:
       #- Making Estimates about Populations from Samples: infer-concepts.md
       #- Confidence Intervals: infer-CI.md
       - Exercises: stats-exercises.md  
-  #- Case Studies:
-      #- CalEnviroScreen: calenviroscreen.md
-      #- CES Case Study: statistics-ces.md
-     #- Confounding Variables: confounding-variables.md
+  - Case Studies:
+      - CalEnviroScreen: calenviroscreen.md
+      - CES Case Study: statistics-ces.md
+      - Confounding Variables: confounding-variables.md
   #- Resources:
         #- Data Sources: data-sources.md
   #- Assessments: 280-assessments.md
