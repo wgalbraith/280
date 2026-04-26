@@ -168,26 +168,28 @@ For each dataset, complete the following tasks:
 ## 14) Does spending on advertising increase sales?  Use *Advertising* as explanatory variable and *Sales* as the response variable.
 
 ## 15) How does the voltage across a discharging capacitor change over time? Use *Time* as explanatory variable and *Voltage* as the response variable.
+
 ---
-# For Exercises 16 and 17,  Follow the procedure laid out in the example in the Transforming Quantiative Relationships reading to improve the two non linear relationships from #14 and #15 using a natural log transformation applied to the response variable. You should include the following:
 
--(a) A regression equation.
+# For Exercises 16-18,  Follow the procedure laid out in the example in the Transforming Quantiative Relationships reading to improve the two non linear relationships. You should include the following:
 
--(b) A residual plot, and a discusssion of the plot. Do any residual issues persist?
+(a) A regression equation.
 
--(c) Using your regression equation. Predict the response variable when the explantory variable is equal to 5.
+(b) A residual plot, and a discusssion of the plot. Do any residual issues persist?
 
--(d) Report the correlation. Interpret the value of $r$ in the context of the problem.
+(c) Using your regression equation. Predict the response variable when the explantory variable is equal to 5.
 
-
-# 16) Use *Time* as explanatory variable and $\ln(Voltage}$ as the response. 
+(d) Report the correlation. Interpret the value of $r$ in the context of the problem.
 
 
-# 17) Use *Advrtising* as explanatory variable and $\ln(Sales}$ as the response. 
+## 16) Use *Time* as explanatory variable and $\ln(Voltage)$ as the response. 
 
 
-# 18
+## 17) Use *Advertising* as explanatory variable and $\ln(Sales)$ as the response. 
 
--->
+
+# 18) 
+
+
 
 
