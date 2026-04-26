@@ -116,14 +116,16 @@ $$
 $$
 
 $$
-\widehat{\ln(\mathrm{AlgConc})}= 6.042$$
+\widehat{\ln(\mathrm{AlgConc})}= 6.042
 $$
 
 So we predcit the natural log of the algae concentration is 6.042. To convert back to the actual algae concentration, we rewrite the log equation above in exponential form:
 
+
 $$
 \mathrm{AlgConc}=e^{6.042}
 $$
+
 
 and 
 
