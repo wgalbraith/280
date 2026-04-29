@@ -195,8 +195,7 @@ reading. As in the example for Step 6, predict the response value when the expan
 
 ## 19) PM2.5 vs Toxic Releases
 
-In this exercise, you will analyze the relationship between **Toxic Releases** and **PM2.5** using real data from the CalEnviroScreen (CES) dataset. Before you begin this exercise, look up the defintions of **Toxic Releases** and **PM2.5** variables on the CES Data Page on Canvas Week 14 module. Treat **PM2.5** as the response variable. Follow the procedure outlined in our **Linear Modeling with Real Data** worksheet (posted on Canvas Week 14 Module) for **Example 2: Pollution Burden vs Hazardous Waste**. The last step will vary slightly, you will predict **PM2.5** when **Toxic Releases**=2700.
-
+In this exercise, you will analyze the relationship between **Toxic Releases** and **PM2.5** using real data from the CalEnviroScreen (CES) dataset. Before you begin this exercise, look up the defintions of **Toxic Releases** and **PM2.5** variables on the CES Data Page on Canvas Week 14 module. Treat **PM2.5** as the explanatory variable. Follow the procedure outlined in our **Linear Modeling with Real Data** worksheet (posted on Canvas Week 14 Module) for **Example 2: Pollution Burden vs Hazardous Waste**. The last step will vary slightly, you will predict **Toxic Releases** when **PM2.5**=10
 
 
 
